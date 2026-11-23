@@ -1,0 +1,57 @@
+{
+  "_id": "aBHmcGF4ere9Ck3Y",
+  "_key": "!items!aBHmcGF4ere9Ck3Y",
+  "name": "Effect: Stand Cry",
+  "type": "effect",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
+  "system": {
+    "slug": "effect-stand-cry",
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "common",
+      "otherTags": []
+    },
+    "description": {
+      "value": "<p>+1 status bonus to attack rolls.</p><p><em>From Stand Cry.</em></p>"
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "attack",
+        "type": "status",
+        "value": 1
+      }
+    ]
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

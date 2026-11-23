@@ -1,0 +1,66 @@
+{
+  "_id": "RXky0eiLCZUPd9IJ",
+  "_key": "!items!RXky0eiLCZUPd9IJ",
+  "name": "Stand Armor",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "stand-armor",
+    "category": "class",
+    "level": {
+      "value": 8
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "summoner",
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": []
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Stand User Dedication"
+        },
+        {
+          "value": "integrated stand"
+        }
+      ]
+    },
+    "description": {
+      "value": "<p>Wear the stand: you gain its Durability as AC and resistance, but the stand can't move away or take its own actions while worn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

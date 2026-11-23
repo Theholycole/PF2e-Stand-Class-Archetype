@@ -1,0 +1,61 @@
+{
+  "_id": "PN8uDChG6eg5xJCO",
+  "_key": "!items!PN8uDChG6eg5xJCO",
+  "name": "Vessel Bond",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "vessel-bond",
+    "category": "classfeature",
+    "level": {
+      "value": 7
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "summoner",
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-type-feature"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>Bound Stand feature, 7th level.</em></p><p>The vessel gains Hardness equal to your level, and you act through it anywhere in range.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

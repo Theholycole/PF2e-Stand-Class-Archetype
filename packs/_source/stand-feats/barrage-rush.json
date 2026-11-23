@@ -1,0 +1,63 @@
+{
+  "_id": "FVq6IHp2owOjF3E6",
+  "_key": "!items!FVq6IHp2owOjF3E6",
+  "name": "Barrage Rush",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "barrage-rush",
+    "category": "class",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 2
+    },
+    "traits": {
+      "value": [
+        "summoner",
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": []
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Stand User Dedication"
+        }
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per turn</p>\n<p><strong>Requirements</strong> Your stand is within 10 feet of you.</p>\n<p>Your stand makes 3 Strikes at one target with the normal multiple attack penalty (never better than a monk's Flurry of Blows). The stand's range stays 10 feet until your next turn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

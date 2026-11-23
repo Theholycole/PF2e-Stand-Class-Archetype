@@ -1,0 +1,61 @@
+{
+  "_id": "8ERZ68TB6e0CW1FB",
+  "_key": "!items!8ERZ68TB6e0CW1FB",
+  "name": "Vessel",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "vessel",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "summoner",
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-type-feature"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>Bound Stand feature, 1st level.</em></p><p>Each day, bind the stand to one object you hold or touch. When you Strike with a bound weapon, you can use the stand's attack modifier and damage. If the vessel is destroyed or taken from you, the stand unmanifests until you Manifest it into a new vessel.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

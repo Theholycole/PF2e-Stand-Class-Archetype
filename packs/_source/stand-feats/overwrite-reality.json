@@ -1,0 +1,63 @@
+{
+  "_id": "31xlg3kLJPsa3VTu",
+  "_key": "!items!31xlg3kLJPsa3VTu",
+  "name": "Overwrite Reality",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "overwrite-reality",
+    "category": "class",
+    "level": {
+      "value": 18
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "mythic",
+        "stand"
+      ],
+      "rarity": "rare",
+      "otherTags": []
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Heaven Ascension Dedication"
+        }
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Cost</strong> 1 Mythic Point, when your stand hits</p>\n<p>Rewrite one fact: end one effect on the target, give it a condition at value 2 (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{frightened}, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{sickened}, @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{stupefied}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{enfeebled} or @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{clumsy}), or heal an ally for the damage dealt.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

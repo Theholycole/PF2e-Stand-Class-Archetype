@@ -1,0 +1,61 @@
+{
+  "_id": "051EHK7i1ptDua1n",
+  "_key": "!items!051EHK7i1ptDua1n",
+  "name": "Second Skin",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "second-skin",
+    "category": "classfeature",
+    "level": {
+      "value": 7
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "summoner",
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-type-feature"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>Integrated Stand feature, 7th level.</em></p><p>While merged, you gain +1 status bonus to AC and Athletics.</p><p>@UUID[Compendium.pf2e-stand-class-archetype.stand-effects.Item.UjnqU1DsMfqyPxNH]{Effect: Worn Stand} includes this bonus once you're 7th level.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

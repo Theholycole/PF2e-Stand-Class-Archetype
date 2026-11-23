@@ -1,0 +1,63 @@
+{
+  "_id": "bjoVE1D9sqYqE3r1",
+  "_key": "!items!bjoVE1D9sqYqE3r1",
+  "name": "Universal Acceleration",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "universal-acceleration",
+    "category": "class",
+    "level": {
+      "value": 16
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "mythic",
+        "stand"
+      ],
+      "rarity": "rare",
+      "otherTags": []
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Heaven Ascension Dedication"
+        }
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Cost</strong> 1 Mythic Point</p>\n<p>For 1 minute you're @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{quickened} (Stride, Strike or a stand action), and foes within 60 feet can't take reactions against you.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

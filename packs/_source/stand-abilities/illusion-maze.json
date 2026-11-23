@@ -1,0 +1,63 @@
+{
+  "_id": "Qm1SBLiKWKez6w3a",
+  "_key": "!items!Qm1SBLiKWKez6w3a",
+  "name": "Illusion Maze",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "illusion-maze",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-mind-and-sense"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Tenore Sax · <strong>Price:</strong> the illusion breaks if a creature touches the walls to test them.</em></p>\n<p><strong>Theme</strong> Mind and Sense</p><hr />\n<ul><li><strong>1:</strong> 2 actions: make an illusion of a 10-ft corridor.</li><li><strong>5:</strong> Surge: a creature in a 30-ft area is lost in the maze for 1 round (@Check[will|against:stand]{Will} negates): it can only Stride in a direction you choose.</li><li><strong>9:</strong> Disbelieving takes a Recall Knowledge or Seek check vs your DC.</li><li><strong>13:</strong> Area 60 ft.</li><li><strong>17:</strong> Lost for 1 minute on a critical failure.</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Mind and Sense"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

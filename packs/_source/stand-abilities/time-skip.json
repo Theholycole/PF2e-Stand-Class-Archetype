@@ -1,0 +1,77 @@
+{
+  "_id": "F3huEigTP2C2g84B",
+  "_key": "!items!F3huEigTP2C2g84B",
+  "name": "Time Skip",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "time-skip",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-time"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From King Crimson · Erase a moment; you alone move through it.</em></p>\n<p><strong>Theme</strong> Time</p><hr />\n<ul><li><strong>1:</strong> Reaction, surge: when an attack or effect targets you, Stride up to half your Speed; the attack resolves against your old space and misses. Creatures don't see you move. Only works against attacks you can see, and you can't attack or take reactions until your next turn.</li><li><strong>5:</strong> At the start of each combat, glimpse the future: roll initiative twice and take the higher.</li><li><strong>9:</strong> After a skip, the next creature you or your stand Strike this turn is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{off-guard} to you.</li><li><strong>13:</strong> Skip moves you up to your full Speed and can carry one adjacent ally.</li><li><strong>17:</strong> Once per day, after an enemy rolls a d20, it rerolls and uses the lower result.</li></ul>\n<p>Time stays the rarest theme. Each Time ability is limited use rather than conditional, like the time stop model.</p>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [
+      {
+        "key": "RollTwice",
+        "selector": "initiative",
+        "keep": "higher",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          }
+        ]
+      }
+    ],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Time"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

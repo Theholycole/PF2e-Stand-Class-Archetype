@@ -1,0 +1,63 @@
+{
+  "_id": "TDUnJchKVYpEvPkT",
+  "_key": "!items!TDUnJchKVYpEvPkT",
+  "name": "Calamity",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "calamity",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-fate"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Wonder of U · <strong>Price:</strong> it only hits creatures that pursue you, and its power grows slowly.</em></p>\n<p><strong>Theme</strong> Fate</p><hr />\n<ul><li><strong>1:</strong> A creature that moves toward you, targets you or Seeks you takes @Damage[(1+floor((@actor.level-1)/4))d6[bludgeoning]] from a minor accident (@Check[reflex|against:stand|basic]{basic Reflex}), once per round.</li><li><strong>5:</strong> A creature that fails is also @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{off-guard} until its next turn.</li><li><strong>9:</strong> Surge: a creature pursuing you takes @Damage[(2*ceil(@actor.level/2))d6[force]] damage from a major accident.</li><li><strong>13:</strong> Allies are never targeted.</li><li><strong>17:</strong> A critical failure also leaves the creature @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{prone} and @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{immobilized} for 1 round.</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Fate"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

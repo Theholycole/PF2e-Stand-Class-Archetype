@@ -1,0 +1,63 @@
+{
+  "_id": "t3PFSUn3wxPaHXGi",
+  "_key": "!items!t3PFSUn3wxPaHXGi",
+  "name": "Soul Wager",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "soul-wager",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-fate"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Osiris · <strong>Price:</strong> the target must agree to the bet.</em></p>\n<p><strong>Theme</strong> Fate</p><hr />\n<ul><li><strong>1:</strong> 1 minute: propose a bet, settled by an opposed check you both agree on. If the target agrees and loses, it takes –1 to checks against you for 1 day.</li><li><strong>5:</strong> Surge: if the target loses, it's @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{stunned 1}.</li><li><strong>9:</strong> The loser's soul goes into a coin: @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{unconscious} for 1 minute (@Check[will|against:stand]{Will} negates, incapacitation).</li><li><strong>13:</strong> You can bet on a fight's outcome; it's settled when the fight ends.</li><li><strong>17:</strong> You can bet with up to three creatures.</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Fate"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

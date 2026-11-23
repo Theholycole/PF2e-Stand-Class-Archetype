@@ -1,0 +1,66 @@
+{
+  "_id": "G6iD9del3Bq3ip6K",
+  "_key": "!items!G6iD9del3Bq3ip6K",
+  "name": "Undying Barrage",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "undying-barrage",
+    "category": "class",
+    "level": {
+      "value": 12
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "summoner",
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": []
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Stand User Dedication"
+        },
+        {
+          "value": "close-range stand"
+        }
+      ]
+    },
+    "description": {
+      "value": "<p>Barrage Rush's third Strike uses the second Strike's multiple attack penalty, and each hit pushes the target 5 feet.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

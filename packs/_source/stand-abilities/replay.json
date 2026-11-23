@@ -1,0 +1,63 @@
+{
+  "_id": "CemFkDR31lqVSCE0",
+  "_key": "!items!CemFkDR31lqVSCE0",
+  "name": "Replay",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "replay",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-mind-and-sense"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Moody Blues · <strong>Price:</strong> it only replays the past, and while it does your stand can't fight.</em></p>\n<p><strong>Theme</strong> Mind and Sense</p><hr />\n<ul><li><strong>1:</strong> 10 minutes: replay what happened in a 30-ft area during the last day. You learn everything that was seen there.</li><li><strong>5:</strong> Your stand can take the form of a creature it replayed (+4 to Impersonate).</li><li><strong>9:</strong> Surge: replay in combat: learn the last action a creature took and its target; +2 status to AC against it for 1 round.</li><li><strong>13:</strong> Replay a week.</li><li><strong>17:</strong> Replay a creature's fight: you know its strongest ability before it uses it.</li></ul>\n<hr /><p><strong>Effects</strong> @UUID[Compendium.pf2e-stand-class-archetype.stand-effects.Item.SdPJWGmdbOXqXXr9]{Effect: Replayed Action}</p>\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Mind and Sense"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

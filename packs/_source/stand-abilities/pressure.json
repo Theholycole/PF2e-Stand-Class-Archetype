@@ -1,0 +1,63 @@
+{
+  "_id": "NxkKLSP2YzVYWlvN",
+  "_key": "!items!NxkKLSP2YzVYWlvN",
+  "name": "Pressure",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "pressure",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-force-and-energy"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Ozon Baby · <strong>Price:</strong> it only works through holes or openings (a door, a vent, a wound).</em></p>\n<p><strong>Theme</strong> Force and Energy</p><hr />\n<ul><li><strong>1:</strong> 1 action: change air pressure through an opening within 30 ft; creatures in a 10-ft area behind it are @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{sickened 1} (@Check[fortitude|against:stand]{Fortitude} negates).</li><li><strong>5:</strong> Surge: pressure blast through an opening: @Damage[(2*ceil(@actor.level/2))d6[bludgeoning]] (@Check[fortitude|against:stand|basic]{basic Fortitude}) to creatures in a 10-ft area.</li><li><strong>9:</strong> Pressure can seal a door for 1 minute; opening it takes an @Check[athletics|against:stand] check against your stand DC.</li><li><strong>13:</strong> Through a wound: target your stand damaged this round, @Check[fortitude|against:stand]{Fortitude} or @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{slowed 1} for 1 round.</li><li><strong>17:</strong> The area is 20 ft.</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Force and Energy"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

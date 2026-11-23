@@ -1,0 +1,63 @@
+{
+  "_id": "iGdJ71i0hHFsagr4",
+  "_key": "!items!iGdJ71i0hHFsagr4",
+  "name": "Meteor Call",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "meteor-call",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-force-and-energy"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Planet Waves · <strong>Price:</strong> outdoors only, and it takes time to arrive.</em></p>\n<p><strong>Theme</strong> Force and Energy</p><hr />\n<ul><li><strong>1:</strong> 2 actions, outdoors: call a meteorite that lands at the start of your next turn on a 5-ft square: @Damage[(1+floor((@actor.level-1)/4))d6[bludgeoning],(1+floor((@actor.level-1)/4))d6[fire]] (@Check[reflex|against:stand|basic]{basic Reflex}).</li><li><strong>5:</strong> Surge: the meteor lands in a @Template[burst|distance:10]{10-ft burst}: @Damage[(ceil(@actor.level/2))d6[bludgeoning],(ceil(@actor.level/2))d6[fire]].</li><li><strong>9:</strong> The meteor can follow a creature you marked (it lands on its new space).</li><li><strong>13:</strong> Burst 20 ft.</li><li><strong>17:</strong> Two meteors per surge.</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Force and Energy"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

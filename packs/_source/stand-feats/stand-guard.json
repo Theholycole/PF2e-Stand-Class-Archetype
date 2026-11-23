@@ -1,0 +1,63 @@
+{
+  "_id": "5KGgmEktT46AMyMi",
+  "_key": "!items!5KGgmEktT46AMyMi",
+  "name": "Stand Guard",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "stand-guard",
+    "category": "class",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "summoner",
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": []
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Stand User Dedication"
+        }
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> An attack would hit you while your stand is adjacent to you.</p>\n<p>Your stand steps in front. You gain resistance to all damage equal to your level against that hit (@UUID[Compendium.pf2e-stand-class-archetype.stand-effects.Item.KekR1jE5tWI1kd0j]{Effect: Stand Guard}).</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

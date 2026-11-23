@@ -1,0 +1,63 @@
+{
+  "_id": "IpnvntDBnudKgFq2",
+  "_key": "!items!IpnvntDBnudKgFq2",
+  "name": "Invisibility",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "invisibility",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-space"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Achtung Baby · <strong>Price:</strong> only you and what you touch; you can't attack and stay @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{invisible}.</em></p>\n<p><strong>Theme</strong> Space</p><hr />\n<ul><li><strong>1:</strong> 2 actions: you become @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{invisible} until you attack or for 1 minute. Concentrate.</li><li><strong>5:</strong> One creature you touch also becomes @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{invisible}.</li><li><strong>9:</strong> Surge: invisibility no longer ends when you attack, for 1 round.</li><li><strong>13:</strong> Up to three touched creatures.</li><li><strong>17:</strong> Invisibility lasts 10 minutes.</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Space"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

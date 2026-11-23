@@ -1,0 +1,63 @@
+{
+  "_id": "W7Vng42YFYCO1qTA",
+  "_key": "!items!W7Vng42YFYCO1qTA",
+  "name": "Grid Teleport",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "grid-teleport",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-space"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Chocolate Disco · <strong>Price:</strong> only inside a grid you drew beforehand.</em></p>\n<p><strong>Theme</strong> Space</p><hr />\n<ul><li><strong>1:</strong> 1 minute: draw a 30-ft grid. 1 action: teleport an unattended object in the grid to another square in it.</li><li><strong>5:</strong> You can teleport an attended object (@Check[reflex|against:stand]{Reflex} negates).</li><li><strong>9:</strong> Surge: teleport a falling or thrown object onto a creature's square: @Damage[(2*ceil(@actor.level/2))d6[bludgeoning]] (@Check[reflex|against:stand|basic]{basic Reflex}).</li><li><strong>13:</strong> Teleport yourself within the grid.</li><li><strong>17:</strong> Teleport a creature within the grid (@Check[will|against:stand]{Will} negates).</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Space"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

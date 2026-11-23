@@ -1,0 +1,71 @@
+{
+  "_id": "MeW64XQeyUUZ687p",
+  "_key": "!items!MeW64XQeyUUZ687p",
+  "name": "Effect: Ice Armor",
+  "type": "effect",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
+  "system": {
+    "slug": "effect-ice-armor",
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "common",
+      "otherTags": []
+    },
+    "description": {
+      "value": "<p>+1 status bonus to AC. Creatures that hit you with a melee Strike take 1 cold damage per die of your stand's Strike. From 5th level you skate: +10-foot status bonus to Speed on flat ground. You can't swim while wearing it.</p><p><em>From Ice Armor.</em></p>"
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "type": "status",
+        "value": 1
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "land-speed",
+        "type": "status",
+        "value": 10,
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

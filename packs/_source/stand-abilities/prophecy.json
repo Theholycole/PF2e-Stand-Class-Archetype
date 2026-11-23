@@ -1,0 +1,63 @@
+{
+  "_id": "Xs3t2V67g13gH8s5",
+  "_key": "!items!Xs3t2V67g13gH8s5",
+  "name": "Prophecy",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "prophecy",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-fate"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Tohth, Paisley Park · <strong>Price:</strong> the prophecy is vague, and it always comes true.</em></p>\n<p><strong>Theme</strong> Fate</p><hr />\n<ul><li><strong>1:</strong> 10 minutes: ask one yes-or-no question about the next hour; the GM answers truthfully.</li><li><strong>5:</strong> Surge: an ally rerolls a check and uses the higher result.</li><li><strong>9:</strong> The GM reveals one enemy plan.</li><li><strong>13:</strong> Two allies reroll.</li><li><strong>17:</strong> Once per day, you and every ally reroll a check.</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Fate"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

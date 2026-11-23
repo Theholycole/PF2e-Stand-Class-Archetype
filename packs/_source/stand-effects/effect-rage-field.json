@@ -1,0 +1,65 @@
+{
+  "_id": "WRWZwaRtbeHbdQqm",
+  "_key": "!items!WRWZwaRtbeHbdQqm",
+  "name": "Effect: Rage Field",
+  "type": "effect",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
+  "system": {
+    "slug": "effect-rage-field",
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "common",
+      "otherTags": []
+    },
+    "description": {
+      "value": "<p>You see every creature's strength: –1 status penalty to Will saves against fear and emotion effects.</p><p><em>From Rage Field.</em></p>"
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "will",
+        "type": "status",
+        "value": -1,
+        "predicate": [
+          {
+            "or": [
+              "item:trait:fear",
+              "item:trait:emotion"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

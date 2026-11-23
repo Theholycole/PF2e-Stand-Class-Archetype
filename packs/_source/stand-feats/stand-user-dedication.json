@@ -1,0 +1,72 @@
+{
+  "_id": "YjxCnei5SRBSu7h4",
+  "_key": "!items!YjxCnei5SRBSu7h4",
+  "name": "Stand User Dedication",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "stand-user-dedication",
+    "category": "class",
+    "level": {
+      "value": 2
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "archetype",
+        "class",
+        "dedication",
+        "summoner"
+      ],
+      "rarity": "uncommon",
+      "otherTags": []
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Stand User class archetype"
+        }
+      ]
+    },
+    "description": {
+      "value": "<p>You become trained in Intimidation, or another skill if you already are. When you Manifest your stand, you can attempt to Demoralize one creature that can see it, as part of the same action. A creature can be affected by this only once per 10 minutes.</p>\n<p><em>Like the Battle Harbinger's dedication, this is a small flavor perk; the archetype's power is in the stand itself.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.skills.intimidation.rank",
+        "value": 1
+      }
+    ],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

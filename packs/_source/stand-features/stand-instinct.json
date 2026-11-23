@@ -1,0 +1,59 @@
+{
+  "_id": "i6Pbq7bqHN8t1YGZ",
+  "_key": "!items!i6Pbq7bqHN8t1YGZ",
+  "name": "Stand Instinct",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "stand-instinct",
+    "category": "classfeature",
+    "level": {
+      "value": 19
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "summoner",
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": []
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p>When you roll initiative, you can Manifest your stand as a free action. Once per round, when you Act Together, the stand can Stride 10 feet as part of the first action. This replaces Instant Manifestation.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

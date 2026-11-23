@@ -1,0 +1,63 @@
+{
+  "_id": "g73o7JbkkqdTZARK",
+  "_key": "!items!g73o7JbkkqdTZARK",
+  "name": "Internal Attack",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "internal-attack",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-affliction"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Aqua Necklace · <strong>Price:</strong> the target must drink or breathe your stand's water or vapor.</em></p>\n<p><strong>Theme</strong> Affliction</p><hr />\n<ul><li><strong>1:</strong> 2 actions: your stand enters a creature that drinks your water or breathes your vapor (a @Template[burst|distance:5]{5-ft burst} within 30 ft): @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{sickened 1} for 1 minute (@Check[fortitude|against:stand]{Fortitude} negates).</li><li><strong>5:</strong> Surge: attack from inside: @Damage[(2*ceil(@actor.level/2))d6[bludgeoning]] (@Check[fortitude|against:stand|basic]{basic Fortitude}).</li><li><strong>9:</strong> The creature can't eat or drink while infected.</li><li><strong>13:</strong> Fog area 10 ft.</li><li><strong>17:</strong> A critical failure leaves it @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{slowed 1} for 1 minute.</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Affliction"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

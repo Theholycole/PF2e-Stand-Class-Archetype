@@ -1,0 +1,63 @@
+{
+  "_id": "eXtgjtOcgBs21Yr3",
+  "_key": "!items!eXtgjtOcgBs21Yr3",
+  "name": "Rewind",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "rewind",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-time"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Mandom · <strong>Price:</strong> you must hold a watch or clock in one hand and turn it back (Interact as part of the reaction).</em></p>\n<p><strong>Theme</strong> Time</p><hr />\n<ul><li><strong>1:</strong> Reaction, surge: when a creature within 30 ft succeeds or fails at a check, it rerolls and must use the second result. Only you remember the first roll.</li><li><strong>5:</strong> You can use Rewind on your own check.</li><li><strong>9:</strong> Once per day, undo a creature's last action instead: it returns to where it was, and any action it spent is refunded, but it must choose a different action.</li><li><strong>13:</strong> Rewind's range becomes 60 ft and it no longer costs a Stand Point once per 10 minutes.</li><li><strong>17:</strong> Once per day, rewind 6 seconds for your allies: each ally within 30 ft returns to the space and Hit Points it had at the start of your last turn.</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Time"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "_id": "eZBGX3JbstxuY4wm",
+  "_key": "!items!eZBGX3JbstxuY4wm",
+  "name": "Colony Stand",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "colony-stand",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "summoner",
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-type"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><strong>Traits</strong> Eidolon, Stand · <strong>Size</strong> Medium (made of Tiny units) · <strong>Suggested Attacks</strong> many hands (bludgeoning), tiny weapons (piercing)</p>\n<p><strong>Stand Attributes</strong> Con +1, Int +0, Wis +1, Cha +1 · <strong>Skills</strong> Acrobatics, Thievery · <strong>Senses</strong> low-light vision · <strong>Speed</strong> 25 feet</p>\n<p><strong>Grades</strong> Precision or Speed must take the A. Power can't be A.</p>\n<p><strong>Examples</strong> Harvest, Bad Company, Sex Pistols</p>\n<hr /><p>Your stand is a swarm of tiny units that gets everywhere. It shares spaces with enemies, flanks from inside them and does two small jobs with one action. Swarm Split (2) puts it in two places, Spread Thin shrugs off single Strikes, Overwhelm (13) hits everyone in a 15-foot area, allies included, and Endless Colony (16) brings lost units back. Area damage is its weakness. Precise Hands and Barrage Rush are good class feats for it. <strong>Pick this if</strong> you want to control space, set up flanks and handle many small tasks at once, and can keep the swarm out of area attacks.</p><hr />\n<p><strong>Initial (1st)—Many Hands</strong> The stand can share spaces with other creatures, flank from inside an enemy's space, and Interact twice with a single action as long as both are within its reach. It has weakness to area damage equal to half your level (minimum 1).</p>\n<p><strong>7th—Spread Thin</strong> The stand resists single-target Strikes by half your level.</p>\n<p><strong>13th—Overwhelm</strong> The stand fills a 15-foot area and its Strike hits everyone there, allies included (@Check[reflex|against:stand|basic]{basic Reflex} instead of an attack roll).</p>\n",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-stand-class-archetype.stand-features.Item.qB4z7DV2OFc9MNVq"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-stand-class-archetype.stand-features.Item.RhvPHRDGz2yuIeGr",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              7
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-stand-class-archetype.stand-features.Item.WgUzpEBbf1dJIUAc",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              13
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "stand-type:colony"
+      }
+    ],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

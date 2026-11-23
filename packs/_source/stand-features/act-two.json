@@ -1,0 +1,78 @@
+{
+  "_id": "ZSY01yrudSooIU5c",
+  "_key": "!items!ZSY01yrudSooIU5c",
+  "name": "Act Two",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "act-two",
+    "category": "classfeature",
+    "level": {
+      "value": 7
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "summoner",
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-type-feature"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>Evolving Stand feature, 7th level.</em></p><p>A second Stand Ability from Act One's theme, with every step up to your level. Switching Acts takes 1 action.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "flag": "actTwo",
+        "prompt": "Choose a Stand Ability from Act One's theme",
+        "choices": {
+          "itemType": "feat",
+          "filter": [
+            "item:tag:stand-ability"
+          ]
+        },
+        "adjustName": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.system.rulesSelections.actTwo}"
+      }
+    ],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

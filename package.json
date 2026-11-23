@@ -1,0 +1,10 @@
+{
+  "name": "pf2e-stand-class-archetype",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build-items.mjs && node tools/build-packs.mjs",
+    "test": "node --test"
+  },
+  "devDependencies": { "classic-level": "^1.4.1" }
+}

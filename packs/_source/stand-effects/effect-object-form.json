@@ -1,0 +1,64 @@
+{
+  "_id": "SEVLkSvCkR1OPJu8",
+  "_key": "!items!SEVLkSvCkR1OPJu8",
+  "name": "Effect: Object Form",
+  "type": "effect",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
+  "system": {
+    "slug": "effect-object-form",
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "common",
+      "otherTags": []
+    },
+    "description": {
+      "value": "<p>You're an object. You can't move or attack. From 5th level you have resistance to all damage equal to your level while shaped.</p><p><em>From Shapeshift.</em></p>"
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "all-damage",
+        "value": "@actor.level",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              5
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

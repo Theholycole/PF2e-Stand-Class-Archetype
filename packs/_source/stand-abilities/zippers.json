@@ -1,0 +1,63 @@
+{
+  "_id": "dK1nm06EFwIHxcB2",
+  "_key": "!items!dK1nm06EFwIHxcB2",
+  "name": "Zippers",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "zippers",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-space"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Sticky Fingers · Put a zipper on anything and open it.</em></p>\n<p><strong>Theme</strong> Space</p><hr />\n<ul><li><strong>1:</strong> 1 action: stand places a zipper on a surface up to 5 ft thick and opens a passage through it until your next turn; you can also hide a light item inside a zippered surface. When your stand hits, the target attempts @Check[fortitude|against:stand]{Fortitude}: failure, it drops one held item.</li><li><strong>5:</strong> 2 actions: zip yourself along a surface, moving up to 30 ft without triggering reactions.</li><li><strong>9:</strong> Reaction, surge: when a melee attack would hit you, unzip your body so it misses (once per round).</li><li><strong>13:</strong> Passages work through walls up to 20 ft thick and last 1 minute.</li><li><strong>17:</strong> Critical failure on the hit save also detaches a limb: @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{clumsy 2} and it can't use one hand for 1 minute.</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Space"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

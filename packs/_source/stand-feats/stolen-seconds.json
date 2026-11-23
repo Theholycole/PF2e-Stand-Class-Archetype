@@ -1,0 +1,70 @@
+{
+  "_id": "ncaSa5RQtSb0lfQ3",
+  "_key": "!items!ncaSa5RQtSb0lfQ3",
+  "name": "Stolen Seconds",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "stolen-seconds",
+    "category": "class",
+    "level": {
+      "value": 14
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "summoner",
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": []
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Stand User Dedication"
+        },
+        {
+          "value": "close-range stand"
+        }
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per day</p>\n<p>Take a full extra turn while time stops for everyone else. The daily limit is its price, so it has no other condition.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    },
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

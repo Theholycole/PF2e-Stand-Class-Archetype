@@ -1,0 +1,63 @@
+{
+  "_id": "ZqKwhHea4guWNVnD",
+  "_key": "!items!ZqKwhHea4guWNVnD",
+  "name": "Effect: Talking Parasite",
+  "type": "effect",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
+  "system": {
+    "slug": "effect-talking-parasite",
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "common",
+      "otherTags": []
+    },
+    "description": {
+      "value": "<p>A parasite face grows on you: –2 status penalty to Deception and Stealth checks.</p><p><em>From Parasite.</em></p>"
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "duration": {
+      "value": 1,
+      "unit": "minutes",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "deception",
+        "type": "status",
+        "value": -2
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "stealth",
+        "type": "status",
+        "value": -2
+      }
+    ]
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

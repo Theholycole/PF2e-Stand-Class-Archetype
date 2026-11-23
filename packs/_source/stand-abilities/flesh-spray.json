@@ -1,0 +1,63 @@
+{
+  "_id": "zfD0FMOLd08z2cwm",
+  "_key": "!items!zfD0FMOLd08z2cwm",
+  "name": "Flesh Spray",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "flesh-spray",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-matter-and-life"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Cream Starter · <strong>Price:</strong> the spray can heal or harm, but it uses your own flesh (you lose HP to heal others).</em></p>\n<p><strong>Theme</strong> Matter and Life</p><hr />\n<ul><li><strong>1:</strong> 1 action: spray flesh to close an ally's wound: lose up to @Damage[(1+floor((@actor.level-1)/4))d6[force]] HP, ally heals that much.</li><li><strong>5:</strong> Spray a creature's mouth or eyes shut (@Check[reflex|against:stand]{Reflex} negates): @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{blinded} or can't speak for 1 round.</li><li><strong>9:</strong> Surge: heal an ally @Damage[(2+floor((@actor.level-1)/2))d8+@actor.system.abilities.cha.mod[healing]]{2d8 + your Charisma modifier, +1d8 at every odd level}, without losing HP.</li><li><strong>13:</strong> Disguise a creature's face with flesh, as Disguise.</li><li><strong>17:</strong> Seal a creature's breathing: suffocating for 1 round (@Check[fortitude|against:stand]{Fortitude} negates).</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Matter and Life"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

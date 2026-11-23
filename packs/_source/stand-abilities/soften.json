@@ -1,0 +1,63 @@
+{
+  "_id": "6dkxbw6Iig5hqSzU",
+  "_key": "!items!6dkxbw6Iig5hqSzU",
+  "name": "Soften",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "soften",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-matter-and-life"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Spice Girl · <strong>Price:</strong> touch only; softened things become rubber, and that can include your footing.</em></p>\n<p><strong>Theme</strong> Matter and Life</p><hr />\n<ul><li><strong>1:</strong> 1 action: your stand softens an object; it's rubbery, Hardness 0, and bounces.</li><li><strong>5:</strong> Softened ground: creatures falling onto it take no damage, and a creature knocked onto it bounces 10 ft.</li><li><strong>9:</strong> Surge: soften a creature's weapon or armor: weapon damage is halved, or AC –2 for 1 minute (@Check[fortitude|against:stand]{Fortitude} negates).</li><li><strong>13:</strong> Soften a 20-ft area of wall or floor: difficult terrain, and you can push through it like water.</li><li><strong>17:</strong> Soften a creature's body (@Check[fortitude|against:stand]{Fortitude}): @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{clumsy 2} and it can squeeze, but it also can't hold anything for 1 round.</li></ul>\n<hr /><p><strong>Effects</strong> @UUID[Compendium.pf2e-stand-class-archetype.stand-effects.Item.FWzQbZUMhOQxSUq9]{Effect: Softened Armor}</p>\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Matter and Life"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

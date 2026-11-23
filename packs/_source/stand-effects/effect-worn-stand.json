@@ -1,0 +1,81 @@
+{
+  "_id": "UjnqU1DsMfqyPxNH",
+  "_key": "!items!UjnqU1DsMfqyPxNH",
+  "name": "Effect: Worn Stand",
+  "type": "effect",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
+  "system": {
+    "slug": "effect-worn-stand",
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "common",
+      "otherTags": []
+    },
+    "description": {
+      "value": "<p>Your stand is merged with you. Your unarmed Strikes use the stand's attack modifier and damage, and Act Together actions happen from your space. From 7th level (Second Skin) you gain +1 status bonus to AC and Athletics.</p><p><em>From Integrated stand (Worn Stand, Second Skin).</em></p>"
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "duration": {
+      "value": -1,
+      "unit": "unlimited",
+      "expiry": null,
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "ac",
+        "type": "status",
+        "value": 1,
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              7
+            ]
+          }
+        ],
+        "label": "Second Skin"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "athletics",
+        "type": "status",
+        "value": 1,
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              7
+            ]
+          }
+        ],
+        "label": "Second Skin"
+      }
+    ]
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

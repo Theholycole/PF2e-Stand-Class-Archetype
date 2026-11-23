@@ -1,0 +1,97 @@
+{
+  "_id": "ESgCZFvP8pMz7sR7",
+  "_key": "!items!ESgCZFvP8pMz7sR7",
+  "name": "Bound Stand",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "bound-stand",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "summoner",
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-type"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><strong>Traits</strong> Eidolon, Stand · <strong>Size</strong> the size of its vessel (minimum Tiny) · <strong>Suggested Attacks</strong> the vessel's form (blade, wheel, hull)</p>\n<p><strong>Stand Attributes</strong> Con +2, Int +0, Wis +1, Cha +0 · <strong>Skills</strong> Crafting, Thievery · <strong>Senses</strong> low-light vision · <strong>Speed</strong> 25 feet</p>\n<p><strong>Grades</strong> Durability must be A or B. Speed can't be A.</p>\n<p><strong>Examples</strong> Anubis, Emperor, Strength, Wheel of Fortune</p>\n<hr /><p>Your stand lives inside an object: a weapon, a tool, later a vehicle. You fight with the bound weapon using the stand's numbers, Hidden in Plain Sight (4) lets it ambush from inside objects, Vessel Bond gives the vessel Hardness and lets you act through it anywhere in range, and Living Vessel lets it jump between objects. If the vessel is broken or taken, the stand shuts off, so disarms are your big threat. Stand Guard and Precise Hands fit well. <strong>Pick this if</strong> you want a haunted-weapon or living-object fantasy built on ambushes and object tricks.</p><hr />\n<p><strong>Initial (1st)—Vessel</strong> Each day, bind the stand to one object you hold or touch. When you Strike with a bound weapon, you can use the stand's attack modifier and damage. If the vessel is destroyed or taken from you, the stand unmanifests until you Manifest it into a new vessel.</p>\n<p><strong>7th—Vessel Bond</strong> The vessel gains Hardness equal to your level, and you act through it anywhere in range.</p>\n<p><strong>13th—Living Vessel</strong> Spend 1 action to move the stand into a new object, or bind it to a vehicle.</p>\n",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-stand-class-archetype.stand-features.Item.8ERZ68TB6e0CW1FB"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-stand-class-archetype.stand-features.Item.PN8uDChG6eg5xJCO",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              7
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-stand-class-archetype.stand-features.Item.kBpH5Rjer6u3WD3R",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              13
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "stand-type:bound"
+      }
+    ],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

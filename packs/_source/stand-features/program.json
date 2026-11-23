@@ -1,0 +1,61 @@
+{
+  "_id": "NFrQxD384XU7Vvm0",
+  "_key": "!items!NFrQxD384XU7Vvm0",
+  "name": "Program",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "program",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "summoner",
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-type-feature"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>Automatic Stand feature, 1st level.</em></p><p>When you Manifest the stand, give it one program: heat, movement, the creature that last damaged you, or a marked creature. You gain the Mark and Feed the Program actions. On a turn you don't Act Together, the stand still spends 1 action at the end of your turn to Stride toward or Strike the nearest creature that matches, allies included. To call it off: if no creature matching the program is within the stand's senses, spend 1 action (concentrate) on your turn to end or swap the program. Otherwise it takes 2 actions (concentrate) to force it to stop. The stand stays manifested either way. Once the end-of-turn action starts it can't be stopped, so plan before you end your turn. The Set Program feat is stricter: that stand can't be recalled until no matching target remains, except by spending 3 actions to force it to stop.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

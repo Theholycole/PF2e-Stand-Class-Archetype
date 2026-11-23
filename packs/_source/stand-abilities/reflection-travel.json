@@ -1,0 +1,63 @@
+{
+  "_id": "5OtQ4WMm6gaa8tZc",
+  "_key": "!items!5OtQ4WMm6gaa8tZc",
+  "name": "Reflection Travel",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "reflection-travel",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-space"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Hanged Man · <strong>Price:</strong> you need a reflective surface, such as a mirror, water or polished metal.</em></p>\n<p><strong>Theme</strong> Space</p><hr />\n<ul><li><strong>1:</strong> Your stand can move from one reflection to another within its range as if it were a single space, and it can be in a reflection to attack the creature reflected there.</li><li><strong>5:</strong> A Strike from a reflection makes the target @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{off-guard} against it.</li><li><strong>9:</strong> You can see through any reflection within 60 ft.</li><li><strong>13:</strong> Surge: your stand jumps between up to three reflections, making a Strike from each against different creatures.</li><li><strong>17:</strong> While in a reflection, your stand can only be targeted by creatures that can see that reflection.</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Space"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "ChdmfOQMzAj1fX5W",
+  "_key": "!items!ChdmfOQMzAj1fX5W",
+  "name": "Rage Field",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "rage-field",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-affliction"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Survivor · <strong>Price:</strong> it can make allies fight each other too.</em></p>\n<p><strong>Theme</strong> Affliction</p><hr />\n<ul><li><strong>1:</strong> 2 actions: spread water in a @Template[burst|distance:20]{20-ft burst} within 30 ft for 1 minute. Creatures in it see each other's strength and take –1 to @Check[will|against:stand]{Will} saves against fear and emotion.</li><li><strong>5:</strong> Surge: enemies in the area make a @Check[will|against:stand]{Will} save or must Strike the nearest creature on their turn (incapacitation, 1 round). Allies who fail must save too.</li><li><strong>9:</strong> The area is 30 ft.</li><li><strong>13:</strong> Allies get +2 to the save.</li><li><strong>17:</strong> Creatures that critically fail continue fighting for 1 minute.</li></ul>\n<hr /><p><strong>Effects</strong> @UUID[Compendium.pf2e-stand-class-archetype.stand-effects.Item.WRWZwaRtbeHbdQqm]{Effect: Rage Field}</p>\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Affliction"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

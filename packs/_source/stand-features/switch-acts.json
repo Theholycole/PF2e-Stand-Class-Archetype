@@ -1,0 +1,41 @@
+{
+  "_id": "ANbdZAkKEpMkF9nB",
+  "_key": "!items!ANbdZAkKEpMkF9nB",
+  "name": "Switch Acts",
+  "type": "action",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "slug": "switch-acts",
+    "category": "offensive",
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "concentrate",
+        "stand"
+      ],
+      "rarity": "common",
+      "otherTags": []
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You have an evolving stand with at least two Acts.</p>\n<p>Your stand changes to another Act it has unlocked. Only the current Act's Stand Ability works until you switch again; the stand's stat grades can change with it.</p>"
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": []
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

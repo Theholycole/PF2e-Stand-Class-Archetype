@@ -1,0 +1,63 @@
+{
+  "_id": "vpxPhW5aFnWAEMUJ",
+  "_key": "!items!vpxPhW5aFnWAEMUJ",
+  "name": "Requiem",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "requiem",
+    "category": "class",
+    "level": {
+      "value": 20
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "mythic",
+        "stand"
+      ],
+      "rarity": "rare",
+      "otherTags": []
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Heaven Ascension Dedication"
+        }
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per day</p>\n<p>At the start of a round, before anyone acts: rewrite the initiative order however you like for the rest of the fight. For this round, the first attack, spell or ability each enemy uses returns to zero (actions spent, no effect), and you and your allies are @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{quickened} (extra action: Stride, Strike or Step).</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

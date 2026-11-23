@@ -1,0 +1,63 @@
+{
+  "_id": "6De33Q3OJetyAn76",
+  "_key": "!items!6De33Q3OJetyAn76",
+  "name": "Web Control",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "web-control",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-mind-and-sense"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Spiderweb Stand · <strong>Price:</strong> it only works through existing spiderwebs.</em></p>\n<p><strong>Theme</strong> Mind and Sense</p><hr />\n<ul><li><strong>1:</strong> You sense through any web within 60 ft.</li><li><strong>5:</strong> Surge: a web binds a creature in it (@Check[reflex|against:stand]{Reflex} negates): @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{immobilized} for 1 round.</li><li><strong>9:</strong> Move a creature's limbs through webs: it drops an item.</li><li><strong>13:</strong> Block speech through a web: the creature can't speak.</li><li><strong>17:</strong> Immobilized for 1 minute on a critical failure.</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Mind and Sense"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

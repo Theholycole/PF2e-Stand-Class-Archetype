@@ -1,0 +1,68 @@
+{
+  "_id": "63d5JledJYYBzh6d",
+  "_key": "!items!63d5JledJYYBzh6d",
+  "name": "Ice Armor",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "ice-armor",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-force-and-energy",
+        "stand-only-integrated"
+      ]
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "integrated stand"
+        }
+      ]
+    },
+    "description": {
+      "value": "<p><em>From White Album · <strong>Price:</strong> integrated only; you can't swim while wearing it, and it melts in heat.</em></p>\n<p><strong>Theme</strong> Force and Energy · <strong>Stand type</strong> integrated only</p><hr />\n<ul><li><strong>1:</strong> 1 action: wear ice armor: +1 status to AC, and creatures that hit you with a melee Strike take 1 cold damage (per die of your stand's Strike at higher levels).</li><li><strong>5:</strong> You can skate: +10 ft Speed on flat ground.</li><li><strong>9:</strong> Surge: freeze the air in a @Template[emanation|distance:10]{10-ft emanation}: @Damage[(2*ceil(@actor.level/2))d6[cold]] (@Check[fortitude|against:stand|basic]{basic Fortitude}).</li><li><strong>13:</strong> Reaction: freeze an incoming projectile so it shatters (attack misses), once per round.</li><li><strong>17:</strong> Absolute cold: creatures that start their turn adjacent to you are @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{slowed 1} (@Check[fortitude|against:stand]{Fortitude} negates).</li></ul>\n<hr /><p><strong>Effects</strong> @UUID[Compendium.pf2e-stand-class-archetype.stand-effects.Item.MeW64XQeyUUZ687p]{Effect: Ice Armor}</p>\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Force and Energy"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

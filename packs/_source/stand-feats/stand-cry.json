@@ -1,0 +1,63 @@
+{
+  "_id": "2aNo8wpp7vclCFeT",
+  "_key": "!items!2aNo8wpp7vclCFeT",
+  "name": "Stand Cry",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "stand-cry",
+    "category": "class",
+    "level": {
+      "value": 8
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "summoner",
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": []
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Stand User Dedication"
+        }
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> You Manifest your stand.</p>\n<p>Shout your stand's name: you and allies within 30 feet gain +1 status bonus to attack rolls for 1 round (@UUID[Compendium.pf2e-stand-class-archetype.stand-effects.Item.aBHmcGF4ere9Ck3Y]{Effect: Stand Cry}).</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

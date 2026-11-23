@@ -1,0 +1,182 @@
+{
+  "_id": "bEf4g5COTKF0a5Kr",
+  "_key": "!items!bEf4g5COTKF0a5Kr",
+  "name": "Stand User",
+  "type": "feat",
+  "img": "icons/magic/control/silhouette-aura-energy.webp",
+  "system": {
+    "slug": "stand-user",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "summoner"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-user"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>Summoner class archetype.</em> Your eidolon is a Stand: a visible spirit of your own will with one unique power.</p>\n<p><strong>You don't gain</strong> an eidolon, the summoner's spellcasting (spell slots, spell repertoire and cantrips), Signature Spells, or Instant Manifestation at 19th level. This feature turns those off on your sheet. Add it <strong>before</strong> the Summoner class so the Eidolon choice never pops up, or pick any eidolon when asked and this feature hides it.</p>\n<p><strong>You keep</strong> everything else in the summoner: shared Hit Points, Act Together, the tether rule (now set by your stand's Range grade), link spells, evolution feats, and every proficiency increase for you and your companion.</p>\n<p><strong>Stand.</strong> Choose a stand type below. Your stand keeps the eidolon's rules: shared HP, eidolon proficiencies, Str or Dex key attribute, two unarmed attacks (the Power grade shifts the primary attack's die one size up at A, one size down at D and E). Grade its six stats at creation (one A, one B, two C, one D, one E). Give the stand's actor the Ghostly Stand Body feature.</p>\n<p><strong>Stand Ability.</strong> Pick one Stand Ability; its theme becomes your stand's theme. Its always-on part is at will, like a cantrip. Surges cost Stand Points. Saves use your <strong>stand DC</strong> (10 + your level + your spellcasting proficiency + Charisma; expert at 9th level, master at 17th).</p>\n<p><strong>Stand Points.</strong> Your focus pool is called Stand Points. It starts at 2 (1 for link spells, 1 more replacing your spell slots), maximum 3. Refocus regains 1. Link spells and Stand Ability surges share it.</p>\n<p><strong>2nd level:</strong> you must take Stand User Dedication as your 2nd-level class feat.</p>\n<p>Granted: @UUID[Compendium.pf2e-stand-class-archetype.stand-features.Item.Wy4FeyrQghYMQNPw]{Manifest Stand}, @UUID[Compendium.pf2e.actionspf2e.Item.2KV87ponbWXgGIhZ]{Act Together}, @UUID[Compendium.pf2e.actionspf2e.Item.3ZzoI9MTtJFd1Kjl]{Share Senses}, @UUID[Compendium.pf2e-stand-class-archetype.stand-features.Item.FHN6mdHpdAi4Kyl0]{Stand Transcendence} (17th), @UUID[Compendium.pf2e-stand-class-archetype.stand-features.Item.i6Pbq7bqHN8t1YGZ]{Stand Instinct} (19th).</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [
+      {
+        "key": "SpecialStatistic",
+        "slug": "stand",
+        "label": "Stand DC",
+        "type": "check",
+        "extends": "base-spellcasting",
+        "attribute": "cha"
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.spellcasting.rank",
+        "value": 2,
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              9
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "upgrade",
+        "path": "system.proficiencies.spellcasting.rank",
+        "value": 3,
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "key": "ActiveEffectLike",
+        "mode": "add",
+        "path": "system.resources.focus.max",
+        "value": 1,
+        "priority": 10
+      },
+      {
+        "key": "ChoiceSet",
+        "flag": "standType",
+        "prompt": "Choose your stand type",
+        "choices": {
+          "itemType": "feat",
+          "filter": [
+            "item:tag:stand-type"
+          ]
+        },
+        "adjustName": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.system.rulesSelections.standType}"
+      },
+      {
+        "key": "ChoiceSet",
+        "flag": "standAbility",
+        "prompt": "Choose your Stand Ability",
+        "choices": {
+          "itemType": "feat",
+          "filter": [
+            "item:tag:stand-ability"
+          ]
+        },
+        "adjustName": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.system.rulesSelections.standAbility}"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-stand-class-archetype.stand-features.Item.Wy4FeyrQghYMQNPw"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.actionspf2e.Item.2KV87ponbWXgGIhZ",
+        "allowDuplicate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e.actionspf2e.Item.3ZzoI9MTtJFd1Kjl",
+        "allowDuplicate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-stand-class-archetype.stand-features.Item.FHN6mdHpdAi4Kyl0",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              17
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-stand-class-archetype.stand-features.Item.i6Pbq7bqHN8t1YGZ",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              19
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true
+      }
+    ],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": [
+        "Compendium.pf2e.classfeatures.Item.qOEpe596B0UjhcG0",
+        "Compendium.pf2e.classfeatures.Item.gWcN75VNpSZ4FqNb",
+        "Compendium.pf2e.classfeatures.Item.1RfnAiyQ5FR7vnuH",
+        "Compendium.pf2e.classfeatures.Item.VKRjmXxBFLrJK01c",
+        "Compendium.pf2e.classfeatures.Item.H0iWhiyP0QqgmAKs"
+      ]
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

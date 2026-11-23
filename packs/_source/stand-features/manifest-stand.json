@@ -1,0 +1,42 @@
+{
+  "_id": "Wy4FeyrQghYMQNPw",
+  "_key": "!items!Wy4FeyrQghYMQNPw",
+  "name": "Manifest Stand",
+  "type": "action",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "slug": "manifest-stand",
+    "category": "interaction",
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "concentrate",
+        "occult",
+        "stand"
+      ],
+      "rarity": "common",
+      "otherTags": []
+    },
+    "description": {
+      "value": "<p>Your stand appears in an open space adjacent to you, and can then take a single action. If your stand was already manifested, you unmanifest it instead.</p>\n<p>The stand must stay within its Range grade of you (its tether: A 1 mile, B 500 feet, C 100 feet, D 30 feet, E 10 feet) and can't willingly go beyond it. If forced beyond that distance, or if you are reduced to 0 Hit Points or your stand is destroyed, the stand unmanifests, and you need to use Manifest Stand to manifest it again.</p>\n<p><strong>Special</strong> This replaces Manifest Eidolon, which takes 3 actions.</p>"
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": []
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

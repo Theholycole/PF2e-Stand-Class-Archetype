@@ -1,0 +1,45 @@
+{
+  "_id": "6vbW6elPN6fSOh6c",
+  "_key": "!items!6vbW6elPN6fSOh6c",
+  "name": "Worn Stand",
+  "type": "action",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "slug": "worn-stand",
+    "category": "offensive",
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "concentrate",
+        "stand"
+      ],
+      "rarity": "common",
+      "otherTags": []
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> You have an integrated stand.</p>\n<p>Merge the stand with you, or separate it into an adjacent space. While merged, it shares your space, your unarmed Strikes use the stand's attack modifier and damage, and Act Together actions happen from your space.</p>"
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "selfEffect": {
+      "uuid": "Compendium.pf2e-stand-class-archetype.stand-effects.Item.UjnqU1DsMfqyPxNH",
+      "name": "Effect: Worn Stand"
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

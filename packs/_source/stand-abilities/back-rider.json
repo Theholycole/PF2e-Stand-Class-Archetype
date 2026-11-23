@@ -1,0 +1,63 @@
+{
+  "_id": "qbL8qEnx97auFfBH",
+  "_key": "!items!qbL8qEnx97auFfBH",
+  "name": "Back Rider",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "back-rider",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-mind-and-sense"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Cheap Trick · <strong>Price:</strong> your stand must touch the target's back.</em></p>\n<p><strong>Theme</strong> Mind and Sense</p><hr />\n<ul><li><strong>1:</strong> 1 action: your stand rides a creature's back unseen; you hear what it hears.</li><li><strong>5:</strong> Surge: the stand whispers to it: @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{frightened 1}.</li><li><strong>9:</strong> It can't see your stand at all.</li><li><strong>13:</strong> It takes –2 to attack rolls against your stand while it rides.</li><li><strong>17:</strong> The stand makes it drop @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{prone} (@Check[fortitude|against:stand]{Fortitude} negates).</li></ul>\n<hr /><p><strong>Effects</strong> @UUID[Compendium.pf2e-stand-class-archetype.stand-effects.Item.qxGSykRFrJuQp5D0]{Effect: Back Rider}</p>\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Mind and Sense"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

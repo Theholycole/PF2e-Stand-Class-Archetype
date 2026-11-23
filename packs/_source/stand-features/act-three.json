@@ -1,0 +1,78 @@
+{
+  "_id": "W2RLmEXlTkI1S92Z",
+  "_key": "!items!W2RLmEXlTkI1S92Z",
+  "name": "Act Three",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "act-three",
+    "category": "classfeature",
+    "level": {
+      "value": 13
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "summoner",
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-type-feature"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>Evolving Stand feature, 13th level.</em></p><p>A third Stand Ability from the same theme.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "flag": "actThree",
+        "prompt": "Choose a Stand Ability from Act One's theme",
+        "choices": {
+          "itemType": "feat",
+          "filter": [
+            "item:tag:stand-ability"
+          ]
+        },
+        "adjustName": false
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "{item|flags.system.rulesSelections.actThree}"
+      }
+    ],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

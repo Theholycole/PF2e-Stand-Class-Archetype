@@ -1,0 +1,45 @@
+{
+  "_id": "DEw7gJVVOJl68wpt",
+  "_key": "!items!DEw7gJVVOJl68wpt",
+  "name": "Feed the Program",
+  "type": "action",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "slug": "feed-the-program",
+    "category": "offensive",
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "concentrate",
+        "stand"
+      ],
+      "rarity": "common",
+      "otherTags": []
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per turn</p>\n<p><strong>Requirements</strong> Your automatic stand (or sub-stand) is manifested.</p>\n<p>The stand's end-of-turn action becomes 2 actions this turn (for example Stride and Strike). This keeps the same 4 actions a turn a summoner gets from Act Together, just split differently.</p>"
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": [],
+    "frequency": {
+      "max": 1,
+      "per": "turn"
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

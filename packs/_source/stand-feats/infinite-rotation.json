@@ -1,0 +1,63 @@
+{
+  "_id": "I8dhLSf4go46OH0A",
+  "_key": "!items!I8dhLSf4go46OH0A",
+  "name": "Infinite Rotation",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "infinite-rotation",
+    "category": "class",
+    "level": {
+      "value": 16
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "mythic",
+        "stand"
+      ],
+      "rarity": "rare",
+      "otherTags": []
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Heaven Ascension Dedication"
+        }
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Cost</strong> 1 Mythic Point, when your stand hits</p>\n<p>The target takes the Strike's damage dice again at the start of each of its turns until it dies, leaves the plane, or the rotation is counteracted.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_id": "rRVXzZbJSi1RzyBM",
+  "_key": "!items!rRVXzZbJSi1RzyBM",
+  "name": "Lightning",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "lightning",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-force-and-energy"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Red Hot Chili Pepper · <strong>Price:</strong> it only travels through wires, metal or water.</em></p>\n<p><strong>Theme</strong> Force and Energy</p><hr />\n<ul><li><strong>1:</strong> Your stand can enter a wire, metal object or water within range and move through it at double Speed. A Strike from inside deals @Damage[(1+floor((@actor.level-1)/4))d6[electricity]] extra.</li><li><strong>5:</strong> Surge: discharge into a creature touching connected metal or water: @Damage[(2*ceil(@actor.level/2))d6[electricity]] (@Check[fortitude|against:stand|basic]{basic Fortitude}).</li><li><strong>9:</strong> Drain power: touch a power source or charged object to gain a +2 status bonus to stand Strike damage for 1 minute.</li><li><strong>13:</strong> The discharge hits every creature touching the same metal or water.</li><li><strong>17:</strong> Your stand can travel through power lines or rivers up to 1 mile.</li></ul>\n<hr /><p><strong>Effects</strong> @UUID[Compendium.pf2e-stand-class-archetype.stand-effects.Item.bFQnDF7V15RXofYC]{Effect: Drained Power}</p>\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Force and Energy"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

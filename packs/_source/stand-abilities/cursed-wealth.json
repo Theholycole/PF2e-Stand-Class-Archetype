@@ -1,0 +1,63 @@
+{
+  "_id": "UNFEr36AeLvvJcA9",
+  "_key": "!items!UNFEr36AeLvvJcA9",
+  "name": "Cursed Wealth",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "cursed-wealth",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-fate"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Milagroman · <strong>Price:</strong> the target must accept your money.</em></p>\n<p><strong>Theme</strong> Fate</p><hr />\n<ul><li><strong>1:</strong> 1 action: hand over a coin; a creature that accepts it is cursed (@Check[will|against:stand]{Will} negates): –1 to checks for 1 round.</li><li><strong>5:</strong> Surge: the money multiplies; the creature is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{enfeebled 1} from the weight.</li><li><strong>9:</strong> The curse lasts 1 minute.</li><li><strong>13:</strong> The curse spreads to anyone the creature passes money to.</li><li><strong>17:</strong> Enfeebled 2 and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{slowed 1}.</li></ul>\n<hr /><p><strong>Effects</strong> @UUID[Compendium.pf2e-stand-class-archetype.stand-effects.Item.shPERG1fHjbv9DyF]{Effect: Cursed Wealth}</p>\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Fate"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

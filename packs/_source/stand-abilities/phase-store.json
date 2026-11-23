@@ -1,0 +1,63 @@
+{
+  "_id": "jLskEwjAQKXpTEap",
+  "_key": "!items!jLskEwjAQKXpTEap",
+  "name": "Phase Store",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "phase-store",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-space"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Diver Down · <strong>Price:</strong> the stand has to dive into an object first, and the blow only lands when someone touches it.</em></p>\n<p><strong>Theme</strong> Space</p><hr />\n<ul><li><strong>1:</strong> 2 actions: your stand dives into an object or surface and stores one Strike for up to 1 hour. The next creature that touches it takes the Strike's damage (no attack roll needed; @Check[reflex|against:stand|basic]{basic Reflex} for half).</li><li><strong>5:</strong> The stored blow can be released from up to 10 ft through the object instead.</li><li><strong>9:</strong> Surge: store @Damage[(2*ceil(@actor.level/2))d6[force]] damage instead of a Strike.</li><li><strong>13:</strong> Store two blows in two objects.</li><li><strong>17:</strong> A creature hit by a stored blow is also @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{immobilized} by the object's shape for 1 round (@Check[fortitude|against:stand]{Fortitude} negates).</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Space"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

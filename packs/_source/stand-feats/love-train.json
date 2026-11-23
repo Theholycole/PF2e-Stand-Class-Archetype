@@ -1,0 +1,63 @@
+{
+  "_id": "skTNRmQE2s9jv8sP",
+  "_key": "!items!skTNRmQE2s9jv8sP",
+  "name": "Love Train",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "love-train",
+    "category": "class",
+    "level": {
+      "value": 18
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 3
+    },
+    "traits": {
+      "value": [
+        "mythic",
+        "stand"
+      ],
+      "rarity": "rare",
+      "otherTags": []
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Heaven Ascension Dedication"
+        }
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Cost</strong> 2 Mythic Points</p>\n<p>For 1 minute, damage and harmful conditions that would hit you go to a creature of your choice within 120 feet instead. Area effects still reach you, and the light ends if you leave the spot you used it on.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

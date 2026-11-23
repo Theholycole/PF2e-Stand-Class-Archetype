@@ -1,0 +1,75 @@
+{
+  "_id": "YCtIbeCXNkdOetfw",
+  "_key": "!items!YCtIbeCXNkdOetfw",
+  "name": "Effect: Doom Mark",
+  "type": "effect",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
+  "system": {
+    "slug": "effect-doom-mark",
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "common",
+      "otherTags": []
+    },
+    "description": {
+      "value": "<p>Weakness to all damage: 1, or 2 from the marker's 9th level, or 3 from 17th. The mark lasts 1 round, or 1 minute when surged.</p><p><em>From Doom Mark.</em></p>"
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "flag": "weakness",
+        "prompt": "Doom Mark weakness (1, 2 at 9th, 3 at 17th)",
+        "choices": [
+          {
+            "label": "1",
+            "value": 1
+          },
+          {
+            "label": "2",
+            "value": 2
+          },
+          {
+            "label": "3",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "key": "Weakness",
+        "type": "all-damage",
+        "value": "@item.flags.system.rulesSelections.weakness"
+      }
+    ]
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

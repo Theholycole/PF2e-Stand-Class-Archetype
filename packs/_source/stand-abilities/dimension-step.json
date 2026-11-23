@@ -1,0 +1,63 @@
+{
+  "_id": "qy3GeyrnWak7ZeXF",
+  "_key": "!items!qy3GeyrnWak7ZeXF",
+  "name": "Dimension Step",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "dimension-step",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-space"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From D4C · <strong>Price:</strong> you must be pressed between two objects, such as a door and its frame, or under a flag.</em></p>\n<p><strong>Theme</strong> Space</p><hr />\n<ul><li><strong>1:</strong> 1 action while sandwiched: step into a parallel world and reappear next to a different pair of objects within 30 ft.</li><li><strong>5:</strong> You can bring one willing adjacent creature.</li><li><strong>9:</strong> Surge: pull a creature caught between two objects into a parallel world for 1 round (@Check[will|against:stand]{Will} negates). It returns at the start of your next turn.</li><li><strong>13:</strong> Range becomes 120 ft.</li><li><strong>17:</strong> Surge, once per day: bring a parallel copy of a creature into this world; if it touches its original, both take @Damage[(2*ceil(@actor.level/2))d6[force]] damage (no save).</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Space"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

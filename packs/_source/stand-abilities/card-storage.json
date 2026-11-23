@@ -1,0 +1,63 @@
+{
+  "_id": "stHLp7SFSYMi3zJY",
+  "_key": "!items!stHLp7SFSYMi3zJY",
+  "name": "Card Storage",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "card-storage",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-space"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Space Trucking · <strong>Price:</strong> you need your deck, and it can be taken.</em></p>\n<p><strong>Theme</strong> Space</p><hr />\n<ul><li><strong>1:</strong> 1 action: store an object of Bulk 1 or less between two cards, or pull one out.</li><li><strong>5:</strong> Store a Small or smaller creature (willing, or @Check[reflex|against:stand]{Reflex} negates) for up to 1 minute.</li><li><strong>9:</strong> Surge: throw a card at a creature; a stored object bursts out for @Damage[(2*ceil(@actor.level/2))d6[force]] damage (@Check[reflex|against:stand|basic]{basic Reflex}).</li><li><strong>13:</strong> Store a Medium creature (it counts as sealed, see Defaults).</li><li><strong>17:</strong> Store creatures up to Large.</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Space"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

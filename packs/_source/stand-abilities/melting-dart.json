@@ -1,0 +1,68 @@
+{
+  "_id": "CptACnR4QoYDjgcW",
+  "_key": "!items!CptACnR4QoYDjgcW",
+  "name": "Melting Dart",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "melting-dart",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-affliction",
+        "stand-only-automatic"
+      ]
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "automatic stand"
+        }
+      ]
+    },
+    "description": {
+      "value": "<p><em>From Ratt · <strong>Price:</strong> automatic only; the darts fire at anything moving.</em></p>\n<p><strong>Theme</strong> Affliction · <strong>Stand type</strong> automatic only</p><hr />\n<ul><li><strong>1:</strong> 1 action: dart, range 30 ft: @Damage[(1+floor((@actor.level-1)/4))d6[acid]] (attack roll).</li><li><strong>5:</strong> @Damage[1d6[persistent,acid]] on a hit.</li><li><strong>9:</strong> Surge: three darts at different targets, each @Damage[(ceil(@actor.level/2))d6[acid]].</li><li><strong>13:</strong> Darts melt a creature's flesh: on a critical hit, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{clumsy 1} for 1 minute.</li><li><strong>17:</strong> Darts ignore resistance to acid.</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Affliction"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

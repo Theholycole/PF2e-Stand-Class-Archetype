@@ -1,0 +1,63 @@
+{
+  "_id": "9n3Eh8nM4B9CF19x",
+  "_key": "!items!9n3Eh8nM4B9CF19x",
+  "name": "Shapeshift",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "shapeshift",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-matter-and-life"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Earth Wind and Fire · <strong>Price:</strong> you turn into objects only, and you can't attack in object form.</em></p>\n<p><strong>Theme</strong> Matter and Life</p><hr />\n<ul><li><strong>1:</strong> 2 actions: become a Small object. You can't move or attack; Perception DC = your stand DC to spot you.</li><li><strong>5:</strong> Become a Medium object; you get resistance equal to your level while shaped.</li><li><strong>9:</strong> Surge: leave object form with a free Strike against an adjacent creature, which is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{off-guard}.</li><li><strong>13:</strong> Become a cart or small boat that up to four allies can ride; you move it at your Speed.</li><li><strong>17:</strong> Become a Large object.</li></ul>\n<hr /><p><strong>Effects</strong> @UUID[Compendium.pf2e-stand-class-archetype.stand-effects.Item.SEVLkSvCkR1OPJu8]{Effect: Object Form}</p>\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Matter and Life"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "_id": "7dCI2P6PdpuGrHTE",
+  "_key": "!items!7dCI2P6PdpuGrHTE",
+  "name": "Heaven Ascension Dedication",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "heaven-ascension-dedication",
+    "category": "class",
+    "level": {
+      "value": 12
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "destiny",
+        "mythic"
+      ],
+      "rarity": "rare",
+      "otherTags": []
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Stand User summoner"
+        },
+        {
+          "value": "mythic"
+        },
+        {
+          "value": "a Heaven catalyst gained in play"
+        }
+      ]
+    },
+    "description": {
+      "value": "<p>Your stand ascends. Its ghostly resistance doubles, and it can see @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{invisible} and incorporeal creatures. Spend 1 Mythic Point: your stand's next Strike or Stand Ability DC uses mythic proficiency. You also gain your catalyst's free feat: Stand Arrow (Requiem) grants Return to Zero or Soul Shuffle, DIO's Bone (Heaven) grants Universal Acceleration, the Saint's Corpse grants Infinite Rotation or Love Train.</p>\n<p>Against a non-mythic foe, a destiny effect just works; against a mythic foe, you roll a counteract check with mythic proficiency.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "_id": "Fddyh66QIXealPbM",
+  "_key": "!items!Fddyh66QIXealPbM",
+  "name": "Sub-Stand",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "sub-stand",
+    "category": "class",
+    "level": {
+      "value": 10
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "summoner",
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": []
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Stand User Dedication"
+        },
+        {
+          "value": "your stand isn't an automatic or colony stand"
+        }
+      ]
+    },
+    "description": {
+      "value": "<p>Part of your stand can break off and hunt on its own, like Sheer Heart Attack leaving Killer Queen's left hand.</p>\n<p><strong>Detach Sub-Stand</strong> (1 action, concentrate, 1 Stand Point). Your manifested stand releases a Tiny sub-stand in an adjacent space. It uses the Automatic stand's Program rules, including Mark, Feed the Program and calling it off. It uses your stand's attack modifier and its secondary attack (1d6, agile, finesse), its AC, and Hit Points equal to 5 × your level. Damage to it isn't shared with you, as with any automatic stand. It lasts until it's destroyed, you call it off, or your stand unmanifests. You can have only one sub-stand at a time.</p>\n<p><strong>Price</strong> While the sub-stand is out, your main stand's Power grade counts one grade lower, and the sub-stand attacks allies who match its program.</p>\n<p><strong>Theme link</strong> If your Stand Ability can ride on a Strike (for example Bomb Touch's level 5 surge that arms a creature), the sub-stand can use it instead of your stand, still paying the Stand Point.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-stand-class-archetype.stand-features.Item.b43Sa3RWk6Rw0aCH"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-stand-class-archetype.stand-features.Item.DEw7gJVVOJl68wpt"
+      }
+    ],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "_id": "Rl2Bf8aO7cwcFZeU",
+  "_key": "!items!Rl2Bf8aO7cwcFZeU",
+  "name": "Ghostly Stand Body",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "ghostly-stand-body",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-body"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>Put this on your stand's actor, not on the Stand User.</em></p>\n<p>A stand is ghostly. It has resistance to all damage equal to half its level (minimum 1), except force, spirit and ghost touch damage, and its unarmed Strikes have the ghost touch property, so stands hurt each other and ghosts at full strength.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [
+      {
+        "key": "Resistance",
+        "type": "all-damage",
+        "value": "max(1,floor(@actor.level/2))",
+        "exceptions": [
+          "force",
+          "ghost-touch",
+          "spirit"
+        ]
+      },
+      {
+        "key": "AdjustStrike",
+        "mode": "add",
+        "property": "property-runes",
+        "value": "ghost-touch",
+        "definition": [
+          "item:category:unarmed"
+        ]
+      }
+    ],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

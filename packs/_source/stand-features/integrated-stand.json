@@ -1,0 +1,101 @@
+{
+  "_id": "KMrnGjj2BAH9vLj3",
+  "_key": "!items!KMrnGjj2BAH9vLj3",
+  "name": "Integrated Stand",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "integrated-stand",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "summoner",
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-type"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><strong>Traits</strong> Eidolon, Stand · <strong>Size</strong> your size · <strong>Suggested Attacks</strong> fist (bludgeoning), body weapon (as the stand's form)</p>\n<p><strong>Stand Attributes</strong> Con +2, Int +0, Wis +0, Cha +1 · <strong>Skills</strong> Acrobatics, Athletics · <strong>Senses</strong> your senses · <strong>Speed</strong> 25 feet</p>\n<p><strong>Grades</strong> Range must be E. Durability can't be E.</p>\n<p><strong>Examples</strong> Oasis, Catch the Rainbow</p>\n<hr /><p>You wear your stand and fight as one body. While merged, your own Strikes use its numbers, Second Skin adds AC and Athletics, Stand Armor (8) turns its Durability into defense, and Full Merge saves you actions. It can't scout or flank on its own, since its Range is E. Barrage Rush, Stand Guard and Golden Spirit are good class feats for it. <strong>Pick this if</strong> you want to be the fighter yourself, with one sturdy body to protect instead of two.</p><hr />\n<p><strong>Initial (1st)—Worn Stand</strong> Spend 1 action to merge the stand with you, or to separate it into an adjacent space. While merged, it shares your space, your unarmed Strikes use the stand's attack modifier and damage, and Act Together actions happen from your space.</p>\n<p><strong>7th—Second Skin</strong> While merged, you gain +1 status bonus to AC and Athletics.</p>\n<p><strong>13th—Full Merge</strong> Once per turn, a stand action costs you no action, but the stand can't leave your space that round.</p>\n<p>Actions: @UUID[Compendium.pf2e-stand-class-archetype.stand-features.Item.6vbW6elPN6fSOh6c]{Worn Stand}</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-stand-class-archetype.stand-features.Item.k1NA0t9IpEm0C6Gp"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-stand-class-archetype.stand-features.Item.051EHK7i1ptDua1n",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              7
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-stand-class-archetype.stand-features.Item.gPaUTmEAY5E4ViIT",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              13
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-stand-class-archetype.stand-features.Item.6vbW6elPN6fSOh6c"
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "stand-type:integrated"
+      }
+    ],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

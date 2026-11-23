@@ -1,0 +1,63 @@
+{
+  "_id": "Za3JHYpElx9v9823",
+  "_key": "!items!Za3JHYpElx9v9823",
+  "name": "Shrink",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "shrink",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-affliction"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Little Feet · Your stand's blows shrink whatever they hit.</em></p>\n<p><strong>Theme</strong> Affliction</p><hr />\n<ul><li><strong>1:</strong> When your stand hits with a Strike, target attempts @Check[fortitude|against:stand]{Fortitude}: failure, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{enfeebled 1} until the end of your next turn; critical failure, also shrinks one size.</li><li><strong>5:</strong> Critical failure makes the target @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{enfeebled 2}.</li><li><strong>9:</strong> Surge: shrink yourself and your stand to Tiny for 10 minutes (+2 Stealth, can squeeze through any gap).</li><li><strong>13:</strong> Shrinking now lasts 1 minute and stacks once more on a later hit (up to two sizes).</li><li><strong>17:</strong> A creature that fails while already shrunk becomes Tiny and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{enfeebled 3} for 1 minute (incapacitation).</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Affliction"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

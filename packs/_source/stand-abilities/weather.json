@@ -1,0 +1,63 @@
+{
+  "_id": "HgimuAlK0ROh0v3r",
+  "_key": "!items!HgimuAlK0ROh0v3r",
+  "name": "Weather",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "weather",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-force-and-energy"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Weather Report · <strong>Price:</strong> it needs open sky for anything beyond fog.</em></p>\n<p><strong>Theme</strong> Force and Energy</p><hr />\n<ul><li><strong>1:</strong> 2 actions: fog in a @Template[burst|distance:15]{15-ft burst} (@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{concealed}) for 1 minute, or calm the wind.</li><li><strong>5:</strong> Surge, outdoors: rain or wind in a @Template[burst|distance:30]{30-ft burst} for 1 minute: difficult terrain, ranged attacks –2.</li><li><strong>9:</strong> Surge, outdoors: lightning strike on one creature: @Damage[(2*ceil(@actor.level/2))d6[electricity]] (@Check[reflex|against:stand|basic]{basic Reflex}).</li><li><strong>13:</strong> Pull moisture from a creature's surroundings: it's @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{sickened 2} (@Check[fortitude|against:stand]{Fortitude} negates), once per creature per day.</li><li><strong>17:</strong> Once per day, outdoors: heavy weather for 1 minute: every non-ally creature in 60 ft attempts @Check[will|against:stand]{Will} each round or is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{stupefied 2} and @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{slowed 1} (incapacitation).</li></ul>\n<hr /><p><strong>Effects</strong> @UUID[Compendium.pf2e-stand-class-archetype.stand-effects.Item.cB3MERInqYODgMJQ]{Effect: Storm Weather}</p>\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Force and Energy"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

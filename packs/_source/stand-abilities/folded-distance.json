@@ -1,0 +1,63 @@
+{
+  "_id": "kxMZZpZd1Wuq0SrQ",
+  "_key": "!items!kxMZZpZd1Wuq0SrQ",
+  "name": "Folded Distance",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "folded-distance",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-space"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Green, Green Grass of Home · <strong>Price:</strong> only inside a zone you marked beforehand.</em></p>\n<p><strong>Theme</strong> Space</p><hr />\n<ul><li><strong>1:</strong> 1 minute: mark a 20-ft zone. Inside it, you and your stand move double your Speed.</li><li><strong>5:</strong> Enemies inside the zone treat it as difficult terrain.</li><li><strong>9:</strong> Surge: shrink a creature's distance to you: a creature inside the zone is pulled adjacent to your stand (@Check[fortitude|against:stand]{Fortitude} negates).</li><li><strong>13:</strong> Zone becomes 40 ft.</li><li><strong>17:</strong> Enemies inside the zone treat it as greater difficult terrain.</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Space"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

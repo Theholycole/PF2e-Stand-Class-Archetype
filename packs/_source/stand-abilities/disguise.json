@@ -1,0 +1,63 @@
+{
+  "_id": "U7Abv974T0ITuhNC",
+  "_key": "!items!U7Abv974T0ITuhNC",
+  "name": "Disguise",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "disguise",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-matter-and-life"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Khnum · <strong>Price:</strong> only faces; voice and body stay yours.</em></p>\n<p><strong>Theme</strong> Matter and Life</p><hr />\n<ul><li><strong>1:</strong> 1 action: change your face to look like a person you've seen. +4 status to Deception to Impersonate them.</li><li><strong>5:</strong> Also change a willing ally's face.</li><li><strong>9:</strong> Surge: lasts 1 day.</li><li><strong>13:</strong> Change voice too.</li><li><strong>17:</strong> Reaction: change your face as a creature looks at you, ending a gaze or visual-recognition effect.</li></ul>\n<hr /><p><strong>Effects</strong> @UUID[Compendium.pf2e-stand-class-archetype.stand-effects.Item.yHlyQmatYtQxl45d]{Effect: Disguise}</p>\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Matter and Life"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "_id": "rcxplPBSHZ4B8vQ1",
+  "_key": "!items!rcxplPBSHZ4B8vQ1",
+  "name": "Effect: Lucky Direction",
+  "type": "effect",
+  "img": "icons/magic/perception/eye-ringed-glow-angry-small-teal.webp",
+  "system": {
+    "slug": "effect-lucky-direction",
+    "level": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "common",
+      "otherTags": []
+    },
+    "description": {
+      "value": "<p>+1 status bonus to one check toward your lucky direction this turn (+2 from 17th level).</p><p><em>From Fortune Directions.</em></p>"
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "duration": {
+      "value": 1,
+      "unit": "rounds",
+      "expiry": "turn-end",
+      "sustained": false
+    },
+    "start": {
+      "value": 0,
+      "initiative": null
+    },
+    "tokenIcon": {
+      "show": true
+    },
+    "badge": null,
+    "rules": [
+      {
+        "key": "ChoiceSet",
+        "flag": "bonus",
+        "prompt": "Bonus (+2 from 17th level)",
+        "choices": [
+          {
+            "label": "1",
+            "value": 1
+          },
+          {
+            "label": "2",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "check",
+        "type": "status",
+        "value": "@item.flags.system.rulesSelections.bonus"
+      }
+    ]
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

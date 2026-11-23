@@ -1,0 +1,63 @@
+{
+  "_id": "242hHLfIaHPQldB8",
+  "_key": "!items!242hHLfIaHPQldB8",
+  "name": "Gap Crush",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "gap-crush",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-space"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From West End Girl · <strong>Price:</strong> your stand can only attack from a gap between two objects, and it's defenseless on open surfaces.</em></p>\n<p><strong>Theme</strong> Space</p><hr />\n<ul><li><strong>1:</strong> Your stand can attack from any gap within its range (a door crack, between barrels) as if it were adjacent. Strikes from a gap gain +1 circumstance to damage per die.</li><li><strong>5:</strong> Strikes from a gap make the target @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{off-guard}.</li><li><strong>9:</strong> Surge: crush a creature next to a gap for @Damage[(2*ceil(@actor.level/2))d6[bludgeoning]] (@Check[fortitude|against:stand|basic]{basic Fortitude}).</li><li><strong>13:</strong> Crushing also immobilizes on a failure.</li><li><strong>17:</strong> You can attack from two gaps per turn.</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Space"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

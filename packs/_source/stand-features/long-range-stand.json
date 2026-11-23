@@ -1,0 +1,97 @@
+{
+  "_id": "q05JybbmcGlEtBVi",
+  "_key": "!items!q05JybbmcGlEtBVi",
+  "name": "Long-Range Stand",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "long-range-stand",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "summoner",
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-type"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><strong>Traits</strong> Eidolon, Stand · <strong>Size</strong> Medium or Small · <strong>Suggested Attacks</strong> tendril (bludgeoning), whip (slashing)</p>\n<p><strong>Stand Attributes</strong> Con +0, Int +1, Wis +2, Cha +0 · <strong>Skills</strong> Stealth, Survival · <strong>Senses</strong> darkvision · <strong>Speed</strong> 25 feet</p>\n<p><strong>Grades</strong> Range takes the A (1 mile tether). Power can't be above C.</p>\n<p><strong>Examples</strong> Hierophant Green, Hermit Purple</p>\n<hr /><p>You stay back while your stand scouts and fights far away. Stand Senses (1) and Far Eyes let you see through it at any distance, and Remote Strike (8) lets it attack at full range, but its damage drops beyond 60 feet and Power is capped at C, so it harasses rather than bursts. Your Stand Ability carries more of the load, so Second Wind of Will and Ability Mastery are strong class feats, and Precise Hands lets it pick locks or treat allies from afar. The price is that while you look through the stand, your own body is helpless. <strong>Pick this if</strong> you want to scout, strike from safety and win with information and your Stand Ability.</p><hr />\n<p><strong>Initial (1st)—Remote Eyes</strong> You can Seek and Point Out through the stand's senses anywhere in its range. While you do, you're @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{off-guard} in your own body until your next turn.</p>\n<p><strong>7th—Far Eyes</strong> Stand range doubles and you share its senses at any distance.</p>\n<p><strong>13th—Long Arm</strong> You can Manifest the stand anywhere in its range, and your Stand Ability's range doubles.</p>\n",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-stand-class-archetype.stand-features.Item.FAg5BBkexXV9qS48"
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-stand-class-archetype.stand-features.Item.Ais0FFKmBOgHMgDC",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              7
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "GrantItem",
+        "uuid": "Compendium.pf2e-stand-class-archetype.stand-features.Item.FRtv5fLWslcHNb1x",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              13
+            ]
+          }
+        ],
+        "reevaluateOnUpdate": true
+      },
+      {
+        "key": "RollOption",
+        "domain": "all",
+        "option": "stand-type:long-range"
+      }
+    ],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

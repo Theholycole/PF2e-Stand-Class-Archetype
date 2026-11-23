@@ -1,0 +1,41 @@
+{
+  "_id": "b43Sa3RWk6Rw0aCH",
+  "_key": "!items!b43Sa3RWk6Rw0aCH",
+  "name": "Mark",
+  "type": "action",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+  "system": {
+    "slug": "mark",
+    "category": "offensive",
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "concentrate",
+        "stand"
+      ],
+      "rarity": "common",
+      "otherTags": []
+    },
+    "description": {
+      "value": "<p><strong>Requirements</strong> Your automatic stand (or sub-stand) is manifested.</p>\n<p>Mark a creature you can see. If the stand's program is \"a marked creature\", it pursues that creature until it dies or you Mark another.</p>"
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "rules": []
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

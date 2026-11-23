@@ -1,0 +1,63 @@
+{
+  "_id": "3y7QGKFJMroWtzbF",
+  "_key": "!items!3y7QGKFJMroWtzbF",
+  "name": "Magnetism",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "magnetism",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-force-and-energy"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Bastet · <strong>Price:</strong> the target must touch your trap first.</em></p>\n<p><strong>Theme</strong> Force and Energy</p><hr />\n<ul><li><strong>1:</strong> 10 minutes: plant a magnet trap. A creature that touches it is magnetized: metal objects stick to it (@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{clumsy 1} if it wears metal armor).</li><li><strong>5:</strong> Magnetism grows each round: @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{clumsy 2} after 3 rounds.</li><li><strong>9:</strong> Surge: pull every unattended metal object within 30 ft onto the magnetized creature: @Damage[(2*ceil(@actor.level/2))d6[bludgeoning]] (@Check[reflex|against:stand|basic]{basic Reflex}).</li><li><strong>13:</strong> You can magnetize a creature your stand hits (@Check[fortitude|against:stand]{Fortitude} negates).</li><li><strong>17:</strong> A magnetized creature is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{immobilized} against metal surfaces.</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Force and Energy"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

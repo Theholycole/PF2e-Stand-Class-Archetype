@@ -1,0 +1,63 @@
+{
+  "_id": "z4akCZ8QJjgFYDo2",
+  "_key": "!items!z4akCZ8QJjgFYDo2",
+  "name": "Virus",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "virus",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-affliction"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Purple Haze · <strong>Price:</strong> the virus hits allies and you too.</em></p>\n<p><strong>Theme</strong> Affliction</p><hr />\n<ul><li><strong>1:</strong> 1 action: break a capsule in a @Template[burst|distance:10]{10-ft burst}: @Damage[1d6[persistent,poison]] (@Check[fortitude|against:stand]{Fortitude} negates), including allies and you.</li><li><strong>5:</strong> Persistent damage equals @Damage[(1+floor((@actor.level-1)/4))d6[persistent,poison]].</li><li><strong>9:</strong> Surge: three capsules at once, each in a different burst.</li><li><strong>13:</strong> 1 action: kill your virus in one burst, ending its persistent damage on everyone there (the virus also dies in direct sunlight).</li><li><strong>17:</strong> A critical failure also makes the creature @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{drained 2}.</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Affliction"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

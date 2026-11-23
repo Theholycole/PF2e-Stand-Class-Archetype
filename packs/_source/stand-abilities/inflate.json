@@ -1,0 +1,63 @@
+{
+  "_id": "11aedo3lmEb86lKe",
+  "_key": "!items!11aedo3lmEb86lKe",
+  "name": "Inflate",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "inflate",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-matter-and-life"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From 200 Balloons · <strong>Price:</strong> touch only, and balloons are fragile.</em></p>\n<p><strong>Theme</strong> Matter and Life</p><hr />\n<ul><li><strong>1:</strong> 1 action: inflate an object you touch into a floating balloon; a balloon of Bulk 1 can carry a Small creature up slowly.</li><li><strong>5:</strong> Reaction, surge: inflate an incoming projectile into a harmless balloon (ranged Strike against you or an adjacent ally misses).</li><li><strong>9:</strong> Inflate a creature's held weapon: it's harmless for 1 round (@Check[reflex|against:stand]{Reflex} negates).</li><li><strong>13:</strong> Inflate a willing ally to float (fly Speed 15 ft) for 1 minute.</li><li><strong>17:</strong> The reaction works against any physical projectile within 30 ft.</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Matter and Life"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

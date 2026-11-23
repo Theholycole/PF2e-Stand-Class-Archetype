@@ -1,0 +1,66 @@
+{
+  "_id": "55okWERKRNa9PAzI",
+  "_key": "!items!55okWERKRNa9PAzI",
+  "name": "Bullet Catch",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "bullet-catch",
+    "category": "class",
+    "level": {
+      "value": 4
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "summoner",
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": []
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Stand User Dedication"
+        },
+        {
+          "value": "close-range stand"
+        }
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> A ranged attack would hit you or an ally adjacent to your stand.</p>\n<p>Your stand grabs the shot. Attempt a check with the stand's attack modifier against the attacker's attack roll result; on a success, the hit becomes a miss.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

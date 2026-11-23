@@ -1,0 +1,63 @@
+{
+  "_id": "7g16fDg8MKNL5HI0",
+  "_key": "!items!7g16fDg8MKNL5HI0",
+  "name": "Duplicate",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "duplicate",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-matter-and-life"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Kiss · <strong>Price:</strong> a sticker your stand must place by touch; the damage only comes when it's removed.</em></p>\n<p><strong>Theme</strong> Matter and Life</p><hr />\n<ul><li><strong>1:</strong> 1 action: stick on an object to split it into two; removing the sticker slams them back together.</li><li><strong>5:</strong> Surge: stick on a creature that your stand hits; it gains a @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{clumsy 1} duplicate body. Removing it (1 action, or at your next turn) deals @Damage[(2*ceil(@actor.level/2))d6[force]] damage, no save.</li><li><strong>9:</strong> Two stickers.</li><li><strong>13:</strong> Split a creature's weapon.</li><li><strong>17:</strong> Duplicate yourself: a copy gives you one extra Stride per round.</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Matter and Life"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

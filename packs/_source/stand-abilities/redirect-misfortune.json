@@ -1,0 +1,63 @@
+{
+  "_id": "g4P8gEcUduPulDuV",
+  "_key": "!items!g4P8gEcUduPulDuV",
+  "name": "Redirect Misfortune",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "redirect-misfortune",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-fate"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From D4C Love Train · <strong>Price:</strong> you must stand in a shaft of light and it only redirects, never prevents.</em></p>\n<p><strong>Theme</strong> Fate</p><hr />\n<ul><li><strong>1:</strong> Reaction, surge: when you take damage, half goes to a creature within 30 ft instead (@Check[will|against:stand]{Will} negates); once per round.</li><li><strong>5:</strong> On a failure you redirect all of it.</li><li><strong>9:</strong> You can also redirect one condition you would gain from the same effect.</li><li><strong>13:</strong> Range 60 ft.</li><li><strong>17:</strong> Redirect to two creatures.</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Fate"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

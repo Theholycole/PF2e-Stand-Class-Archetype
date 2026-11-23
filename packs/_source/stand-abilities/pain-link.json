@@ -1,0 +1,63 @@
+{
+  "_id": "HZMOSTBc6bevKqBf",
+  "_key": "!items!HZMOSTBc6bevKqBf",
+  "name": "Pain Link",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "pain-link",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-affliction"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Lovers · <strong>Price:</strong> damage to you is also shared with the host.</em></p>\n<p><strong>Theme</strong> Affliction</p><hr />\n<ul><li><strong>1:</strong> 2 actions: link with a creature by touch for 1 minute (@Check[will|against:stand]{Will} negates). When you take damage, it takes half that much, up to @Damage[(1+floor((@actor.level-1)/4))d6[force]] (no save).</li><li><strong>5:</strong> When you heal, it doesn't heal.</li><li><strong>9:</strong> Surge: you transfer one condition from you to the host (@Check[will|against:stand]{Will} negates).</li><li><strong>13:</strong> Link two creatures.</li><li><strong>17:</strong> The cap rises to @Damage[(2*ceil(@actor.level/2))d6[force]].</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Affliction"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

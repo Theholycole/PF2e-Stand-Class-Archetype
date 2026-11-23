@@ -1,0 +1,63 @@
+{
+  "_id": "L6y6jRcFeT2jQaAn",
+  "_key": "!items!L6y6jRcFeT2jQaAn",
+  "name": "Bomb Touch",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "bomb-touch",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-force-and-energy"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Killer Queen · Turn what your stand touches into a bomb.</em></p>\n<p><strong>Theme</strong> Force and Energy</p><hr />\n<ul><li><strong>1:</strong> Stand Interacts with an unattended object to arm it (one bomb at a time). 1 action: detonate it for @Damage[(2+floor((@actor.level-1)/2))d6[force]] in a @Template[burst|distance:5]{5-ft burst}, @Check[reflex|against:stand|basic]{basic Reflex}. (The damage grows by 1d6 at every odd level.)</li><li><strong>5:</strong> Surge: arm a creature your stand hits (@Check[fortitude|against:stand]{Fortitude} negates). Detonating it deals the damage to that creature with no save.</li><li><strong>9:</strong> Keep two bombs armed; the burst grows to 10 ft.</li><li><strong>13:</strong> Surge: release a seeking bomb (a minion with 20 ft Speed) that moves to the hottest creature within 60 ft and explodes.</li><li><strong>17:</strong> Detonating one bomb detonates all of them, and a creature caught in several bursts takes the damage once plus 1d6 per extra burst.</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Force and Energy"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

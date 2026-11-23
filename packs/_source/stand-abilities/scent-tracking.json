@@ -1,0 +1,74 @@
+{
+  "_id": "yuFrAHG6wko9mKCB",
+  "_key": "!items!yuFrAHG6wko9mKCB",
+  "name": "Scent Tracking",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "scent-tracking",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-mind-and-sense"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From King Nothing · <strong>Price:</strong> you need an item the target touched.</em></p>\n<p><strong>Theme</strong> Mind and Sense</p><hr />\n<ul><li><strong>1:</strong> You can track a creature by scent; +2 Survival to Track.</li><li><strong>5:</strong> You know its location within 1 mile.</li><li><strong>9:</strong> Surge: follow a scent back to learn where the target was 1 hour ago.</li><li><strong>13:</strong> You can track through teleportation.</li><li><strong>17:</strong> You know its location within 10 miles.</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [
+      {
+        "key": "FlatModifier",
+        "selector": "survival",
+        "type": "circumstance",
+        "value": 2,
+        "predicate": [
+          "action:track"
+        ],
+        "label": "Scent Tracking"
+      }
+    ],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Mind and Sense"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

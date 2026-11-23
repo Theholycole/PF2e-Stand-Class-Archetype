@@ -1,0 +1,66 @@
+{
+  "_id": "y1ivEQgk41uKewzY",
+  "_key": "!items!y1ivEQgk41uKewzY",
+  "name": "Set Program",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "set-program",
+    "category": "class",
+    "level": {
+      "value": 6
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "summoner",
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": []
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Stand User Dedication"
+        },
+        {
+          "value": "automatic stand"
+        }
+      ]
+    },
+    "description": {
+      "value": "<p>Give the stand one simple trigger (heat, movement or sound). It acts alone beyond range and stops sharing damage, but attacks anything that matches, allies included, and can't be recalled until no target remains, except by spending 3 actions (concentrate) to force it to stop.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

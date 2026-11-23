@@ -1,0 +1,63 @@
+{
+  "_id": "Q4JJHeKzZ2VfOOu5",
+  "_key": "!items!Q4JJHeKzZ2VfOOu5",
+  "name": "Memory Discs",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "memory-discs",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-mind-and-sense"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Whitesnake · Pull a disc of memory, skill or will out of a creature.</em></p>\n<p><strong>Theme</strong> Mind and Sense</p><hr />\n<ul><li><strong>1:</strong> 2 actions: stand touches a creature (@Check[will|against:stand]{Will}). Failure: it forgets one action of your choice it has used this fight and can't use it for 1 round; critical failure, 1 minute. You can also insert a skill disc into an ally, making them trained in one skill you know for 10 minutes.</li><li><strong>5:</strong> Reading a disc you pulled gives you one Recall Knowledge result about that creature, with no roll.</li><li><strong>9:</strong> Surge: insert a command disc into a creature (@Check[will|against:stand]{Will}), which obeys one short command as the command spell.</li><li><strong>13:</strong> Surge: pull a spell disc and cast one spell the target knows of rank 4 or lower, once, before your next daily preparations.</li><li><strong>17:</strong> Surge, soul disc (@Check[will|against:stand|traits:incapacitation]{Will}, incapacitation): critical failure leaves the target @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{unconscious} until the disc is put back.</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Mind and Sense"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

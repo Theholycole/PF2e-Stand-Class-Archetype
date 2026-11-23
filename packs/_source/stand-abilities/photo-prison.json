@@ -1,0 +1,63 @@
+{
+  "_id": "2YxKVbT5GdvdXRsJ",
+  "_key": "!items!2YxKVbT5GdvdXRsJ",
+  "name": "Photo Prison",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "photo-prison",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-space"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Atom Heart Father · <strong>Price:</strong> you need a photo or drawing of the target.</em></p>\n<p><strong>Theme</strong> Space</p><hr />\n<ul><li><strong>1:</strong> 10 minutes: make a picture of a creature. While you hold it, you know the direction to that creature within 1 mile.</li><li><strong>5:</strong> Surge, 2 actions: tear part of the picture; the creature takes @Damage[(2*ceil(@actor.level/2))d6[force]] damage (@Check[will|against:stand|basic]{basic Will}), once per day per picture.</li><li><strong>9:</strong> Surge: trap a creature in its picture (@Check[will|against:stand|traits:incapacitation]{Will}, incapacitation): on a failure it is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{immobilized} for 1 round, on a critical failure for 1 minute.</li><li><strong>13:</strong> Picture range 5 miles.</li><li><strong>17:</strong> You can trap a whole picture of up to four creatures at once.</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Space"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

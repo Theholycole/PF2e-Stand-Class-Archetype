@@ -1,0 +1,63 @@
+{
+  "_id": "UGU2evrNMJ5qlCFE",
+  "_key": "!items!UGU2evrNMJ5qlCFE",
+  "name": "Book Pages",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "book-pages",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-mind-and-sense"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Heaven's Door · <strong>Price:</strong> the target must see your drawing or your stand's face.</em></p>\n<p><strong>Theme</strong> Mind and Sense</p><hr />\n<ul><li><strong>1:</strong> 2 actions: a creature that can see your stand (@Check[will|against:stand|traits:incapacitation]{Will}, incapacitation) turns into a book. Failure: you read one fact; critical failure: three facts and it's @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{stunned 1}.</li><li><strong>5:</strong> You can write a minor command in the book (\"can't Strike you\", \"can't speak\") for 1 round.</li><li><strong>9:</strong> Surge: the command lasts 1 minute.</li><li><strong>13:</strong> Tear a page: the creature forgets the last 10 minutes.</li><li><strong>17:</strong> Command can be anything the command spell can do, lasting 1 hour (incapacitation).</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Mind and Sense"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

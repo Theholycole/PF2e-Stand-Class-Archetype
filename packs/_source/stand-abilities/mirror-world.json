@@ -1,0 +1,63 @@
+{
+  "_id": "RWPsJvERW1170ftb",
+  "_key": "!items!RWPsJvERW1170ftb",
+  "name": "Mirror World",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "mirror-world",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-mind-and-sense"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Man in the Mirror · <strong>Price:</strong> you need a mirror or reflective surface.</em></p>\n<p><strong>Theme</strong> Mind and Sense</p><hr />\n<ul><li><strong>1:</strong> 1 action: send your stand into a mirror; it can see the mirror world and move through it.</li><li><strong>5:</strong> Surge: pull a creature within 30 ft of the mirror into the mirror world for 1 round (@Check[will|against:stand]{Will} negates; 1 minute on a critical failure): it can't affect anyone outside, but your stand can attack it.</li><li><strong>9:</strong> You can choose what comes with the creature into the mirror (its weapons stay outside).</li><li><strong>13:</strong> You can bring allies in.</li><li><strong>17:</strong> A creature in the mirror world takes –2 to all checks against your stand.</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Mind and Sense"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

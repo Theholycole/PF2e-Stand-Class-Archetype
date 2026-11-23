@@ -1,0 +1,63 @@
+{
+  "_id": "lRT5L8fT8KMUOjhY",
+  "_key": "!items!lRT5L8fT8KMUOjhY",
+  "name": "Parasite",
+  "type": "feat",
+  "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+  "system": {
+    "slug": "parasite",
+    "category": "classfeature",
+    "level": {
+      "value": 1
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": [
+        "stand-ability",
+        "stand-theme-affliction"
+      ]
+    },
+    "prerequisites": {
+      "value": []
+    },
+    "description": {
+      "value": "<p><em>From Empress · <strong>Price:</strong> it needs a touch to the target's blood (an open wound).</em></p>\n<p><strong>Theme</strong> Affliction</p><hr />\n<ul><li><strong>1:</strong> 2 actions: plant a parasite in a wounded creature. It's @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{sickened 1} for 1 minute and can't reduce it below 1 while the parasite lives; a @Check[medicine|against:stand] check against your stand DC (2 actions) cuts it out.</li><li><strong>5:</strong> The parasite grows into a talking face: the target takes –2 to Deception and Stealth.</li><li><strong>9:</strong> Surge: the parasite attacks: @Damage[(2*ceil(@actor.level/2))d6[piercing]] (@Check[fortitude|against:stand|basic]{basic Fortitude}), and the target can't Recover from @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{sickened}.</li><li><strong>13:</strong> Two parasites at once.</li><li><strong>17:</strong> The parasite also makes the target @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{enfeebled 2}.</li></ul>\n<hr /><p><strong>Effects</strong> @UUID[Compendium.pf2e-stand-class-archetype.stand-effects.Item.ZqKwhHea4guWNVnD]{Effect: Talking Parasite}</p>\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "theme": "Affliction"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}
