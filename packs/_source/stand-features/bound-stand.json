@@ -39,6 +39,10 @@
       "license": "ORC",
       "remaster": true
     },
+    "_migration": {
+      "version": 0.961,
+      "previous": null
+    },
     "maxTakable": 1,
     "rules": [
       {

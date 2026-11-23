@@ -2,14 +2,11 @@
   "_id": "Rl2Bf8aO7cwcFZeU",
   "_key": "!items!Rl2Bf8aO7cwcFZeU",
   "name": "Ghostly Stand Body",
-  "type": "feat",
-  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "type": "action",
+  "img": "icons/magic/control/silhouette-hold-change-blue.webp",
   "system": {
     "slug": "ghostly-stand-body",
-    "category": "classfeature",
-    "level": {
-      "value": 1
-    },
+    "category": "defensive",
     "actionType": {
       "value": "passive"
     },
@@ -20,17 +17,13 @@
       "value": [
         "stand"
       ],
-      "rarity": "uncommon",
+      "rarity": "common",
       "otherTags": [
         "stand-body"
       ]
     },
-    "prerequisites": {
-      "value": []
-    },
     "description": {
-      "value": "<p><em>Put this on your stand's actor, not on the Stand User.</em></p>\n<p>A stand is ghostly. It has resistance to all damage equal to half its level (minimum 1), except force, spirit and ghost touch damage, and its unarmed Strikes have the ghost touch property, so stands hurt each other and ghosts at full strength.</p>",
-      "gm": ""
+      "value": "<p><em>Put this on your stand's actor, not on the Stand User.</em></p>\n<p>A stand is ghostly. It has resistance to all damage equal to half its level (minimum 1), except force, spirit and ghost touch damage, and its unarmed Strikes have the ghost touch property, so stands hurt each other and ghosts at full strength.</p>"
     },
     "publication": {
       "title": "PF2e Stand Class Archetype (homebrew)",
@@ -38,7 +31,10 @@
       "license": "ORC",
       "remaster": true
     },
-    "maxTakable": 1,
+    "_migration": {
+      "version": 0.961,
+      "previous": null
+    },
     "rules": [
       {
         "key": "Resistance",
@@ -59,17 +55,7 @@
           "item:category:unarmed"
         ]
       }
-    ],
-    "subfeatures": {
-      "keyOptions": [],
-      "languages": {
-        "granted": [],
-        "slots": 0
-      },
-      "proficiencies": {},
-      "senses": {},
-      "suppressedFeatures": []
-    }
+    ]
   },
   "flags": {
     "pf2e-stand-class-archetype": {}

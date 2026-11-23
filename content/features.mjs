@@ -242,8 +242,11 @@ export function standFeatures() {
     });
     items.push(manifest);
 
-    const body = feat(P, {
+    const body = action(P, {
         name: "Ghostly Stand Body",
+        actionType: "passive",
+        actions: null,
+        category: "defensive",
         traits: ["stand"],
         tags: ["stand-body"],
         description: enrichBlockNoDice(
@@ -289,7 +292,7 @@ export function standFeatures() {
                     "**You keep** everything else in the summoner: shared Hit Points, Act Together, the tether rule (now set by your stand's Range grade), link spells, evolution feats, and every proficiency increase for you and your companion.",
                     "**Stand.** Choose a stand type below. Your stand keeps the eidolon's rules: shared HP, eidolon proficiencies, Str or Dex key attribute, two unarmed attacks (the Power grade shifts the primary attack's die one size up at A, one size down at D and E). Grade its six stats at creation (one A, one B, two C, one D, one E). Give the stand's actor the Ghostly Stand Body feature.",
                     "**Stand Ability.** Pick one Stand Ability; its theme becomes your stand's theme. Its always-on part is at will, like a cantrip. Surges cost Stand Points. Saves use your **stand DC** (10 + your level + your spellcasting proficiency + Charisma; expert at 9th level, master at 17th).",
-                    "**Stand Points.** Your focus pool is called Stand Points. It starts at 2 (1 for link spells, 1 more replacing your spell slots), maximum 3. Refocus regains 1. Link spells and Stand Ability surges share it.",
+                    "**Stand Points.** Your focus pool is called Stand Points. It starts at 2 (1 for link spells, 1 more replacing your spell slots), maximum 3. Stand User gives you both points, since the suppressed eidolon no longer hands out the link spell; a link spell or focus spell you add by hand still counts, up to the maximum of 3. Refocus regains 1. Link spells and Stand Ability surges share it.",
                     "**2nd level:** you must take Stand User Dedication as your 2nd-level class feat.",
                 ].join("\n\n"),
             ),
@@ -299,7 +302,8 @@ export function standFeatures() {
             { key: "SpecialStatistic", slug: "stand", label: "Stand DC", type: "check", extends: "base-spellcasting", attribute: "cha" },
             { key: "ActiveEffectLike", mode: "upgrade", path: "system.proficiencies.spellcasting.rank", value: 2, predicate: [{ gte: ["self:level", 9] }] },
             { key: "ActiveEffectLike", mode: "upgrade", path: "system.proficiencies.spellcasting.rank", value: 3, predicate: [{ gte: ["self:level", 17] }] },
-            { key: "ActiveEffectLike", mode: "add", path: "system.resources.focus.max", value: 1, priority: 10 },
+            { key: "ActiveEffectLike", mode: "add", path: "system.resources.focus.max", value: 2, priority: 10 },
+            { key: "ActiveEffectLike", mode: "override", path: "flags.system.eidolon.tradition", value: "occult" },
             { key: "ChoiceSet", flag: "standType", prompt: "Choose your stand type", choices: { itemType: "feat", filter: ["item:tag:stand-type"] }, adjustName: false },
             { key: "GrantItem", uuid: "{item|flags.system.rulesSelections.standType}" },
             { key: "ChoiceSet", flag: "standAbility", prompt: "Choose your Stand Ability", choices: { itemType: "feat", filter: ["item:tag:stand-ability"] }, adjustName: false },

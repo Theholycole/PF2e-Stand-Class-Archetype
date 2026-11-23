@@ -3,6 +3,9 @@ import crypto from "node:crypto";
 
 export const MODULE_ID = "pf2e-stand-class-archetype";
 const PUBLICATION = { title: "PF2e Stand Class Archetype (homebrew)", authors: "TheHolyCole", license: "ORC", remaster: true };
+// PF2e's schema version these sources are written for. Without it, PF2e runs every migration on import, and
+// migration 889 strips rules that raise system.resources.focus.max (Stand User's Stand Points).
+const MIGRATION = { version: 0.961, previous: null };
 const B62 = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
 /** Stable 16-character Foundry id from a pack and slug, so links between items never change between builds. */
@@ -50,6 +53,7 @@ export function feat(pack, r) {
             prerequisites: { value: (r.prerequisites ?? []).map((value) => ({ value })) },
             description: { value: r.description, gm: "" },
             publication: PUBLICATION,
+            _migration: MIGRATION,
             maxTakable: r.maxTakable ?? 1,
             rules: r.rules ?? [],
             ...(r.frequency ? { frequency: r.frequency } : {}),
@@ -80,10 +84,11 @@ export function action(pack, r) {
             slug: b.slug,
             category: r.category ?? "offensive",
             actionType: { value: r.actionType ?? "action" },
-            actions: { value: r.actions ?? 1 },
+            actions: { value: "actions" in r ? r.actions : 1 },
             traits: { value: r.traits ?? ["concentrate", "stand"], rarity: "common", otherTags: r.tags ?? [] },
             description: { value: r.description },
             publication: PUBLICATION,
+            _migration: MIGRATION,
             rules: r.rules ?? [],
             ...(r.frequency ? { frequency: r.frequency } : {}),
             ...(r.selfEffect ? { selfEffect: r.selfEffect } : {}),
@@ -108,6 +113,7 @@ export function effect(pack, r) {
             traits: { value: r.traits ?? [], rarity: "common", otherTags: [] },
             description: { value: r.description },
             publication: PUBLICATION,
+            _migration: MIGRATION,
             duration: r.duration ?? { value: 1, unit: "rounds", expiry: "turn-end", sustained: false },
             start: { value: 0, initiative: null },
             tokenIcon: { show: true },

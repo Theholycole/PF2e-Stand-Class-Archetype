@@ -9,7 +9,7 @@ const COND_NAMES = Object.keys(CONDITIONS)
     .sort((a, b) => b.length - a.length);
 
 export const FORMULA = {
-    D: "(1+floor((@actor.level-1)/4))d6",
+    D: "(1+floor((@actor.level - 1)/4))d6",
     S: "(2*ceil(@actor.level/2))d6",
     halfS: "(ceil(@actor.level/2))d6",
 };
@@ -34,11 +34,11 @@ export function enrichLine(raw, opts = {}) {
     if (opts.damage === false) t = t.replace(/\b[DS]\b(?![-\w])/g, (m) => hold(m));
     // "2d6 force ... +1d6 per 2 levels" (the drafted Bomb Touch wording)
     t = t.replace(/(\d)d6 (force)([^.]*?)\. \+1d6 per 2 levels\./, (_m, n, type, rest) =>
-        `${hold(`@Damage[(${n}+floor((@actor.level-1)/2))d6[${type}]]`)}${rest}. (The damage grows by 1d6 at every odd level.)`,
+        `${hold(`@Damage[(${n}+floor((@actor.level - 1)/2))d6[${type}]]`)}${rest}. (The damage grows by 1d6 at every odd level.)`,
     );
     // healing "2d8 + your key attribute, +1d8 per 2 levels"
     t = t.replace(/2d8 \+ your key attribute, \+1d8 per 2 levels/g, () =>
-        hold("@Damage[(2+floor((@actor.level-1)/2))d8+@actor.system.abilities.cha.mod[healing]]{2d8 + your Charisma modifier, +1d8 at every odd level}"),
+        hold("@Damage[(2+floor((@actor.level - 1)/2))d8+@actor.system.abilities.cha.mod[healing]]{2d8 + your Charisma modifier, +1d8 at every odd level}"),
     );
     // persistent damage written out: "persistent 1d6 poison", "persistent 2d6 fire", "persistent 1d6 acid"
     t = t.replace(new RegExp(`[Pp]ersistent (\\d+d\\d+) (${DAMAGE_TYPES})`, "g"), (_m, f, type) =>

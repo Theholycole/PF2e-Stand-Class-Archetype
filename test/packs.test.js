@@ -64,3 +64,17 @@ test("D and S follow the shared numbers", () => {
     assert.deepEqual([1, 5, 9, 13, 17].map(D), [1, 2, 3, 4, 5]);
     assert.deepEqual([1, 3, 5, 9, 17].map(S), [2, 4, 6, 10, 18]);
 });
+
+test("level math in inline rolls never uses a hyphen Foundry reads as part of the path", () => {
+    for (const i of items) assert.doesNotMatch(i.system.description.value, /@actor\.level-/, i.name);
+});
+
+test("every item carries PF2e's schema version so migrations don't strip its rules", () => {
+    for (const i of items) assert.equal(i.system._migration?.version, 0.961, i.name);
+});
+
+test("the stand body is an ability an NPC stand can hold", () => {
+    const body = items.find((i) => i.system.slug === "ghostly-stand-body");
+    assert.equal(body.type, "action");
+    assert.equal(body.system.actionType.value, "passive");
+});

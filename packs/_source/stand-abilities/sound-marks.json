@@ -30,7 +30,7 @@
       "value": []
     },
     "description": {
-      "value": "<p><em>From Echoes · Stick written sounds onto things, and they become real.</em></p>\n<p><strong>Theme</strong> Mind and Sense</p><hr />\n<ul><li><strong>1:</strong> 1 action: place a mark on a surface or creature within 30 ft (@Check[reflex|against:stand]{Reflex} negates on a creature). Pick one: BOOM (@Damage[(1+floor((@actor.level-1)/4))d6[sonic]] when touched or at your next turn), SLIP (difficult terrain, Acrobatics DC or fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{prone}), BOING (creature entering is pushed 10 ft).</li><li><strong>5:</strong> Keep two marks; add SIZZLE (fire instead of sonic, @Damage[1d6[persistent,fire]]).</li><li><strong>9:</strong> A creature with a mark is @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{deafened} while it lasts.</li><li><strong>13:</strong> Surge, HEAVY: target with a mark (@Check[fortitude|against:stand]{Fortitude}) is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{slowed 1} and can't fly; critical failure also @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{immobilized} for 1 round.</li><li><strong>17:</strong> Surge, FREEZE: one creature or moving object within 30 ft stops dead; @Check[fortitude|against:stand]{Fortitude}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{paralyzed} for 1 round on a failure (incapacitation).</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
+      "value": "<p><em>From Echoes · Stick written sounds onto things, and they become real.</em></p>\n<p><strong>Theme</strong> Mind and Sense</p><hr />\n<ul><li><strong>1:</strong> 1 action: place a mark on a surface or creature within 30 ft (@Check[reflex|against:stand]{Reflex} negates on a creature). Pick one: BOOM (@Damage[(1+floor((@actor.level - 1)/4))d6[sonic]] when touched or at your next turn), SLIP (difficult terrain, Acrobatics DC or fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{prone}), BOING (creature entering is pushed 10 ft).</li><li><strong>5:</strong> Keep two marks; add SIZZLE (fire instead of sonic, @Damage[1d6[persistent,fire]]).</li><li><strong>9:</strong> A creature with a mark is @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{deafened} while it lasts.</li><li><strong>13:</strong> Surge, HEAVY: target with a mark (@Check[fortitude|against:stand]{Fortitude}) is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{slowed 1} and can't fly; critical failure also @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{immobilized} for 1 round.</li><li><strong>17:</strong> Surge, FREEZE: one creature or moving object within 30 ft stops dead; @Check[fortitude|against:stand]{Fortitude}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{paralyzed} for 1 round on a failure (incapacitation).</li></ul>\n\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>",
       "gm": ""
     },
     "publication": {
@@ -38,6 +38,10 @@
       "authors": "TheHolyCole",
       "license": "ORC",
       "remaster": true
+    },
+    "_migration": {
+      "version": 0.961,
+      "previous": null
     },
     "maxTakable": 1,
     "rules": [],
