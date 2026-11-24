@@ -30,7 +30,7 @@
       "value": []
     },
     "description": {
-      "value": "<p><em>Automatic Stand feature, 13th level.</em></p><p>When destroyed, it reforms at the start of your next turn, even if you are out of its range, with its full Hit Points (its own 5 × your level while it isn't sharing damage with you).</p>",
+      "value": "<p><em>Automatic Stand feature, 13th level.</em></p><p>When the Autonomous stand is destroyed, it reforms at the start of its own next turn with full Hit Points, every time, even if you are out of its range. Only starving the program or dealing with you ends it.</p>",
       "gm": ""
     },
     "publication": {
