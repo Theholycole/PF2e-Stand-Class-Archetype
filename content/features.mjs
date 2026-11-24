@@ -43,9 +43,9 @@ const TYPES = [
         grades: "Range takes the A (1 mile tether). Power can't be above C.",
         examples: "Hierophant Green, Hermit Purple",
         gameplay:
-            "You stay back while your stand scouts and fights far away. Stand Senses (1) and Far Eyes let you see through it at any distance, and Remote Strike (8) lets it attack at full range, but its damage drops beyond 60 feet and Power is capped at C, so it harasses rather than bursts. Your Stand Ability carries more of the load, so Second Wind of Will and Ability Mastery are strong class feats, and Precise Hands lets it pick locks or treat allies from afar. The price is that while you look through the stand, your own body is helpless. **Pick this if** you want to scout, strike from safety and win with information and your Stand Ability.",
+            "You stay back while your stand scouts and fights far away. Stand Senses (1) and Far Eyes let you see through it at any distance, and Remote Strike (8) lets it attack at full range, but its damage drops beyond 60 feet and Power is capped at C. Distant Precision (7) adds a damage die against foes that aren't next to you, rewarding you for staying back. Your Stand Ability carries more of the load, so Second Wind of Will and Ability Mastery are strong class feats, and Precise Hands lets it pick locks or treat allies from afar. The price is that while you look through the stand, your own body is helpless. **Pick this if** you want to scout, strike from safety and win with information and your Stand Ability.",
         initial: ["Remote Eyes", "You can Seek and Point Out through the stand's senses anywhere in its range. While you do, you're off-guard in your own body until your next turn."],
-        seventh: ["Far Eyes", "Stand range doubles and you share its senses at any distance."],
+        seventh: ["Far Eyes", "Stand range doubles and you share its senses at any distance. Distant Precision: the stand's Strikes deal 1 extra damage die against creatures that aren't adjacent to you."],
         thirteenth: ["Long Arm", "You can Manifest the stand anywhere in its range, and your Stand Ability's range doubles."],
     },
     {
@@ -77,10 +77,10 @@ const TYPES = [
         grades: "Precision or Speed must take the A. Power can't be A.",
         examples: "Harvest, Bad Company, Sex Pistols",
         gameplay:
-            "Your stand is a swarm of tiny units that gets everywhere. It shares spaces with enemies, flanks from inside them and does two small jobs with one action. Swarm Split (2) puts it in two places, Spread Thin shrugs off single Strikes, Overwhelm (13) hits everyone in a 15-foot area, allies included, and Endless Colony (16) brings lost units back. Area damage is its weakness. Precise Hands and Barrage Rush are good class feats for it. **Pick this if** you want to control space, set up flanks and handle many small tasks at once, and can keep the swarm out of area attacks.",
-        initial: ["Many Hands", "The stand can share spaces with other creatures, flank from inside an enemy's space, and Interact twice with a single action as long as both are within its reach. It has weakness to area damage equal to half your level (minimum 1)."],
-        seventh: ["Spread Thin", "Against single-target Strikes, the stand's ghostly resistance increases by half your level."],
-        thirteenth: ["Overwhelm", "The stand fills a 15-foot area and its Strike hits everyone there, allies included (basic Reflex instead of an attack roll)."],
+            "Your stand is a swarm of tiny units that gets everywhere. It shares spaces with enemies, flanks from inside them and does two small jobs with one action. Swarm Split (2) puts it in two places, Spread Thin shrugs off single Strikes from 1st level, Overwhelm (7) hits everyone in a 15-foot area (20 feet at 13), allies included, and Endless Colony (16) brings lost units back. Area damage is its weakness. Precise Hands and Barrage Rush are good class feats for it. **Pick this if** you want to control space, set up flanks and handle many small tasks at once, and can keep the swarm out of area attacks.",
+        initial: ["Many Hands", "The stand can share spaces with other creatures, flank from inside an enemy's space, and Interact twice with a single action as long as both are within its reach. It has weakness to area damage equal to half your level (minimum 1). Spread Thin: against single-target Strikes, the stand's ghostly resistance increases by half your level."],
+        seventh: ["Overwhelm", "The stand fills a 15-foot area and its Strike hits everyone there, allies included (basic Reflex instead of an attack roll)."],
+        thirteenth: ["Swarm Tide", "Overwhelm's area grows to 20 feet."],
     },
     {
         name: "Bound Stand",

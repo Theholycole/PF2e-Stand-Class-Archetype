@@ -1,14 +1,14 @@
 {
-  "_id": "RhvPHRDGz2yuIeGr",
-  "_key": "!items!RhvPHRDGz2yuIeGr",
-  "name": "Spread Thin",
+  "_id": "H11pYycRBNMxzZzm",
+  "_key": "!items!H11pYycRBNMxzZzm",
+  "name": "Swarm Tide",
   "type": "feat",
   "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
   "system": {
-    "slug": "spread-thin",
+    "slug": "swarm-tide",
     "category": "classfeature",
     "level": {
-      "value": 7
+      "value": 13
     },
     "actionType": {
       "value": "passive"
@@ -30,7 +30,7 @@
       "value": []
     },
     "description": {
-      "value": "<p><em>Colony Stand feature, 7th level.</em></p><p>Against single-target Strikes, the stand's ghostly resistance increases by half your level.</p>",
+      "value": "<p><em>Colony Stand feature, 13th level.</em></p><p>Overwhelm's area grows to 20 feet.</p>",
       "gm": ""
     },
     "publication": {
