@@ -33,8 +33,8 @@ const CLASS_FEATS = [
 ];
 
 const HEAVEN = [
-    [14, "Mythic Stand", "free", "**Cost** 1 Mythic Point\n\nUntil your next turn, stand Strikes use mythic proficiency and ignore resistance from non-mythic sources."],
-    [14, "Eternal Will", "reaction", "**Cost** 1 Mythic Point\n\n**Trigger** You would drop to 0 HP.\n\nStay at 1 HP, and your stand gets 2 actions right now."],
+    [12, "Eternal Will", "free", "**Frequency** once per encounter\n\n**Cost** all your remaining Mythic Points (none needed if you have none)\n\n**Trigger** You would drop to 0 HP.\n\nYou stay up with Hit Points equal to half your maximum, and your stand gets 2 actions right now. (Modeled on a mythic creature's Undying Myth. Heaven Ascension Dedication grants this feat.)"],
+    [14, "Mythic Stand", null, "Your stand's Strikes deal weapon specialization damage of 12 instead of their normal specialization damage, as Mythic Weapon Specialization does for a mythic-proficiency Strike."],
     [14, "Return to Zero", "reaction", "**Cost** 1 Mythic Point\n\n**Frequency** once per round\n\n**Trigger** An attack, spell or effect you can see coming targets you or your stand.\n\nIt never happens; its user still spends the actions."],
     [14, "Soul Shuffle", "2", "**Cost** 1 Mythic Point\n\n30-foot emanation, Will save: on a failure a creature swaps minds with a random creature in the area for 1 round, 1 minute on a critical failure (incapacitation)."],
     [16, "Universal Acceleration", "1", "**Cost** 1 Mythic Point\n\nFor 1 minute you're quickened (Stride, Strike or a stand action), and foes within 60 feet can't take reactions against you."],
@@ -113,7 +113,7 @@ export function standFeats() {
             prerequisites: ["Stand User summoner", "mythic", "a Heaven catalyst gained in play"],
             description: enrichBlock(
                 [
-                    "Your stand ascends. Its ghostly resistance doubles, and it can see invisible and incorporeal creatures. Spend 1 Mythic Point: your stand's next Strike or Stand Ability DC uses mythic proficiency. You also gain your catalyst's free feat: Stand Arrow (Requiem) grants Return to Zero or Soul Shuffle, DIO's Bone (Heaven) grants Universal Acceleration, the Saint's Corpse grants Infinite Rotation or Love Train.",
+                    "Your stand ascends. Its ghostly resistance doubles, and it can see invisible and incorporeal creatures. Your stand's Strikes and your stand DC always use mythic proficiency (10 + your level), with no Mythic Point needed. **Heaven's Grace:** you and your stand gain resistance equal to half your level to Strikes and spells from non-mythic creatures. When your stand reduces a creature to 0 Hit Points, you regain 1 Mythic Point (to your maximum of 3). You gain the Eternal Will feat, and your catalyst's free feat: Stand Arrow (Requiem) grants Return to Zero or Soul Shuffle, DIO's Bone (Heaven) grants Universal Acceleration, the Saint's Corpse grants Infinite Rotation or Love Train.",
                     "Against a non-mythic foe, a destiny effect just works; against a mythic foe, you roll a counteract check with mythic proficiency.",
                 ].join("\n\n"),
             ),

@@ -38,7 +38,7 @@
       ]
     },
     "description": {
-      "value": "<p>Your stand ascends. Its ghostly resistance doubles, and it can see @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{invisible} and incorporeal creatures. Spend 1 Mythic Point: your stand's next Strike or Stand Ability DC uses mythic proficiency. You also gain your catalyst's free feat: Stand Arrow (Requiem) grants Return to Zero or Soul Shuffle, DIO's Bone (Heaven) grants Universal Acceleration, the Saint's Corpse grants Infinite Rotation or Love Train.</p>\n<p>Against a non-mythic foe, a destiny effect just works; against a mythic foe, you roll a counteract check with mythic proficiency.</p>",
+      "value": "<p>Your stand ascends. Its ghostly resistance doubles, and it can see @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{invisible} and incorporeal creatures. Your stand's Strikes and your stand DC always use mythic proficiency (10 + your level), with no Mythic Point needed. <strong>Heaven's Grace:</strong> you and your stand gain resistance equal to half your level to Strikes and spells from non-mythic creatures. When your stand reduces a creature to 0 Hit Points, you regain 1 Mythic Point (to your maximum of 3). You gain the Eternal @Check[will|against:stand]{Will} feat, and your catalyst's free feat: Stand Arrow (Requiem) grants Return to Zero or Soul Shuffle, DIO's Bone (Heaven) grants Universal Acceleration, the Saint's Corpse grants Infinite Rotation or Love Train.</p>\n<p>Against a non-mythic foe, a destiny effect just works; against a mythic foe, you roll a counteract check with mythic proficiency.</p>",
       "gm": ""
     },
     "publication": {

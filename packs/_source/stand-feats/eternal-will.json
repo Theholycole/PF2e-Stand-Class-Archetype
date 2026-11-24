@@ -8,10 +8,10 @@
     "slug": "eternal-will",
     "category": "class",
     "level": {
-      "value": 14
+      "value": 12
     },
     "actionType": {
-      "value": "reaction"
+      "value": "free"
     },
     "actions": {
       "value": null
@@ -32,7 +32,7 @@
       ]
     },
     "description": {
-      "value": "<p><strong>Cost</strong> 1 Mythic Point</p>\n<p><strong>Trigger</strong> You would drop to 0 HP.</p>\n<p>Stay at 1 HP, and your stand gets 2 actions right now.</p>",
+      "value": "<p><strong>Frequency</strong> once per encounter</p>\n<p><strong>Cost</strong> all your remaining Mythic Points (none needed if you have none)</p>\n<p><strong>Trigger</strong> You would drop to 0 HP.</p>\n<p>You stay up with Hit Points equal to half your maximum, and your stand gets 2 actions right now. (Modeled on a mythic creature's Undying Myth. Heaven Ascension Dedication grants this feat.)</p>",
       "gm": ""
     },
     "publication": {

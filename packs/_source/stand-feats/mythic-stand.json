@@ -11,7 +11,7 @@
       "value": 14
     },
     "actionType": {
-      "value": "free"
+      "value": "passive"
     },
     "actions": {
       "value": null
@@ -32,7 +32,7 @@
       ]
     },
     "description": {
-      "value": "<p><strong>Cost</strong> 1 Mythic Point</p>\n<p>Until your next turn, stand Strikes use mythic proficiency and ignore resistance from non-mythic sources.</p>",
+      "value": "<p>Your stand's Strikes deal weapon specialization damage of 12 instead of their normal specialization damage, as Mythic Weapon Specialization does for a mythic-proficiency Strike.</p>",
       "gm": ""
     },
     "publication": {
