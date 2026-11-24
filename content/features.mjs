@@ -55,7 +55,7 @@ const TYPES = [
         attributes: "Con +3, Int –2, Wis +1, Cha +1",
         skills: "Athletics, Stealth",
         senses: "program sense (imprecise, 60 feet, for the one stimulus its program tracks)",
-        grades: "Durability must be A or B. Precision must be D or E.",
+        grades: "Durability must be A or B. Precision must be D.",
         examples: "Sheer Heart Attack, Black Sabbath, Notorious B.I.G",
         gameplay:
             "You set the stand loose on a program and let it hunt while you do other things. It acts even on turns you don't Act Together, Mark points it at the enemy that matters, Feed the Program trades one of your actions for a second stand action, Set Program (6) sends it beyond your range without sharing damage, and Relentless Program and Undying Program make it very hard to stop. Its Precision is low and it attacks allies who match the program, so choosing the program and keeping allies clear is the skill. Class feats like Stand Cry and Stand Guard keep you useful while it works. **Pick this if** you want a relentless hunter that keeps up pressure without your attention, and you're happy to manage the risk to your allies.",
@@ -79,7 +79,7 @@ const TYPES = [
         gameplay:
             "Your stand is a swarm of tiny units that gets everywhere. It shares spaces with enemies, flanks from inside them and does two small jobs with one action. Swarm Split (2) puts it in two places, Spread Thin shrugs off single Strikes, Overwhelm (13) hits everyone in a 15-foot area, allies included, and Endless Colony (16) brings lost units back. Area damage is its weakness. Precise Hands and Barrage Rush are good class feats for it. **Pick this if** you want to control space, set up flanks and handle many small tasks at once, and can keep the swarm out of area attacks.",
         initial: ["Many Hands", "The stand can share spaces with other creatures, flank from inside an enemy's space, and Interact twice with a single action as long as both are within its reach. It has weakness to area damage equal to half your level (minimum 1)."],
-        seventh: ["Spread Thin", "The stand resists single-target Strikes by half your level."],
+        seventh: ["Spread Thin", "Against single-target Strikes, the stand's ghostly resistance increases by half your level."],
         thirteenth: ["Overwhelm", "The stand fills a 15-foot area and its Strike hits everyone there, allies included (basic Reflex instead of an attack roll)."],
     },
     {
@@ -290,7 +290,7 @@ export function standFeatures() {
                     "*Summoner class archetype.* Your eidolon is a Stand: a visible spirit of your own will with one unique power.",
                     "**You don't gain** an eidolon, the summoner's spellcasting (spell slots, spell repertoire and cantrips), Signature Spells, or Instant Manifestation at 19th level. This feature turns those off on your sheet. Add it **before** the Summoner class so the Eidolon choice never pops up, or pick any eidolon when asked and this feature hides it.",
                     "**You keep** everything else in the summoner: shared Hit Points, Act Together, the tether rule (now set by your stand's Range grade), link spells, evolution feats, and every proficiency increase for you and your companion.",
-                    "**Stand.** Choose a stand type below. Your stand keeps the eidolon's rules: shared HP, eidolon proficiencies, Str or Dex key attribute, two unarmed attacks (the Power grade shifts the primary attack's die one size up at A, one size down at D and E). Grade its six stats at creation (one A, one B, two C, one D, one E). Give the stand's actor the Ghostly Stand Body feature.",
+                    "**Stand.** Choose a stand type below. Your stand keeps the eidolon's rules: shared HP, eidolon proficiencies, Str or Dex key attribute, two unarmed attacks (the Power grade shifts the primary attack's die one size up at A, one size down at D and E). Grade its six stats at creation (one A, one B, two C, one D, one E). A stand with Durability A or B also guards you: while it's adjacent to you, you gain a +2 (A) or +1 (B) circumstance bonus to AC. Give the stand's actor the Ghostly Stand Body feature.",
                     "**Stand Ability.** Pick one Stand Ability; its theme becomes your stand's theme. Its always-on part is at will, like a cantrip. Surges cost Stand Points. Saves use your **stand DC** (10 + your level + your spellcasting proficiency + Charisma; expert at 9th level, master at 17th).",
                     "**Stand Points.** Your focus pool is called Stand Points. It starts at 2 (1 for link spells, 1 more replacing your spell slots), maximum 3. Stand User gives you both points, since the suppressed eidolon no longer hands out the link spell; a link spell or focus spell you add by hand still counts, up to the maximum of 3. Refocus regains 1. Link spells and Stand Ability surges share it.",
                     "**2nd level:** you must take Stand User Dedication as your 2nd-level class feat.",

@@ -30,7 +30,7 @@
       "value": []
     },
     "description": {
-      "value": "<p><em>Colony Stand feature, 7th level.</em></p><p>The stand resists single-target Strikes by half your level.</p>",
+      "value": "<p><em>Colony Stand feature, 7th level.</em></p><p>Against single-target Strikes, the stand's ghostly resistance increases by half your level.</p>",
       "gm": ""
     },
     "publication": {
