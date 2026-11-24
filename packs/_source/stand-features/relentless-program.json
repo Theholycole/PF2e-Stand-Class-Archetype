@@ -30,7 +30,7 @@
       "value": []
     },
     "description": {
-      "value": "<p><em>Automatic Stand feature, 7th level.</em></p><p>Out of your sight, the stand stops sharing damage with you and gains +2 to saves.</p>",
+      "value": "<p><em>Automatic Stand feature, 7th level.</em></p><p>Out of your sight, the stand stops sharing damage with you and gains +2 to saves. While it isn't sharing, it has its own Hit Points equal to 5 × your level; damage to it doesn't reach you.</p>",
       "gm": ""
     },
     "publication": {

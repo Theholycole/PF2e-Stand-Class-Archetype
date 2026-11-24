@@ -63,8 +63,8 @@ const TYPES = [
             "Program",
             "When you Manifest the stand, give it one program: heat, movement, the creature that last damaged you, or a marked creature. You gain the Mark and Feed the Program actions. On a turn you don't Act Together, the stand still spends 1 action at the end of your turn to Stride toward or Strike the nearest creature that matches, allies included. To call it off: if no creature matching the program is within the stand's senses, spend 1 action (concentrate) on your turn to end or swap the program. Otherwise it takes 2 actions (concentrate) to force it to stop. The stand stays manifested either way. Once the end-of-turn action starts it can't be stopped, so plan before you end your turn. The Set Program feat is stricter: that stand can't be recalled until no matching target remains, except by spending 3 actions to force it to stop.",
         ],
-        seventh: ["Relentless Program", "Out of your sight, the stand stops sharing damage with you and gains +2 to saves."],
-        thirteenth: ["Undying Program", "When destroyed, it reforms at the start of your next turn."],
+        seventh: ["Relentless Program", "Out of your sight, the stand stops sharing damage with you and gains +2 to saves. While it isn't sharing, it has its own Hit Points equal to 5 × your level; damage to it doesn't reach you."],
+        thirteenth: ["Undying Program", "When destroyed, it reforms at the start of your next turn, even if you are out of its range, with its full Hit Points (its own 5 × your level while it isn't sharing damage with you)."],
         actions: ["mark", "feed-the-program"],
     },
     {
