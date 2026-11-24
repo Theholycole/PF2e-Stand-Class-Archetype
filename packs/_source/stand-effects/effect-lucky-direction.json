@@ -17,7 +17,7 @@
       "otherTags": []
     },
     "description": {
-      "value": "<p>+1 status bonus to one check toward your lucky direction this turn (+2 from 17th level).</p><p><em>From Fortune Directions.</em></p>"
+      "value": "<p>+1 status bonus to attack rolls and saves until the start of your next turn (+2 from 17th level). Put it on you and your stand.</p><p><em>From Fortune Directions.</em></p>"
     },
     "publication": {
       "title": "PF2e Stand Class Archetype (homebrew)",
@@ -61,7 +61,13 @@
       },
       {
         "key": "FlatModifier",
-        "selector": "check",
+        "selector": "attack",
+        "type": "status",
+        "value": "@item.flags.system.rulesSelections.bonus"
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "saving-throw",
         "type": "status",
         "value": "@item.flags.system.rulesSelections.bonus"
       }

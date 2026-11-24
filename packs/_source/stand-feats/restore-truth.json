@@ -32,7 +32,7 @@
       ]
     },
     "description": {
-      "value": "<p><strong>Cost</strong> 1 Mythic Point</p>\n<p>Counteract every reality-altering effect you choose within 60 feet, using mythic proficiency.</p>",
+      "value": "<p><strong>Cost</strong> 1 Mythic Point</p>\n<p>Attempt to counteract every spell, magical effect and Stand Ability you choose within 60 feet, using mythic proficiency. Each enemy whose effect you end is also @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{stupefied 2} for 1 round.</p>",
       "gm": ""
     },
     "publication": {

@@ -17,7 +17,7 @@
       "otherTags": []
     },
     "description": {
-      "value": "<p>–1 status penalty to attack rolls. From 13th level, it also can't take reactions while locked. Helping the creature it hurt ends the lock.</p><p><em>From Guilt Lock.</em></p>"
+      "value": "<p>You're locked by guilt: apply the frightened value from the save. From the locker's 13th level, you can't take reactions while locked. Helping the creature you hurt ends the lock.</p><p><em>From Guilt Lock.</em></p>"
     },
     "publication": {
       "title": "PF2e Stand Class Archetype (homebrew)",
@@ -43,14 +43,7 @@
       "show": true
     },
     "badge": null,
-    "rules": [
-      {
-        "key": "FlatModifier",
-        "selector": "attack",
-        "type": "status",
-        "value": -1
-      }
-    ]
+    "rules": []
   },
   "flags": {
     "pf2e-stand-class-archetype": {}

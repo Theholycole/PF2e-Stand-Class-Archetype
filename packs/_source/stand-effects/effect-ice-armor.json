@@ -17,7 +17,7 @@
       "otherTags": []
     },
     "description": {
-      "value": "<p>+1 status bonus to AC. Creatures that hit you with a melee Strike take 1 cold damage per die of your stand's Strike. From 5th level you skate: +10-foot status bonus to Speed on flat ground. You can't swim while wearing it.</p><p><em>From Ice Armor.</em></p>"
+      "value": "<p>+1 circumstance bonus to AC (+2 from 9th level). Creatures that hit you with a melee Strike take cold damage equal to your level. From 5th level you skate: +10-foot status bonus to Speed on flat ground. You can't swim while wearing it.</p><p><em>From Ice Armor.</em></p>"
     },
     "publication": {
       "title": "PF2e Stand Class Archetype (homebrew)",
@@ -47,8 +47,8 @@
       {
         "key": "FlatModifier",
         "selector": "ac",
-        "type": "status",
-        "value": 1
+        "type": "circumstance",
+        "value": "ternary(gte(@actor.level,9),2,1)"
       },
       {
         "key": "FlatModifier",

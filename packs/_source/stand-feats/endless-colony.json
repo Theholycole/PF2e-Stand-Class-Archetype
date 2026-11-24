@@ -35,7 +35,7 @@
       ]
     },
     "description": {
-      "value": "<p>Destroyed units return at the start of your turn while at least one survives; area damage hits the stand for half.</p>",
+      "value": "<p>When the stand is destroyed, it re-forms from surviving units at the start of your next turn with half its Hit Points, once per 10 minutes. Its weakness to area damage is halved.</p>",
       "gm": ""
     },
     "publication": {

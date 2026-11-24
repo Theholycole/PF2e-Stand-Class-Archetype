@@ -35,7 +35,7 @@
       ]
     },
     "description": {
-      "value": "<p>Wear the stand: you gain its Durability as AC and resistance, but the stand can't move away or take its own actions while worn.</p>",
+      "value": "<p>While your stand is merged with you (Worn Stand), its Durability guards you: Durability A gives +2 circumstance bonus to AC and resistance to physical damage equal to your level, Durability B gives +1 and half your level (minimum 1). It still acts through Act Together.</p>",
       "gm": ""
     },
     "publication": {

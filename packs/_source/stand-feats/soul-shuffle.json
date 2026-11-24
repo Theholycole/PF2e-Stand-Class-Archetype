@@ -32,7 +32,7 @@
       ]
     },
     "description": {
-      "value": "<p><strong>Cost</strong> 1 Mythic Point</p>\n<p>@Template[emanation|distance:30]{30-ft emanation}, @Check[will|against:stand]{Will} save: on a failure a creature swaps minds with a random creature in the area for 1 round, 1 minute on a critical failure (incapacitation).</p>",
+      "value": "<p><strong>Cost</strong> 1 Mythic Point</p>\n<p>@Template[emanation|distance:30]{30-ft emanation}, @Check[will|against:stand]{Will} save (incapacitation): on a failure a creature's soul is shuffled with a random creature in the area for 1 round (1 minute on a critical failure): it's @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{confused}, and when it attacks it uses the other creature's Strike.</p>",
       "gm": ""
     },
     "publication": {

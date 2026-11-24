@@ -35,7 +35,7 @@
       ]
     },
     "description": {
-      "value": "<p>Your stand hides inside an object. Its next Strike from the object is made with surprise: the target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{off-guard} to it.</p>",
+      "value": "<p>Your stand hides inside an object (it's @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{undetected} until it acts). When it comes out to Strike, the target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{off-guard} to it until the end of your turn.</p>",
       "gm": ""
     },
     "publication": {

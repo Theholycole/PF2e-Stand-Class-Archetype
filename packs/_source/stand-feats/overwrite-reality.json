@@ -32,7 +32,7 @@
       ]
     },
     "description": {
-      "value": "<p><strong>Cost</strong> 1 Mythic Point, when your stand hits</p>\n<p>Rewrite one fact: end one effect on the target, give it a condition at value 2 (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{frightened}, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{sickened}, @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{stupefied}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{enfeebled} or @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{clumsy}), or heal an ally for the damage dealt.</p>",
+      "value": "<p><strong>Cost</strong> 1 Mythic Point, when your stand hits</p>\n<p>Rewrite one fact: attempt to counteract one spell or magical effect on the target with mythic proficiency, give it a condition at value 2 (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{frightened}, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{sickened}, @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{stupefied}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{enfeebled} or @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{clumsy}), or heal an ally for the damage dealt.</p>",
       "gm": ""
     },
     "publication": {

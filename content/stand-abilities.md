@@ -21,7 +21,7 @@ Time stays the rarest theme. Each Time ability is limited use rather than condit
 From The World, Star Platinum · **Price:** limited charges; attacks you make in stopped time only land when time resumes, and you can't use two charges in the same round.
 
 - **Charges:** you have 1 Time Stop charge, 2 at 9th level and 3 at 17th. Spent charges come back after 10 minutes, and Refocus also regains 1 charge. Time Stop doesn't cost Stand Points.
-- **1:** 1 action, 1 charge: stop time and take 1 extra action at once while every other creature is frozen. Strikes and thrown objects made in stopped time hang in the air and hit when time resumes, and their targets are off-guard against them.
+- **1:** Free action (once per round), 1 charge: stop time and take 1 extra action at once while every other creature is frozen. Strikes and thrown objects made in stopped time hang in the air and hit when time resumes, and their targets are off-guard against them.
 - **5:** You can use a charge as a reaction when a creature you can see starts an action; your stopped-time actions happen before its action resolves. You also gain +1 status bonus to initiative.
 - **9:** Stopped time lasts 2 actions.
 - **13:** You can move through enemies' spaces in stopped time, and a frozen creature can't take reactions against what you did there.
@@ -41,8 +41,8 @@ From Mandom · **Price:** you must hold a watch or clock in one hand and turn it
 
 From Made in Heaven · **Price:** the aura speeds up everyone else's world but you, so allies in it are hit too.
 
-- **1:** You gain a +5-ft status bonus to Speed.
-- **5:** Surge, 2 actions: you're quickened for 1 round (only to Stride or Step). Every other creature in a 10-ft emanation, allies included, attempts a Will save or takes a –10-ft penalty to Speed for 1 round.
+- **1:** You gain a +10-ft status bonus to Speed.
+- **5:** Surge, 1 action: you're quickened for 1 minute (the extra action only to Stride, Step or Strike, as haste). Every other creature in a 10-ft emanation, allies included, attempts a Will save or takes a –10-ft penalty to Speed for 1 round.
 - **9:** The emanation is 20 ft, and creatures that fail are also off-guard to you.
 - **13:** Your quickened action can be used for any action.
 - **17:** Once per day, every other creature within 30 ft attempts a Will save: slowed 1 for 1 round on a failure, 1 minute on a critical failure (incapacitation).
@@ -398,7 +398,7 @@ From Red Hot Chili Pepper · **Price:** it only travels through wires, metal or 
 From Weather Report · **Price:** it needs open sky for anything beyond fog.
 
 - **1:** 2 actions: fog in a 15-ft burst (concealed) for 1 minute, or calm the wind.
-- **5:** Surge, outdoors: rain or wind in a 30-ft burst for 1 minute: difficult terrain, ranged attacks –2.
+- **5:** Surge, outdoors: rain or wind in a 30-ft burst for 1 minute: difficult terrain and –2 to ranged attacks, for creatures you choose (you control the weather).
 - **9:** Surge, outdoors: lightning strike on one creature: S electricity (basic Reflex).
 - **13:** Pull moisture from a creature's surroundings: it's sickened 2 (Fortitude negates), once per creature per day.
 - **17:** Once per day, outdoors: heavy weather for 1 minute: every non-ally creature in 60 ft attempts Will each round or is stupefied 2 and slowed 1 (incapacitation).
@@ -437,17 +437,17 @@ From Bastet · **Price:** the target must touch your trap first.
 
 From Horus · **Price:** it needs moisture in the air (not in deserts or dry places).
 
-- **1:** 1 action: ice shard, range 30 ft, D cold (basic Reflex).
+- **1:** 1 action: ice shard, range 30 ft, D cold (basic Reflex); on a failure the target takes a –10-ft status penalty to Speed until the start of your next turn.
 - **5:** Surge, 2 actions: wall of ice, 20 ft long, Hardness 5, 20 HP per 5 ft, lasts 1 minute.
 - **9:** Surge: ice spears in a 10-ft burst: S cold (basic Reflex).
-- **13:** Shards slow on critical failure (–10 ft Speed for 1 round).
+- **13:** A creature that critically fails against a shard is immobilized for 1 round.
 - **17:** Freeze a creature in ice (Fortitude, incapacitation): restrained for 1 round, paralyzed on a critical failure.
 
 ### Ice Armor
 
 From White Album · **Price:** integrated only; you can't swim while wearing it, and it melts in heat.
 
-- **1:** 1 action: wear ice armor: +1 status to AC, and creatures that hit you with a melee Strike take 1 cold damage (per die of your stand's Strike at higher levels).
+- **1:** 1 action: wear ice armor: +1 circumstance bonus to AC (+2 from 9th), and creatures that hit you with a melee Strike take cold damage equal to your level.
 - **5:** You can skate: +10 ft Speed on flat ground.
 - **9:** Surge: freeze the air in a 10-ft emanation: S cold (basic Fortitude).
 - **13:** Reaction: freeze an incoming projectile so it shatters (attack misses), once per round.
@@ -459,7 +459,7 @@ From Stray Cat · **Price:** it needs sunlight.
 
 - **1:** 1 action in sunlight: invisible air bubble, range 30 ft: D bludgeoning (attack roll); the target doesn't see where it came from.
 - **5:** Bubbles can wait in place as traps for 1 minute.
-- **9:** Surge: an air bubble wall gives an ally +2 circumstance AC against ranged attacks for 1 round.
+- **9:** Surge: an air bubble wall, a 30-ft line within 30 ft, for 1 minute: creatures on your side of it get standard cover (+2 circumstance to AC and to Reflex saves) against ranged attacks and areas from the other side.
 - **13:** Surge: 3 bubbles at different targets, each S/2.
 - **17:** Reaction, once per round: a bubble shield gives you or an adjacent ally +2 circumstance AC against one ranged attack.
 
@@ -519,10 +519,10 @@ From Purple Haze · **Price:** the virus hits allies and you too.
 
 From Metallica · **Price:** fails on creatures without blood (constructs, most undead).
 
-- **1:** 2 actions: pull iron from a creature's blood within 30 ft as razors: D slashing (basic Fortitude).
+- **1:** 1 action: pull iron from a creature's blood within 30 ft as razors: D slashing (basic Fortitude); on a critical failure it also takes 1d6 persistent bleed.
 - **5:** On a failure, also sickened 1 from blood loss.
 - **9:** Surge: S slashing, sickened 2 on a failure.
-- **13:** Iron camouflage: you can Hide against metal or stone walls without cover, with +2 circumstance to Stealth.
+- **13:** Iron camouflage: you can Hide against metal or stone walls without cover, with +2 circumstance to Stealth, and a creature that fails Iron Blood's save is also clumsy 1 for 1 round.
 - **17:** Target that critically fails is also drained 2.
 
 ### Mold
@@ -539,7 +539,7 @@ From Green Day · **Price:** it only triggers on creatures that move downward.
 
 From Survivor · **Price:** it can make allies fight each other too.
 
-- **1:** 2 actions: spread water in a 20-ft burst within 30 ft for 1 minute. Creatures in it see each other's strength and take –1 to Will saves against fear and emotion.
+- **1:** 2 actions: spread water in a 20-ft burst within 30 ft for 1 minute. Creatures in it see each other's strength and take –1 to Will saves against fear and emotion, and an enemy that starts its turn in it is frightened 1 (Will negates).
 - **5:** Surge: enemies in the area make a Will save or must Strike the nearest creature on their turn (incapacitation, 1 round). Allies who fail must save too.
 - **9:** The area is 30 ft.
 - **13:** Allies get +2 to the save.
@@ -549,17 +549,17 @@ From Survivor · **Price:** it can make allies fight each other too.
 
 From Yellow Temperance · **Price:** integrated only; the slime eats anything that touches it, so allies avoid you.
 
-- **1:** 1 action: slime armor: resistance equal to half your level against physical damage; creatures that hit you in melee take 1 acid per die of your stand's Strike.
+- **1:** 1 action: slime armor: resistance to physical damage equal to your level; creatures that hit you in melee take acid damage equal to your level.
 - **5:** Slime can take a disguise shape.
 - **9:** Surge: slime engulfs a creature you grab: S acid (basic Fortitude).
 - **13:** Slime heals you for half the acid damage you deal.
-- **17:** Resistance rises to your level.
+- **17:** The resistance applies to all damage.
 
 ### Parasite
 
 From Empress · **Price:** it needs a touch to the target's blood (an open wound).
 
-- **1:** 2 actions: plant a parasite in a wounded creature. It's sickened 1 for 1 minute and can't reduce it below 1 while the parasite lives; a Medicine check against your stand DC (2 actions) cuts it out.
+- **1:** 2 actions: plant a parasite in a wounded creature (Fortitude negates). It's sickened 1 for 1 minute and can't reduce it below 1 while the parasite lives; a Medicine check against your stand DC (2 actions) cuts it out.
 - **5:** The parasite grows into a talking face: the target takes –2 to Deception and Stealth.
 - **9:** Surge: the parasite attacks: S piercing (basic Fortitude), and the target can't Recover from sickened.
 - **13:** Two parasites at once.
@@ -569,11 +569,11 @@ From Empress · **Price:** it needs a touch to the target's blood (an open wound
 
 From Lovers · **Price:** damage to you is also shared with the host.
 
-- **1:** 2 actions: link with a creature by touch for 1 minute (Will negates). When you take damage, it takes half that much, up to D (no save).
-- **5:** When you heal, it doesn't heal.
+- **1:** 2 actions: link with a creature by touch for 1 minute (Will negates). When you take damage, it takes half that much (no save).
+- **5:** The host is off-guard to you and your stand while linked.
 - **9:** Surge: you transfer one condition from you to the host (Will negates).
 - **13:** Link two creatures.
-- **17:** The cap rises to S.
+- **17:** It takes the full damage you take.
 
 ### Internal Attack
 
@@ -643,9 +643,9 @@ From Moody Blues · **Price:** it only replays the past, and while it does your 
 
 - **1:** 10 minutes: replay what happened in a 30-ft area during the last day. You learn everything that was seen there.
 - **5:** Your stand can take the form of a creature it replayed (+4 to Impersonate).
-- **9:** Surge: replay in combat: learn the last action a creature took and its target; +2 status to AC against it for 1 round.
+- **9:** Surge, 1 action: replay a creature's last action: you learn what it did and to whom, and until the end of your next turn you and allies within 30 ft gain +2 status bonus to AC and saves against that creature.
 - **13:** Replay a week.
-- **17:** Replay a creature's fight: you know its strongest ability before it uses it.
+- **17:** Replay a creature's fight: you know its strongest ability before it uses it, and the 9th-level bonus lasts 1 minute.
 
 ### Mirror World
 
@@ -661,7 +661,7 @@ From Man in the Mirror · **Price:** you need a mirror or reflective surface.
 
 From Death Thirteen · **Price:** it needs a sleeping target.
 
-- **1:** You can enter the dream of a sleeping creature within 30 ft and talk with it.
+- **1:** You can enter the dream of a sleeping creature within 30 ft and talk with it. Surge, 2 actions: a creature within 30 ft falls asleep (Will, incapacitation): unconscious for 1 round on a failure, 1 minute on a critical failure; damage or an ally's Interact wakes it.
 - **5:** Surge: in the dream, your stand attacks the creature: S mental (basic Will).
 - **9:** Make the dream feel real: the creature wakes up frightened 2.
 - **13:** Bring an ally into the dream.
@@ -671,7 +671,7 @@ From Death Thirteen · **Price:** it needs a sleeping target.
 
 From Justice · **Price:** only creatures with an open wound.
 
-- **1:** 2 actions: fog in a 20-ft area: wounded creatures in it take –1 status to attack rolls.
+- **1:** 2 actions: fog in a 20-ft area within 30 ft for 1 minute: wounded creatures in it take –1 status to attack rolls.
 - **5:** Surge: control a wounded creature's next action (Will, incapacitation).
 - **9:** Fog area 30 ft.
 - **13:** The fog can make illusions of buildings or crowds.
@@ -691,11 +691,11 @@ From Tenore Sax · **Price:** the illusion breaks if a creature touches the wall
 
 From The Lock · **Price:** the target must have harmed you or an ally.
 
-- **1:** 1 action: a creature that damaged you or an ally this fight feels guilt: –1 to attack rolls for 1 round (Will negates).
+- **1:** 1 action: a creature that damaged you or an ally this fight feels guilt (Will): frightened 1 on a failure, frightened 2 on a critical failure.
 - **5:** Surge: the lock grows: enfeebled 2 for 1 round.
 - **9:** The lock also makes it slowed 1 on a critical failure.
 - **13:** It can't take reactions while locked.
-- **17:** Each round the creature fails its save again, enfeebled rises by 1 (maximum 4); helping the creature it hurt ends the lock.
+- **17:** At the end of each of its turns while locked, the creature attempts a new Will save; on a failure its enfeebled value rises by 1 (maximum 4). Helping the creature it hurt ends the lock.
 
 ### Mimic Puppet
 
@@ -721,10 +721,10 @@ From Enigma · **Price:** only on frightened targets.
 
 From Cheap Trick · **Price:** your stand must touch the target's back.
 
-- **1:** 1 action: your stand rides a creature's back unseen; you hear what it hears.
-- **5:** Surge: the stand whispers to it: frightened 1.
+- **1:** 1 action: your stand rides a creature's back unseen (Reflex negates); you hear what it hears, and the creature takes –2 to attack rolls against your stand while it rides.
+- **5:** Surge: the stand whispers to it (Will): frightened 1 on a success, frightened 2 on a failure, frightened 3 on a critical failure.
 - **9:** It can't see your stand at all.
-- **13:** It takes –2 to attack rolls against your stand while it rides.
+- **13:** While the stand rides, the creature can't reduce its frightened value below 1.
 - **17:** The stand makes it drop prone (Fortitude negates).
 
 ### Lie Curse
@@ -761,7 +761,7 @@ From King Nothing · **Price:** you need an item the target touched.
 
 From Paper Moon King · **Price:** the target must touch your paper.
 
-- **1:** 1 action: fold paper into a gift.
+- **1:** 1 action: fold paper into a gift, or your stand slaps a paper onto a creature it hit this turn (it counts as touching your paper).
 - **5:** Surge: a creature that touches your paper can't recognize faces for 1 minute (Will negates).
 - **9:** It can't tell allies from enemies: it can't Aid, and it can't benefit from its allies' auras or flanking.
 - **13:** Area 20 ft.
@@ -781,7 +781,7 @@ From Fun Fun Fun · **Price:** a mark must be placed on the limb first.
 
 From Spiderweb Stand · **Price:** it only works through existing spiderwebs.
 
-- **1:** You sense through any web within 60 ft.
+- **1:** You sense through any web within 60 ft. 1 action: your stand spins a web over a 10-ft square within 30 ft (difficult terrain for 1 minute).
 - **5:** Surge: a web binds a creature in it (Reflex negates): immobilized for 1 round.
 - **9:** Move a creature's limbs through webs: it drops an item.
 - **13:** Block speech through a web: the creature can't speak.
@@ -795,7 +795,7 @@ From Wonder of U · **Price:** it only hits creatures that pursue you, and its p
 
 - **1:** A creature that moves toward you, targets you or Seeks you takes D bludgeoning from a minor accident (basic Reflex), once per round.
 - **5:** A creature that fails is also off-guard until its next turn.
-- **9:** Surge: a creature pursuing you takes S damage from a major accident.
+- **9:** Surge, reaction: when a creature moves toward you or targets you, it takes S damage from a major accident (basic Reflex).
 - **13:** Allies are never targeted.
 - **17:** A critical failure also leaves the creature prone and immobilized for 1 round.
 
@@ -813,18 +813,18 @@ From D4C Love Train · **Price:** you must stand in a shaft of light and it only
 
 From Rolling Stones · **Price:** only one mark at a time (two at 13th), and it fades if you mark another.
 
-- **1:** 1 action: mark a creature within 30 ft (Will negates); it gains weakness 1 to all damage for 1 round.
-- **5:** Surge: the mark lasts 1 minute.
-- **9:** Weakness 2.
+- **1:** 1 action: mark a creature within 30 ft (Will). It gains weakness to all damage equal to half your level (minimum 2): until the start of your next turn on a success, for 1 minute on a failure; a critical success negates.
+- **5:** Surge: the mark lasts 1 minute even on a success.
+- **9:** A marked creature is also off-guard to your stand.
 - **13:** Two marks.
-- **17:** Weakness 3.
+- **17:** The weakness equals your level.
 
 ### Prophecy
 
 From Tohth, Paisley Park · **Price:** the prophecy is vague, and it always comes true.
 
 - **1:** 10 minutes: ask one yes-or-no question about the next hour; the GM answers truthfully.
-- **5:** Surge: an ally rerolls a check and uses the higher result.
+- **5:** Reaction, surge: when an ally within 30 ft fails a check, it rerolls and uses the higher result.
 - **9:** The GM reveals one enemy plan.
 - **13:** Two allies reroll.
 - **17:** Once per day, you and every ally reroll a check.
@@ -833,7 +833,7 @@ From Tohth, Paisley Park · **Price:** the prophecy is vague, and it always come
 
 From Osiris · **Price:** the target must agree to the bet.
 
-- **1:** 1 minute: propose a bet, settled by an opposed check you both agree on. If the target agrees and loses, it takes –1 to checks against you for 1 day.
+- **1:** 1 minute: propose a bet, settled by an opposed check you both agree on. If the target agrees and loses, it takes –1 to checks against you for 1 day. In combat, 1 action: challenge a creature within 30 ft; if it refuses, it is frightened 1 and your stand's next Strike against it this turn is made against an off-guard target.
 - **5:** Surge: if the target loses, it's stunned 1.
 - **9:** The loser's soul goes into a coin: unconscious for 1 minute (Will negates, incapacitation).
 - **13:** You can bet on a fight's outcome; it's settled when the fight ends.
@@ -853,7 +853,7 @@ From Highway to Hell · **Price:** you take the damage too.
 
 From Marilyn Manson · **Price:** only on a creature that lost a wager or owes you.
 
-- **1:** 1 action: demand payment: a creature that owes you (it lost a Soul Wager, took your money, or agreed to a debt) hands over an item of your choice, or takes D damage with no save.
+- **1:** 1 action: demand payment: a creature that owes you (it lost a Soul Wager, took your money, agreed to a debt, or damaged you or your stand this fight) hands over an item of your choice, or takes D damage with no save.
 - **5:** Surge: take a debt from a creature that lost a bet: drained 1.
 - **9:** Take an organ: drained 2.
 - **13:** Two creatures.
@@ -863,7 +863,7 @@ From Marilyn Manson · **Price:** only on a creature that lost a wager or owes y
 
 From Dragon's Dream · **Price:** it tells luck for both sides, so enemies can benefit too.
 
-- **1:** 1 action: learn a lucky direction: +1 status to a check toward that direction this turn.
+- **1:** 1 action: learn your lucky direction: you and your stand gain +1 status bonus to attack rolls and saves until the start of your next turn.
 - **5:** Surge: you know which squares around you are unlucky for enemies (–2 status to their attacks from them).
 - **9:** Lucky and unlucky areas last 1 minute.
 - **13:** Area 30 ft.
@@ -881,10 +881,10 @@ From Ticket to Ride · **Price:** a Saint's Corpse part or blessed item must be 
 
 ### Cursed Wealth
 
-From Milagroman · **Price:** the target must accept your money.
+From Milagroman · **Price:** the coin must stay on the target; a creature that spends an Interact action to throw it away ends the curse.
 
-- **1:** 1 action: hand over a coin; a creature that accepts it is cursed (Will negates): –1 to checks for 1 round.
-- **5:** Surge: the money multiplies; the creature is enfeebled 1 from the weight.
-- **9:** The curse lasts 1 minute.
+- **1:** 1 action: your stand slips a coin onto a creature it hit this turn, or hands it to one that accepts it (Will): –1 status penalty to checks and DCs for 1 round on a success, 1 minute on a failure (–2 on a critical failure).
+- **5:** Surge: the money multiplies; the creature is enfeebled 2 from the weight while the curse lasts.
+- **9:** A creature that accepted the coin willingly gets no save.
 - **13:** The curse spreads to anyone the creature passes money to.
-- **17:** Enfeebled 2 and slowed 1.
+- **17:** The surge makes it enfeebled 3 and slowed 1 for 1 round.

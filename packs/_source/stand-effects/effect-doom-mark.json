@@ -17,7 +17,7 @@
       "otherTags": []
     },
     "description": {
-      "value": "<p>Weakness to all damage: 1, or 2 from the marker's 9th level, or 3 from 17th. The mark lasts 1 round, or 1 minute when surged.</p><p><em>From Doom Mark.</em></p>"
+      "value": "<p>Weakness to all damage equal to half the marker's level (minimum 2), or the marker's level from 17th. Until the start of the marker's next turn on a success, 1 minute on a failure or when surged. From the marker's 9th level, you're also off-guard to its stand.</p><p><em>From Doom Mark.</em></p>"
     },
     "publication": {
       "title": "PF2e Stand Class Archetype (homebrew)",
@@ -47,12 +47,8 @@
       {
         "key": "ChoiceSet",
         "flag": "weakness",
-        "prompt": "Doom Mark weakness (1, 2 at 9th, 3 at 17th)",
+        "prompt": "Doom Mark weakness (half the marker's level, minimum 2; its level from 17th)",
         "choices": [
-          {
-            "label": "1",
-            "value": 1
-          },
           {
             "label": "2",
             "value": 2
@@ -60,6 +56,50 @@
           {
             "label": "3",
             "value": 3
+          },
+          {
+            "label": "4",
+            "value": 4
+          },
+          {
+            "label": "5",
+            "value": 5
+          },
+          {
+            "label": "6",
+            "value": 6
+          },
+          {
+            "label": "7",
+            "value": 7
+          },
+          {
+            "label": "8",
+            "value": 8
+          },
+          {
+            "label": "9",
+            "value": 9
+          },
+          {
+            "label": "10",
+            "value": 10
+          },
+          {
+            "label": "17",
+            "value": 17
+          },
+          {
+            "label": "18",
+            "value": 18
+          },
+          {
+            "label": "19",
+            "value": 19
+          },
+          {
+            "label": "20",
+            "value": 20
           }
         ]
       },

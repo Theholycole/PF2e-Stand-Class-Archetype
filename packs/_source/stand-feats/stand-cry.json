@@ -32,7 +32,7 @@
       ]
     },
     "description": {
-      "value": "<p><strong>Trigger</strong> You Manifest your stand.</p>\n<p>Shout your stand's name: you and allies within 30 feet gain +1 status bonus to attack rolls for 1 round (@UUID[Compendium.pf2e-stand-class-archetype.stand-effects.Item.aBHmcGF4ere9Ck3Y]{Effect: Stand Cry}).</p>",
+      "value": "<p><strong>Trigger</strong> You Manifest your stand.</p>\n<p>Shout your stand's name: you and allies within 30 feet gain +1 status bonus to attack rolls for 1 minute (@UUID[Compendium.pf2e-stand-class-archetype.stand-effects.Item.aBHmcGF4ere9Ck3Y]{Effect: Stand Cry}).</p>",
       "gm": ""
     },
     "publication": {

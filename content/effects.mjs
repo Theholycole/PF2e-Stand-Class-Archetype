@@ -28,7 +28,7 @@ const DEFS = [
         name: "Effect: Stand Cry",
         from: "Stand Cry",
         text: "+1 status bonus to attack rolls.",
-        duration: ROUND,
+        duration: MINUTE,
         rules: [{ key: "FlatModifier", selector: "attack", type: "status", value: 1 }],
     },
     {
@@ -68,19 +68,22 @@ const DEFS = [
     {
         name: "Effect: Ice Armor",
         from: "Ice Armor",
-        text: "+1 status bonus to AC. Creatures that hit you with a melee Strike take 1 cold damage per die of your stand's Strike. From 5th level you skate: +10-foot status bonus to Speed on flat ground. You can't swim while wearing it.",
+        text: "+1 circumstance bonus to AC (+2 from 9th level). Creatures that hit you with a melee Strike take cold damage equal to your level. From 5th level you skate: +10-foot status bonus to Speed on flat ground. You can't swim while wearing it.",
         duration: UNLIMITED,
         rules: [
-            { key: "FlatModifier", selector: "ac", type: "status", value: 1 },
+            { key: "FlatModifier", selector: "ac", type: "circumstance", value: "ternary(gte(@actor.level,9),2,1)" },
             { key: "FlatModifier", selector: "land-speed", type: "status", value: 10, predicate: [{ gte: ["self:level", 5] }] },
         ],
     },
     {
         name: "Effect: Slime Armor",
         from: "Devouring Flesh",
-        text: "Resistance to physical damage equal to half your level (your level from 17th). Creatures that hit you in melee take 1 acid damage per die of your stand's Strike.",
+        text: "Resistance to physical damage equal to your level (to all damage from 17th). Creatures that hit you in melee take acid damage equal to your level.",
         duration: UNLIMITED,
-        rules: [{ key: "Resistance", type: "physical", value: "ternary(gte(@actor.level,17),@actor.level,max(1,floor(@actor.level/2)))" }],
+        rules: [
+            { key: "Resistance", type: "physical", value: "@actor.level", predicate: [{ lt: ["self:level", 17] }] },
+            { key: "Resistance", type: "all-damage", value: "@actor.level", predicate: [{ gte: ["self:level", 17] }] },
+        ],
     },
     {
         name: "Effect: Talking Parasite",
@@ -95,23 +98,27 @@ const DEFS = [
     {
         name: "Effect: Guilt Lock",
         from: "Guilt Lock",
-        text: "–1 status penalty to attack rolls. From 13th level, it also can't take reactions while locked. Helping the creature it hurt ends the lock.",
-        rules: [{ key: "FlatModifier", selector: "attack", type: "status", value: -1 }],
+        text: "You're locked by guilt: apply the frightened value from the save. From the locker's 13th level, you can't take reactions while locked. Helping the creature you hurt ends the lock.",
+        rules: [],
     },
     {
         name: "Effect: Doom Mark",
         from: "Doom Mark",
-        text: "Weakness to all damage: 1, or 2 from the marker's 9th level, or 3 from 17th. The mark lasts 1 round, or 1 minute when surged.",
+        text: "Weakness to all damage equal to half the marker's level (minimum 2), or the marker's level from 17th. Until the start of the marker's next turn on a success, 1 minute on a failure or when surged. From the marker's 9th level, you're also off-guard to its stand.",
         rules: [
-            pick("weakness", "Doom Mark weakness (1, 2 at 9th, 3 at 17th)", [1, 2, 3]),
+            pick("weakness", "Doom Mark weakness (half the marker's level, minimum 2; its level from 17th)", [2, 3, 4, 5, 6, 7, 8, 9, 10, 17, 18, 19, 20]),
             { key: "Weakness", type: "all-damage", value: "@item.flags.system.rulesSelections.weakness" },
         ],
     },
     {
         name: "Effect: Lucky Direction",
         from: "Fortune Directions",
-        text: "+1 status bonus to one check toward your lucky direction this turn (+2 from 17th level).",
-        rules: [pick("bonus", "Bonus (+2 from 17th level)", [1, 2]), { key: "FlatModifier", selector: "check", type: "status", value: "@item.flags.system.rulesSelections.bonus" }],
+        text: "+1 status bonus to attack rolls and saves until the start of your next turn (+2 from 17th level). Put it on you and your stand.",
+        rules: [
+            pick("bonus", "Bonus (+2 from 17th level)", [1, 2]),
+            { key: "FlatModifier", selector: "attack", type: "status", value: "@item.flags.system.rulesSelections.bonus" },
+            { key: "FlatModifier", selector: "saving-throw", type: "status", value: "@item.flags.system.rulesSelections.bonus" },
+        ],
     },
     {
         name: "Effect: Unlucky Square",
@@ -122,32 +129,40 @@ const DEFS = [
     {
         name: "Effect: Cursed Wealth",
         from: "Cursed Wealth",
-        text: "–1 status penalty to checks. Lasts 1 round (1 minute from the giver's 9th level).",
-        rules: [{ key: "FlatModifier", selector: "check", type: "status", value: -1 }],
+        text: "–1 status penalty to checks and DCs (–2 on a critical failure). 1 round on a success, 1 minute on a failure. Throwing the coin away (Interact) ends it.",
+        rules: [
+            pick("penalty", "Penalty (2 on a critical failure)", [1, 2]),
+            { key: "FlatModifier", selector: "check", type: "status", value: "-@item.flags.system.rulesSelections.penalty" },
+            { key: "FlatModifier", selector: "dc", type: "status", value: "-@item.flags.system.rulesSelections.penalty" },
+        ],
     },
     {
         name: "Effect: Back Rider",
         from: "Back Rider",
-        text: "A stand rides your back unseen. From the rider's 13th level, you take –2 to attack rolls against that stand while it rides.",
+        text: "A stand rides your back unseen: you take –2 to attack rolls against that stand while it rides. From the rider's 13th level, you can't reduce your frightened value below 1 while it rides.",
         duration: UNLIMITED,
         rules: [{ key: "FlatModifier", selector: "attack", type: "status", value: -2, predicate: ["target:trait:stand"] }],
     },
     {
         name: "Effect: Air Bubble Wall",
         from: "Air Shots",
-        text: "+2 circumstance bonus to AC against ranged attacks.",
+        text: "Standard cover from the air bubble wall: +2 circumstance bonus to AC against ranged attacks from the other side (and to Reflex saves against areas from there; apply by hand).",
+        duration: MINUTE,
         rules: [{ key: "FlatModifier", selector: "ac", type: "circumstance", value: 2, predicate: ["item:ranged"] }],
     },
     {
         name: "Effect: Replayed Action",
         from: "Replay",
-        text: "+2 status bonus to AC against the replayed creature.",
-        rules: [{ key: "FlatModifier", selector: "ac", type: "status", value: 2 }],
+        text: "+2 status bonus to AC and saves against the replayed creature, until the end of the replayer's next turn (1 minute from its 17th level).",
+        rules: [
+            { key: "FlatModifier", selector: "ac", type: "status", value: 2 },
+            { key: "FlatModifier", selector: "saving-throw", type: "status", value: 2 },
+        ],
     },
     {
         name: "Effect: Storm Weather",
         from: "Weather",
-        text: "Rain or wind: the area is difficult terrain, and ranged attacks take –2.",
+        text: "Rain or wind: the area is difficult terrain for you, and your ranged attacks take –2 (the weather user chooses who is hindered).",
         duration: MINUTE,
         rules: [{ key: "FlatModifier", selector: "attack", type: "status", value: -2, predicate: ["item:ranged"] }],
     },

@@ -17,7 +17,7 @@
       "otherTags": []
     },
     "description": {
-      "value": "<p>A stand rides your back unseen. From the rider's 13th level, you take –2 to attack rolls against that stand while it rides.</p><p><em>From Back Rider.</em></p>"
+      "value": "<p>A stand rides your back unseen: you take –2 to attack rolls against that stand while it rides. From the rider's 13th level, you can't reduce your frightened value below 1 while it rides.</p><p><em>From Back Rider.</em></p>"
     },
     "publication": {
       "title": "PF2e Stand Class Archetype (homebrew)",

@@ -86,7 +86,7 @@ export function standAbilities() {
             `<p><strong>Theme</strong> ${a.theme}${lock ? ` · <strong>Stand type</strong> ${lock} only` : ""}</p><hr />`,
             enrichBlock(a.steps, { type: DAMAGE_TYPE[a.name] }),
             effects.length ? `<hr /><p><strong>Effects</strong> ${effects.map(effectLink).join(", ")}</p>` : "",
-            `<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC.</em></p>`,
+            `<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC. A minion an ability makes, unless it says otherwise, is a creature of your level – 2 built with GM Core's Low numbers (Building Creatures), with the minion trait.</em></p>`,
         ].join("\n");
         return feat(P, {
             name: a.name,

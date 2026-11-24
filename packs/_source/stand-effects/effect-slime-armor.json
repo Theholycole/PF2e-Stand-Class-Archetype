@@ -17,7 +17,7 @@
       "otherTags": []
     },
     "description": {
-      "value": "<p>Resistance to physical damage equal to half your level (your level from 17th). Creatures that hit you in melee take 1 acid damage per die of your stand's Strike.</p><p><em>From Devouring Flesh.</em></p>"
+      "value": "<p>Resistance to physical damage equal to your level (to all damage from 17th). Creatures that hit you in melee take acid damage equal to your level.</p><p><em>From Devouring Flesh.</em></p>"
     },
     "publication": {
       "title": "PF2e Stand Class Archetype (homebrew)",
@@ -47,7 +47,28 @@
       {
         "key": "Resistance",
         "type": "physical",
-        "value": "ternary(gte(@actor.level,17),@actor.level,max(1,floor(@actor.level/2)))"
+        "value": "@actor.level",
+        "predicate": [
+          {
+            "lt": [
+              "self:level",
+              17
+            ]
+          }
+        ]
+      },
+      {
+        "key": "Resistance",
+        "type": "all-damage",
+        "value": "@actor.level",
+        "predicate": [
+          {
+            "gte": [
+              "self:level",
+              17
+            ]
+          }
+        ]
       }
     ]
   },

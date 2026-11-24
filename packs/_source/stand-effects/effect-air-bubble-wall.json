@@ -17,7 +17,7 @@
       "otherTags": []
     },
     "description": {
-      "value": "<p>+2 circumstance bonus to AC against ranged attacks.</p><p><em>From Air Shots.</em></p>"
+      "value": "<p>Standard cover from the air bubble wall: +2 circumstance bonus to AC against ranged attacks from the other side (and to Reflex saves against areas from there; apply by hand).</p><p><em>From Air Shots.</em></p>"
     },
     "publication": {
       "title": "PF2e Stand Class Archetype (homebrew)",
@@ -31,7 +31,7 @@
     },
     "duration": {
       "value": 1,
-      "unit": "rounds",
+      "unit": "minutes",
       "expiry": "turn-end",
       "sustained": false
     },

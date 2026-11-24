@@ -35,7 +35,7 @@
       ]
     },
     "description": {
-      "value": "<p><strong>Trigger</strong> An enemy within 10 feet critically hits you.</p>\n<p>Your stand uses Barrage Rush against it. You're @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{off-guard} until your next turn.</p>",
+      "value": "<p><strong>Trigger</strong> An enemy within 10 feet hits you with a Strike.</p>\n<p>Your stand uses Barrage Rush against it. You're @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{off-guard} until your next turn.</p>",
       "gm": ""
     },
     "publication": {

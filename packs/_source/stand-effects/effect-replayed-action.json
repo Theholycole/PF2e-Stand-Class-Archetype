@@ -17,7 +17,7 @@
       "otherTags": []
     },
     "description": {
-      "value": "<p>+2 status bonus to AC against the replayed creature.</p><p><em>From Replay.</em></p>"
+      "value": "<p>+2 status bonus to AC and saves against the replayed creature, until the end of the replayer's next turn (1 minute from its 17th level).</p><p><em>From Replay.</em></p>"
     },
     "publication": {
       "title": "PF2e Stand Class Archetype (homebrew)",
@@ -47,6 +47,12 @@
       {
         "key": "FlatModifier",
         "selector": "ac",
+        "type": "status",
+        "value": 2
+      },
+      {
+        "key": "FlatModifier",
+        "selector": "saving-throw",
         "type": "status",
         "value": 2
       }

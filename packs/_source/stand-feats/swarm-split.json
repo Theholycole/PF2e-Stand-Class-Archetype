@@ -35,7 +35,7 @@
       ]
     },
     "description": {
-      "value": "<p>Split the colony into two squads that act as one creature with two spaces.</p>",
+      "value": "<p>Split the colony into two squads in spaces up to 30 feet apart, still one creature with one set of Hit Points and actions. It can Strike or Interact from either space, and it counts as being in both spaces for flanking. Rejoining takes 1 action, or happens when you Dismiss or unmanifest it.</p>",
       "gm": ""
     },
     "publication": {

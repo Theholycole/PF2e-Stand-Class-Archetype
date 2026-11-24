@@ -32,7 +32,7 @@
       ]
     },
     "description": {
-      "value": "<p>When an ally uses a Tandem action or Act Together, both stands act.</p>",
+      "value": "<p>Once per round, when your stand hits a creature, one ally adjacent to that creature can use its reaction to Strike it. If that ally has a stand, eidolon or companion, that creature can Strike instead.</p>",
       "gm": ""
     },
     "publication": {
