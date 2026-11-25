@@ -1,0 +1,70 @@
+{
+  "_id": "AJ4J3Tb7Deid4Zrt",
+  "_key": "!items!AJ4J3Tb7Deid4Zrt",
+  "name": "Inhale the Cloud",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "inhale-the-cloud",
+    "category": "class",
+    "level": {
+      "value": 6
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "summoner",
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": []
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Stand User Dedication"
+        },
+        {
+          "value": "close-range stand"
+        }
+      ]
+    },
+    "description": {
+      "value": "<p>Your stand inhales a gas, smoke or fog effect in a @Template[burst|distance:10]{10-ft burst} within its reach, like Star Platinum inhaling the fog stand Justice. A spell effect is counteracted if its rank is at most half your level (rounded up). A creature made of gas in the area takes 1d6 bludgeoning per level (@Check[fortitude|against:stand|basic]{basic Fortitude} save against your stand DC), and on a failure it's @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{grabbed} by the stand.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "_migration": {
+      "version": 0.961,
+      "previous": null
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

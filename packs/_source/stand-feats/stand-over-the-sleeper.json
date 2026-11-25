@@ -1,0 +1,67 @@
+{
+  "_id": "WMkyH1EuRA4X0rly",
+  "_key": "!items!WMkyH1EuRA4X0rly",
+  "name": "Stand Over the Sleeper",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "stand-over-the-sleeper",
+    "category": "class",
+    "level": {
+      "value": 10
+    },
+    "actionType": {
+      "value": "free"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "summoner",
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": []
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Stand User Dedication"
+        }
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Trigger</strong> You start your turn @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{unconscious}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{paralyzed} or otherwise unable to act.</p>\n<p>Your stand manifests on its own and takes 1 action: Stand Guard you (until your next turn), Stride to you, or Strike a creature that attacked you since your last turn.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "_migration": {
+      "version": 0.961,
+      "previous": null
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}
