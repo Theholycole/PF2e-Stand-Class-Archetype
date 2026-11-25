@@ -92,9 +92,9 @@ const TYPES = [
         grades: "Durability must be A or B. Speed can't be A.",
         examples: "Anubis, Emperor, Strength, Wheel of Fortune",
         gameplay:
-            "Your stand lives inside an object: a weapon, a tool, later a vehicle. You fight with the bound weapon using the stand's numbers, Hidden in Plain Sight (4) lets it ambush from inside objects, Vessel Bond gives the vessel Hardness and lets you act through it anywhere in range, and Living Vessel lets it jump between objects. If the vessel is broken or taken, the stand shuts off, so disarms are your big threat. Stand Guard and Precise Hands fit well. **Pick this if** you want a haunted-weapon or living-object fantasy built on ambushes and object tricks.",
-        initial: ["Vessel", "Each day, bind the stand to one object you hold or touch. When you Strike with a bound weapon, you can use the stand's attack modifier and damage. If the vessel is destroyed or taken from you, the stand unmanifests until you Manifest it into a new vessel."],
-        seventh: ["Vessel Bond", "The vessel gains Hardness equal to your level, and you act through it anywhere in range."],
+            "Your stand lives inside an object: a weapon, a tool, later a vehicle. You fight with the bound weapon using the stand's numbers, Hidden in Plain Sight (4) lets it ambush from inside objects, Vessel Bond gives the vessel Hardness and lets you act through it anywhere in range, and Living Vessel lets it jump between objects. Vessel Guard lets the vessel take blows for you, and it can't be disarmed while the stand is out, but if the vessel is broken the stand shuts off. Stand Guard and Precise Hands fit well. **Pick this if** you want a haunted-weapon or living-object fantasy built on ambushes and object tricks.",
+        initial: ["Vessel", "Each day, bind the stand to one object you hold or touch. When you Strike with a bound weapon, you can use the stand's attack modifier and damage. If the vessel is destroyed or taken from you, the stand unmanifests until you Manifest it into a new vessel. While the stand is manifested, the vessel can't be disarmed or taken from you against your will. The vessel has Hardness equal to half your level (minimum 1). Vessel Guard: reaction, once per round, when a Strike hits you, the vessel takes the blow and you reduce the damage by the vessel's Hardness."],
+        seventh: ["Vessel Bond", "The vessel's Hardness becomes equal to your level, and you act through it anywhere in range."],
         thirteenth: ["Living Vessel", "Spend 1 action to move the stand into a new object, or bind it to a vehicle."],
     },
     {
@@ -107,8 +107,8 @@ const TYPES = [
         grades: "Range must be E. Durability can't be E.",
         examples: "Oasis, Catch the Rainbow",
         gameplay:
-            "You wear your stand and fight as one body. While merged, your own Strikes use its numbers, Second Skin adds AC and Athletics, Stand Armor (8) turns its Durability into defense, and Full Merge saves you actions. It can't scout or flank on its own, since its Range is E. Barrage Rush, Stand Guard and Golden Spirit are good class feats for it. **Pick this if** you want to be the fighter yourself, with one sturdy body to protect instead of two.",
-        initial: ["Worn Stand", "Spend 1 action to merge the stand with you, or to separate it into an adjacent space. While merged, it shares your space, your unarmed Strikes use the stand's attack modifier and damage, and Act Together actions happen from your space."],
+            "You wear your stand and fight as one body. While merged, your own Strikes use its numbers, you share its ghostly resistance, Second Skin adds AC and Athletics, Stand Armor (8) turns its Durability into defense, and Full Merge saves you actions. It can't scout or flank on its own, since its Range is E. Barrage Rush, Stand Guard and Golden Spirit are good class feats for it. **Pick this if** you want to be the fighter yourself, with one sturdy body to protect instead of two.",
+        initial: ["Worn Stand", "Spend 1 action to merge the stand with you, or to separate it into an adjacent space. While merged, it shares your space, your unarmed Strikes use the stand's attack modifier and damage, and Act Together actions happen from your space. While merged, you share the stand's ghostly body: you gain its ghostly resistance (half your level, minimum 1, to all damage except force, spirit and ghost touch)."],
         seventh: ["Second Skin", "While merged, you gain +1 status bonus to AC and Athletics."],
         thirteenth: ["Full Merge", "Once per turn, a stand action costs you no action, but the stand can't leave your space that round."],
         actions: ["worn-stand"],
@@ -178,7 +178,7 @@ const ACTIONS = {
         traits: ["concentrate", "stand"],
         selfEffect: { uuid: uuidFor(E, "effect-worn-stand"), name: "Effect: Worn Stand" },
         description: enrichBlockNoDice(
-            "**Requirements** You have an integrated stand.\n\nMerge the stand with you, or separate it into an adjacent space. While merged, it shares your space, your unarmed Strikes use the stand's attack modifier and damage, and Act Together actions happen from your space.",
+            "**Requirements** You have an integrated stand.\n\nMerge the stand with you, or separate it into an adjacent space. While merged, it shares your space, your unarmed Strikes use the stand's attack modifier and damage, and Act Together actions happen from your space. While merged, you gain the stand's ghostly resistance.",
         ),
     }),
     "switch-acts": action(P, {

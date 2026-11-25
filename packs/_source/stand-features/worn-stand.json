@@ -22,7 +22,7 @@
       "otherTags": []
     },
     "description": {
-      "value": "<p><strong>Requirements</strong> You have an integrated stand.</p>\n<p>Merge the stand with you, or separate it into an adjacent space. While merged, it shares your space, your unarmed Strikes use the stand's attack modifier and damage, and Act Together actions happen from your space.</p>"
+      "value": "<p><strong>Requirements</strong> You have an integrated stand.</p>\n<p>Merge the stand with you, or separate it into an adjacent space. While merged, it shares your space, your unarmed Strikes use the stand's attack modifier and damage, and Act Together actions happen from your space. While merged, you gain the stand's ghostly resistance.</p>"
     },
     "publication": {
       "title": "PF2e Stand Class Archetype (homebrew)",

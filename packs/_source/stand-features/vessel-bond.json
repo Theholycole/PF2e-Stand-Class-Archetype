@@ -30,7 +30,7 @@
       "value": []
     },
     "description": {
-      "value": "<p><em>Bound Stand feature, 7th level.</em></p><p>The vessel gains Hardness equal to your level, and you act through it anywhere in range.</p>",
+      "value": "<p><em>Bound Stand feature, 7th level.</em></p><p>The vessel's Hardness becomes equal to your level, and you act through it anywhere in range.</p>",
       "gm": ""
     },
     "publication": {
