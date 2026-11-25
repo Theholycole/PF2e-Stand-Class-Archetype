@@ -1,0 +1,67 @@
+{
+  "_id": "0AzwyHFM2m01pSMr",
+  "_key": "!items!0AzwyHFM2m01pSMr",
+  "name": "Flick Shot",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "flick-shot",
+    "category": "class",
+    "level": {
+      "value": 2
+    },
+    "actionType": {
+      "value": "action"
+    },
+    "actions": {
+      "value": 1
+    },
+    "traits": {
+      "value": [
+        "summoner",
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": []
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Stand User Dedication"
+        }
+      ]
+    },
+    "description": {
+      "value": "<p>Your stand flicks a small object it holds (a coin, a pebble, a bullet), as Crazy Diamond fires a bullet from its fingers. Make a ranged Strike with your stand's primary attack (range increment 30 feet). On a hit it deals the attack's damage dice as bludgeoning or piercing, with no Strength or Power bonus to damage.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "_migration": {
+      "version": 0.961,
+      "previous": null
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}
