@@ -355,10 +355,10 @@ From Smooth Operators · **Price:** only markings and shallow wounds, moved by t
 
 From 200 Balloons · **Price:** touch only, and balloons are fragile.
 
-- **1:** 1 action: inflate an object you touch into a floating balloon; a balloon of Bulk 1 can carry a Small creature up slowly.
-- **5:** Reaction, surge: inflate an incoming projectile into a harmless balloon (ranged Strike against you or an adjacent ally misses).
+- **1:** 1 action: inflate an object you touch into a floating balloon; a balloon of Bulk 1 can carry a Small creature up slowly. Or your stand puffs up part of a creature it touches (Fortitude): off-guard, clumsy 1 and enfeebled 1 (its swollen limbs) for 1 round on a failure; on a critical failure enfeebled 2 and it also bobs off the ground, immobilized for 1 round. Once per turn your stand can do this as part of a Strike (1 action) against the creature it hits; the sudden swelling bruises it for 1d6 extra bludgeoning damage. 1 action: your stand overinflates a balloon and bursts it against a creature within 30 ft: D bludgeoning damage (basic Reflex); on a critical failure the bang knocks it prone and leaves it off-guard for 1 round.
+- **5:** Reaction, surge: inflate an incoming projectile into a harmless balloon (ranged Strike against you or an adjacent ally misses). The first use each fight costs no Stand Point. You can burst two balloons with one action, at different creatures. A creature that fails against your stand's puffing stays clumsy for 1 minute; its off-guard and enfeeblement still last 1 round.
 - **9:** Inflate a creature's held weapon: it's harmless for 1 round (Reflex negates).
-- **13:** Inflate a willing ally to float (fly Speed 15 ft) for 1 minute.
+- **13:** Inflate a willing ally to float (fly Speed 15 ft) for 1 minute. The bloating Strike's bruise is 2d6.
 - **17:** The reaction works against any physical projectile within 30 ft.
 
 ## Force and Energy
