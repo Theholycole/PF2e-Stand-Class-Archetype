@@ -32,7 +32,7 @@
       ]
     },
     "description": {
-      "value": "<p><strong>Trigger</strong> You start your turn @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{unconscious}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{paralyzed} or otherwise unable to act.</p>\n<p>Your stand manifests on its own and takes 1 action: Stand Guard you (until your next turn), Stride to you, or Strike a creature that attacked you since your last turn.</p>",
+      "value": "<p><strong>Trigger</strong> You start your turn @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{unconscious}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{paralyzed} or otherwise unable to act.</p>\n<p>Your stand manifests on its own and takes 1 action: guard you (the first hit against you before your next turn gets Stand Guard's resistance), Stride to you, or Strike a creature that attacked you since your last turn.</p>",
       "gm": ""
     },
     "publication": {
