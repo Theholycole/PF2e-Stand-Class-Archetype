@@ -1,0 +1,71 @@
+{
+  "_id": "jOje13SwG7wsTBWn",
+  "_key": "!items!jOje13SwG7wsTBWn",
+  "name": "Bizarre Trick",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "bizarre-trick",
+    "category": "class",
+    "level": {
+      "value": 4
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "summoner",
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": []
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Stand User Dedication"
+        }
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per day (twice per day at 12th level)</p>\n<p>Your stand does something its stats allow that none of your Stand Abilities cover: stretching, catching, inhaling, holding, copying or forcing, like Star Platinum inhaling a fog stand or plucking a tiny stand out between two fingers. The GM sets the effect with one rule: it's worth about one action of a Stand Ability of your level, such as a Strike with new reach, a skill check using the stand's stat bonus, or a basic save for @Damage[(1+floor((@actor.level - 1)/4))d6[force]] damage plus one minor condition. You can't repeat the same trick in the same encounter, and it can't copy another stand's ability.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "_migration": {
+      "version": 0.961,
+      "previous": null
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    },
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

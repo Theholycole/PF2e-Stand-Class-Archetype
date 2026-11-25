@@ -1,0 +1,74 @@
+{
+  "_id": "us4d2zQSHGN4O784",
+  "_key": "!items!us4d2zQSHGN4O784",
+  "name": "Star Finger",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "star-finger",
+    "category": "class",
+    "level": {
+      "value": 6
+    },
+    "actionType": {
+      "value": "passive"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "summoner",
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": []
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Stand User Dedication"
+        },
+        {
+          "value": "close-range stand"
+        }
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per round</p>\n<p>When your stand Strikes, its fingers shoot out: that Strike gets +10 feet of reach and deals piercing damage.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "_migration": {
+      "version": 0.961,
+      "previous": null
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    },
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

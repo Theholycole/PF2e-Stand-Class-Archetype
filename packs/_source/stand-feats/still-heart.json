@@ -1,0 +1,71 @@
+{
+  "_id": "Jb9DSS1SEPEQwhQf",
+  "_key": "!items!Jb9DSS1SEPEQwhQf",
+  "name": "Still Heart",
+  "type": "feat",
+  "img": "icons/magic/perception/silhouette-stealth-shadow.webp",
+  "system": {
+    "slug": "still-heart",
+    "category": "class",
+    "level": {
+      "value": 8
+    },
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "summoner",
+        "stand"
+      ],
+      "rarity": "uncommon",
+      "otherTags": []
+    },
+    "prerequisites": {
+      "value": [
+        {
+          "value": "Stand User Dedication"
+        }
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> You would be reduced to 0 Hit Points.</p>\n<p>Your stand squeezes your heart to a stop. You stay at 1 Hit Point, fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{prone} and appear dead; you're @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{unconscious} but don't gain the dying condition. A creature that examines you must succeed at a Medicine or Perception check against your stand DC to notice you're alive. Your stand unmanifests. You wake up as a free action at the start of any of your turns, and you're then @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{slowed 1} for 1 round.</p>",
+      "gm": ""
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "_migration": {
+      "version": 0.961,
+      "previous": null
+    },
+    "maxTakable": 1,
+    "rules": [],
+    "frequency": {
+      "max": 1,
+      "per": "day"
+    },
+    "subfeatures": {
+      "keyOptions": [],
+      "languages": {
+        "granted": [],
+        "slots": 0
+      },
+      "proficiencies": {},
+      "senses": {},
+      "suppressedFeatures": []
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}
