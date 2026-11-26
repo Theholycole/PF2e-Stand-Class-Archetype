@@ -43,6 +43,17 @@ function defaults(user, stand) {
 
 const options = (list, value, label = (x) => x) => list.map((x) => `<option value="${esc(x)}"${x === value ? " selected" : ""}>${esc(label(x))}</option>`).join("");
 
+// DialogV2 strips <style> from its content and wraps it in its own <form>, so the CSS goes in the page head once.
+const CSS = `.stand-builder fieldset{margin:0 0 6px;padding:4px 8px}.stand-builder label{display:inline-flex;gap:4px;align-items:center;margin:2px 8px 2px 0}
+.sb-grade select{width:4em}.sb-problems{color:#a00;min-height:1.2em}.sb-boost span{display:inline-block;width:9em}.sb-note{font-size:0.9em;opacity:.8}.stand-builder .sb-grades{display:grid;grid-template-columns:repeat(3,1fr)}`;
+function addStyle() {
+    if (document.getElementById("stand-builder-css")) return;
+    const el = document.createElement("style");
+    el.id = "stand-builder-css";
+    el.textContent = CSS;
+    document.head.append(el);
+}
+
 function formHtml(user, b) {
     const { abilities } = userChoices(user);
     const lv = user.level;
@@ -58,9 +69,8 @@ function formHtml(user, b) {
         })
         .join("");
     const sizeList = TYPES[b.type].sizes[0] === "user" ? [user.size ?? "med"] : TYPES[b.type].sizes;
-    return `<form class="stand-builder">
-<style>.stand-builder fieldset{margin:0 0 6px;padding:4px 8px}.stand-builder label{display:inline-flex;gap:4px;align-items:center;margin:2px 8px 2px 0}
-.sb-grade select{width:4em}.sb-problems{color:#a00;min-height:1.2em}.sb-boost span{display:inline-block;width:9em}.sb-note{font-size:0.9em;opacity:.8}</style>
+    return `<div class="stand-builder">
+
 <fieldset><legend>Stand</legend>
 <label>Name <input type="text" name="name" value="${esc(b.name)}"></label>
 <label>Type <select name="type">${typeOpts}</select></label>
@@ -68,7 +78,7 @@ function formHtml(user, b) {
 <label>Image <input type="text" name="img" value="${esc(b.img)}"></label>
 <div class="sb-note">Stand Ability: ${abilities.length ? esc(abilities.join(", ")) : "<i>not chosen yet (choose it on the Stand User feature)</i>"}</div>
 </fieldset>
-<fieldset><legend>Stat grades (one A, one B, two C, one D, one E)</legend>${gradeRows}
+<fieldset><legend>Stat grades (one A, one B, two C, one D, one E)</legend><div class="sb-grades">${gradeRows}</div>
 <div class="sb-note sb-rule">${esc(TYPES[b.type].rule)}</div><div class="sb-problems"></div></fieldset>
 <fieldset><legend>Attributes</legend>
 <label>Key attribute <select name="key">${options(["str", "dex"], b.key, (x) => (x === "str" ? "Strength (+2 item bonus to AC, Dex cap +3)" : "Dexterity (+1 item bonus to AC, Dex cap +4)"))}</select></label>
@@ -84,7 +94,7 @@ ${boostRows}${lv >= 17 ? `<label>Stand Transcendence (+1) <select name="transcen
 <fieldset><legend>Secondary attack (1d6, agile, finesse)</legend>
 <label>Name <input type="text" name="secondary.name" value="${esc(b.secondary.name)}"></label>
 <label>Damage <select name="secondary.damageType">${options(DAMAGE, b.secondary.damageType)}</select></label>
-</fieldset></form>`;
+</fieldset></div>`;
 }
 
 /** Read the form into a build object. */
@@ -116,6 +126,7 @@ function problems(b) {
 /** Open the builder for a user actor. Resolves to the stand actor, or null if cancelled. */
 export async function openBuilder(user, { stand = null, build = null, linkStand, requestBuild } = {}) {
     const DialogV2 = foundry.applications.api.DialogV2;
+    addStyle();
     let b = foundry.utils.mergeObject(defaults(user, stand), build ?? {}, { inplace: false });
     const result = await DialogV2.wait({
         window: { title: `Build ${user.name}'s Stand`, resizable: true },
@@ -127,14 +138,15 @@ export async function openBuilder(user, { stand = null, build = null, linkStand,
         ],
         render: (event, dialog) => {
             const root = dialog.element ?? event.target?.element;
-            const form = root.querySelector("form.stand-builder");
+            const form = root.querySelector("form");
+            const box = root.querySelector(".stand-builder");
             const submit = root.querySelector('button[data-action="build"]');
             const refresh = () => {
                 const now = readForm(form, user);
                 const list = problems(now);
-                form.querySelector(".sb-problems").textContent = list.join(" ");
-                form.querySelector(".sb-rule").textContent = TYPES[now.type]?.rule ?? "";
-                form.querySelector(".sb-maneuver").style.display = now.primary.form === "maneuver" ? "" : "none";
+                box.querySelector(".sb-problems").textContent = list.join(" ");
+                box.querySelector(".sb-rule").textContent = TYPES[now.type]?.rule ?? "";
+                box.querySelector(".sb-maneuver").style.display = now.primary.form === "maneuver" ? "" : "none";
                 submit.disabled = list.length > 0;
             };
             form.querySelector('[name="type"]').addEventListener("change", () => {
