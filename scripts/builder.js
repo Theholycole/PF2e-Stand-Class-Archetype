@@ -250,6 +250,7 @@ export async function applyBuild(user, b, { stand = null, linkStand } = {}) {
             type: "npc",
             img: b.img,
             ownership: user.ownership,
+            folder: user.folder?.id ?? null,
             system,
             flags,
             prototypeToken: { name: b.name, actorLink: true, disposition: user.prototypeToken.disposition, alpha: 0.75 },
@@ -257,6 +258,14 @@ export async function applyBuild(user, b, { stand = null, linkStand } = {}) {
         const body = await bodyItem();
         if (body) await stand.createEmbeddedDocuments("Item", [body.toObject()]);
         await linkStand?.(user, stand);
+        // Put the stand in the user's party too (PF2e parties), so it shows beside them.
+        for (const party of user.parties ?? []) {
+            try {
+                if (!party.members?.includes(stand)) await party.addMembers?.(stand);
+            } catch (e) {
+                console.warn(MODULE_ID, "couldn't add the stand to the party", e);
+            }
+        }
     } else {
         await stand.update({ name: b.name, img: b.img, system, flags, "prototypeToken.name": b.name });
     }
