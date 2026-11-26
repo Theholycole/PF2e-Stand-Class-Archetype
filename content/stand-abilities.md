@@ -52,7 +52,7 @@ From Made in Heaven · **Price:** the aura speeds up everyone else's world but y
 From Bites the Dust · **Price:** it only works through a willing ally who keeps your secret, and only once per day.
 
 - **1:** Once per day, plant a bomb in a willing ally. The first enemy that Strikes or targets that ally takes S damage with no save, then the bomb is gone.
-- **5:** Surge, 2 actions: plant a second bomb today, in the same or another willing ally (only one bomb at a time); the second bomb deals half the damage. When the bomb goes off, everyone within 30 ft except you returns to the space they held at the start of the round.
+- **5:** Surge, 2 actions: plant a second bomb today, in the same or another willing ally (only one bomb at a time); the second bomb deals no damage, it only rewinds. When the bomb goes off, everyone within 30 ft except you returns to the space they held at the start of the round.
 - **9:** You can choose whether the bomb triggers when it's set off.
 - **13:** The ally can reroll one save or check against the triggering creature's effect, keeping the better result.
 - **17:** When the bomb goes off, the triggering creature loses its remaining actions this turn, and it starts its next turn slowed 1.
