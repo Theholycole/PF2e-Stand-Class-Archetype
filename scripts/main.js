@@ -1,5 +1,7 @@
 // PF2e Stand Class Archetype: registers the Stand trait, adds a "Spend Stand Point" button to Stand Ability surges,
 // and links a stand actor to its user (Manifest Stand places or removes the stand's token; the two share Hit Points).
+import { applyBuild, openBuilder } from "./builder.js";
+
 const MODULE_ID = "pf2e-stand-class-archetype";
 const SOCKET = `module.${MODULE_ID}`;
 const FEATURES = `Compendium.${MODULE_ID}.stand-features.Item`;
@@ -26,8 +28,9 @@ Hooks.once("ready", () => {
     game.socket.on(SOCKET, (data) => {
         if (game.user !== game.users.activeGM) return;
         if (data?.type === "toggle") toggleStand(data.userUuid).catch((e) => console.error(MODULE_ID, e));
+        if (data?.type === "build") buildFromSocket(data).catch((e) => console.error(MODULE_ID, e));
     });
-    game.modules.get(MODULE_ID).api = { linkStand, standOf, userOf, toggleStand: requestToggle, createStand };
+    game.modules.get(MODULE_ID).api = { linkStand, standOf, userOf, toggleStand: requestToggle, createStand, buildStand };
 });
 
 /* -------------------------------------------- */
@@ -128,8 +131,10 @@ Hooks.on("renderChatMessageHTML", (message, html) => {
     }
     if (owner && item.system.slug === "manifest-stand") {
         const stand = standOf(actor);
-        if (stand) row.append(button(`Manifest / unmanifest ${stand.name}`, () => requestToggle(actor)));
-        else if (game.user.isGM || game.user.can("ACTOR_CREATE")) row.append(button("Create stand actor", () => createStand(actor)));
+        if (stand) {
+            row.append(button(`Manifest / unmanifest ${stand.name}`, () => requestToggle(actor)));
+            row.append(button("Rebuild stand", () => buildStand(actor)));
+        } else row.append(button("Build stand", () => buildStand(actor)));
     }
     if (row.children.length) html.querySelector(".message-content")?.append(row);
 });
@@ -157,4 +162,48 @@ Hooks.on("updateActor", (actor, changes) => {
     const other = standOf(actor) ?? userOf(actor);
     if (!other || other.system.attributes.hp.value === value) return;
     other.update({ "system.attributes.hp.value": Math.min(value, other.system.attributes.hp.max) });
+});
+
+/* -------------------------------------------- */
+/* Stand builder                                */
+/* -------------------------------------------- */
+
+/** Open the guided stand builder for a user actor (creates the stand, or updates the linked one). */
+function buildStand(user) {
+    return openBuilder(user, { stand: standOf(user), linkStand, requestBuild });
+}
+
+/** A player who can't create actors sends the finished build to the GM, who creates the stand. */
+function requestBuild(user, build) {
+    if (!game.users.activeGM) return ui.notifications.warn("A GM must be logged in to create the stand.");
+    game.socket.emit(SOCKET, { type: "build", userUuid: user.uuid, build });
+    ui.notifications.info("Stand sent to the GM to create.");
+    return null;
+}
+
+async function buildFromSocket({ userUuid, build }) {
+    const user = await fromUuid(userUuid);
+    if (user) await applyBuild(user, build, { stand: standOf(user), linkStand });
+}
+
+// When the Stand User feature lands on a character, offer the builder to the player who added it.
+Hooks.on("createItem", (item, options, userId) => {
+    if (userId !== game.user.id || item.system?.slug !== "stand-user" || item.actor?.type !== "character") return;
+    const actor = item.actor;
+    setTimeout(async () => {
+        const go = await foundry.applications.api.DialogV2.confirm({
+            window: { title: "Build your stand" },
+            content: "<p>Build your stand now? The builder asks for its type, name, size, stat grades, attacks and attribute boosts.</p>",
+        });
+        if (go) buildStand(actor);
+    }, 500);
+});
+
+// When the user levels up, the GM recalculates the stand from its saved build.
+Hooks.on("updateActor", (actor, changes) => {
+    if (game.user !== game.users.activeGM) return;
+    if (foundry.utils.getProperty(changes, "system.details.level.value") === undefined) return;
+    const stand = standOf(actor);
+    const build = stand?.getFlag(MODULE_ID, "build");
+    if (stand && build) applyBuild(actor, build, { stand, linkStand }).catch((e) => console.error(MODULE_ID, e));
 });
