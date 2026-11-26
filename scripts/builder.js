@@ -114,6 +114,7 @@ function readForm(form, user) {
         secondary: b.secondary,
         boosts,
         transcend: b.transcend ?? "str",
+        transcendPicked: user.level >= 17 && Boolean(b.transcend),
     };
 }
 

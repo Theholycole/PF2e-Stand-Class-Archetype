@@ -199,6 +199,20 @@ Hooks.on("createItem", (item, options, userId) => {
     }, 500);
 });
 
+// When the user reaches a level with new stand choices (boosts at 5/10/15/20, Stand Transcendence at 17), the player who
+// owns the character gets the builder, prefilled, to pick them.
+Hooks.on("updateActor", (actor, changes, options, userId) => {
+    const level = foundry.utils.getProperty(changes, "system.details.level.value");
+    if (level === undefined || game.user.isGM || !actor.isOwner) return;
+    const build = standOf(actor)?.getFlag(MODULE_ID, "build");
+    if (!build) return;
+    const due = [5, 10, 15, 17, 20].some((at) => level >= at && (at === 17 ? !build.transcendPicked : !(build.boosts?.[at]?.length === 4)));
+    if (due) setTimeout(() => {
+        ui.notifications.info(`${actor.name} reached level ${level}: choose your stand's new attribute boosts.`);
+        buildStand(actor);
+    }, 800);
+});
+
 // When the user levels up, the GM recalculates the stand from its saved build.
 Hooks.on("updateActor", (actor, changes) => {
     if (game.user !== game.users.activeGM) return;
