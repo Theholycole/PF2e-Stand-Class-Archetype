@@ -20,7 +20,7 @@ Time stays the rarest theme. Each Time ability is limited use rather than condit
 
 From The World, Star Platinum · **Price:** limited charges; attacks you make in stopped time only land when time resumes, and you can't use two charges in the same round.
 
-- **Charges:** you have 1 Time Stop charge, 2 at 9th level and 3 at 17th. All spent charges come back when you rest for 10 minutes (Refocusing counts). Time Stop doesn't cost Stand Points.
+- **Charges:** you have 1 Time Stop charge, 2 at 9th level and 3 at 17th. All spent charges come back when you rest for 10 minutes (Refocusing counts). Time Stop doesn't cost Stand Points. Surge, free action: regain 1 spent charge. You can't use this in a round in which you used a charge.
 - **1:** Free action (once per round), 1 charge: stop time and take 1 extra action at once while every other creature is frozen. Strikes and thrown objects made in stopped time hang in the air and hit when time resumes, and their targets are off-guard against them.
 - **5:** You can use a charge as a reaction when a creature you can see starts an action; your stopped-time actions happen before its action resolves. You also gain +1 status bonus to initiative.
 - **9:** Stopped time lasts 2 actions.
@@ -52,7 +52,7 @@ From Made in Heaven · **Price:** the aura speeds up everyone else's world but y
 From Bites the Dust · **Price:** it only works through a willing ally who keeps your secret, and only once per day.
 
 - **1:** Once per day, plant a bomb in a willing ally. The first enemy that Strikes or targets that ally takes S damage with no save, then the bomb is gone.
-- **5:** When the bomb goes off, everyone within 30 ft except you returns to the space they held at the start of the round.
+- **5:** Surge, 2 actions: plant a second bomb today, in the same or another willing ally (only one bomb at a time). When the bomb goes off, everyone within 30 ft except you returns to the space they held at the start of the round.
 - **9:** You can choose whether the bomb triggers when it's set off.
 - **13:** The ally can reroll one save or check against the triggering creature's effect, keeping the better result.
 - **17:** When the bomb goes off, the triggering creature loses its remaining actions this turn, and it starts its next turn slowed 1.
@@ -204,8 +204,8 @@ From Schott Key No.1 · **Price:** touch only, and only from your left hand to y
 From West End Girl · **Price:** your stand can only attack from a gap between two objects, and it's defenseless on open surfaces.
 
 - **1:** Your stand can attack from any gap within its range (a door crack, between barrels) as if it were adjacent. Strikes from a gap gain +1 circumstance to damage per die.
-- **5:** Strikes from a gap make the target off-guard.
-- **9:** Surge: crush a creature next to a gap for S bludgeoning (basic Fortitude).
+- **5:** Strikes from a gap make the target off-guard. Surge: crush a creature next to a gap for S bludgeoning (basic Fortitude).
+- **9:** Your crushing surge can hit up to two creatures next to the same gap.
 - **13:** Crushing also immobilizes on a failure.
 - **17:** You can attack from two gaps per turn.
 
@@ -236,8 +236,8 @@ From Gold Experience · Pour life into objects and too much life into foes.
 From Soft & Wet · **Price:** a slow bubble that must touch the target.
 
 - **1:** 1 action: release a bubble that floats 30 ft. It pops on the first creature or object in its path and steals one property for 1 round: friction (it falls prone if it moves and is off-guard for 1 round, Reflex negates; off-guard for 1 minute on a critical failure), sound (silenced) or water (sickened 1, sickened 2 on a critical failure, Fortitude negates; the sickened lasts until it drinks or retches, as normal). Once per turn your stand can pop a bubble on the creature it hits as part of a Strike (1 action), stealing its friction.
-- **5:** Bubbles float 40 ft and you release two bubbles per action at different creatures. You can steal sight (dazzled for 1 round on a failure, blinded for 1 round on a critical failure, Fortitude negates).
-- **9:** Surge: a single bubble whose stolen property lasts 1 minute; stolen water leaves it sickened 2 (sickened 3 on a critical failure).
+- **5:** Bubbles float 40 ft and you release two bubbles per action at different creatures. You can steal sight (dazzled for 1 round on a failure, blinded for 1 round on a critical failure, Fortitude negates). Surge: a single bubble whose stolen property lasts 1 minute; stolen water leaves it sickened 2 (sickened 3 on a critical failure).
+- **9:** A surge bubble can steal two properties at once.
 - **13:** No change.
 - **17:** Steal the air: the creature is suffocating for 1 round (Fortitude negates).
 
@@ -256,8 +256,8 @@ From Kiss · **Price:** a sticker your stand must place by touch; the damage onl
 From Stone Free · **Price:** your body becomes the string, so damage to the string is damage to you.
 
 - **1:** Your body unravels: reach 15 ft for Interact and Grapple, and you can squeeze through any gap. 1 action: string trap on a creature within your string's reach: it's grabbed for 1 round (Reflex negates). 1 action: lash up to two creatures within your string's reach with taut string: D slashing damage (basic Reflex); on a failure the string tangles it, off-guard until the end of your next turn, and on a critical failure it's grabbed until the end of your next turn. Once per turn, your stand can bind a creature it hits with your string as part of a Strike (1 action): the string cuts for 1d6 extra slashing damage (2d6 at 5th, 3d6 at 13th), and it's grabbed until the end of your next turn (Reflex negates); on a failed save the string bites in, 1d6 persistent bleed damage.
-- **5:** The string trap restrains for 1 round on a critical failure, and the binding restrains until the end of your next turn on a critical failure.
-- **9:** Surge: string net, 15-ft burst: restrained for 1 round (Reflex negates).
+- **5:** The string trap restrains for 1 round on a critical failure, and the binding restrains until the end of your next turn on a critical failure. Surge: string net, 15-ft burst: restrained for 1 round (Reflex negates).
+- **9:** The surge string net is a 20-ft burst.
 - **13:** String reach 30 ft. Your surge net takes 1 action.
 - **17:** You can sew wounds closed: allies heal D each turn while touched (once per round, max 1 minute).
 
@@ -266,8 +266,8 @@ From Stone Free · **Price:** your body becomes the string, so damage to the str
 From Kraft Work · **Price:** touch only, and anything you fix also stops your stand's hand.
 
 - **1:** 1 action: an object your stand touches stops in place (it can't move, even in the air) until you release it as a free action or for 1 minute. Or your stand fixes a limb of a creature it touches (Fortitude): off-guard for 1 round on a failure; also immobilized for 1 round on a critical failure. Once per turn your stand can do this as part of a Strike (1 action) against the creature it hits. Stopped objects keep stored momentum: 1 action, release a stopped object at a creature within 30 ft of your stand for D force damage (basic Reflex).
-- **5:** Reaction: stop a projectile that would hit you or an ally within 30 ft of your stand (Interact); the ranged Strike misses. A creature that fails against your limb fix is also immobilized for 1 round, and one that critically fails is off-guard for 1 minute.
-- **9:** Surge: a creature your stand hits is immobilized and off-guard for 1 round (Fortitude negates).
+- **5:** Reaction: stop a projectile that would hit you or an ally within 30 ft of your stand (Interact); the ranged Strike misses. A creature that fails against your limb fix is also immobilized for 1 round, and one that critically fails is off-guard for 1 minute. Surge: a creature your stand hits is immobilized and off-guard for 1 round (Fortitude negates).
+- **9:** Your surge can fix up to two creatures your stand hits this turn (one save each).
 - **13:** Releasing a stopped object deals 2D force damage.
 - **17:** Immobilize for 1 minute on a critical failure.
 
@@ -286,8 +286,8 @@ From Judgement · **Price:** the golem takes the shape of what the target wishes
 From Khnum · **Price:** only faces; voice and body stay yours.
 
 - **1:** 1 action: change your face to look like a person you've seen. +4 status to Deception to Impersonate them. In combat, flash a face a creature within 30 ft trusts or fears (Will negates; mental, visual): it hesitates, off-guard for 1 round and frightened 1 (frightened 2 on a critical failure). Once per turn your stand can Strike from behind a friendly face (1 action): the target is off-guard against that Strike.
-- **5:** Also change a willing ally's face; your trusted face can fool up to 2 creatures at once. A creature your stand's masked Strike hits is frightened 1.
-- **9:** Surge: lasts 1 day; or, in combat, the false face holds for every creature in a 20-ft burst within 30 ft that sees it: a creature that fails is off-guard for 1 minute (frightened 1 too on a critical failure).
+- **5:** Also change a willing ally's face; your trusted face can fool up to 2 creatures at once. A creature your stand's masked Strike hits is frightened 1. Surge: lasts 1 day; or, in combat, the false face holds for every creature in a 20-ft burst within 30 ft that sees it: a creature that fails is off-guard for 1 minute (frightened 1 too on a critical failure).
+- **9:** The surge's false-face burst is 30 ft.
 - **13:** Change voice too; the off-guard from your trusted face lasts 1 minute, and a creature that critically fails against it is also stupefied 1 for 1 round.
 - **17:** Reaction: change your face as a creature looks at you, ending a gaze or visual-recognition effect.
 
@@ -296,8 +296,8 @@ From Khnum · **Price:** only faces; voice and body stay yours.
 From Earth Wind and Fire · **Price:** you turn into objects only, and you can't attack in object form.
 
 - **1:** 1 action: become a Small object. You can't move or attack; Perception DC = your stand DC to spot you; you get resistance to all damage equal to half your level while shaped. Or become a weapon, shield or tool in an adjacent ally's hand (1 action): it gets +1 circumstance to attack rolls, +2 circumstance to AC and +2 circumstance to damage for 1 minute while it holds you. While you're shaped or held, once per turn your stand can lunge out from beside you (1 action): a Strike, and the target is off-guard against it.
-- **5:** Become a Medium object; your resistance while shaped equals your level. Your stand's lunge deals one extra weapon damage die.
-- **9:** Surge: leave object form with a free Strike by your stand against an adjacent creature, which is off-guard.
+- **5:** Become a Medium object; your resistance while shaped equals your level. Your stand's lunge deals one extra weapon damage die. Surge: leave object form with a free Strike by your stand against an adjacent creature, which is off-guard.
+- **9:** Your surge's free Strike deals one extra weapon damage die.
 - **13:** Become a cart or small boat that up to four allies can ride; you move it at your Speed. As a living tool your damage bonus is +4. A creature your stand's lunge hits is off-guard for 1 round.
 - **17:** Become a Large object.
 
@@ -306,8 +306,8 @@ From Earth Wind and Fire · **Price:** you turn into objects only, and you can't
 From Spice Girl · **Price:** touch only; softened things become rubber, and that can include your footing.
 
 - **1:** 1 action: your stand softens an object it touches; it's rubbery, Hardness 0, and bounces. Or it softens the armor or hide of a creature it touches (Fortitude negates): it's off-guard for 1 round, or for 1 minute on a critical failure. Once per turn your stand can soften the creature it hits as part of a Strike (1 action).
-- **5:** Softened ground: creatures falling onto it take no damage, and a creature knocked onto it bounces 10 ft. 1 action: soften the ground under a creature your stand touches: it sinks and snaps back up, taking D bludgeoning damage (basic Reflex), and falls prone on a failure.
-- **9:** Surge: soften a creature's weapon or armor: weapon damage is halved, or AC –2 for 1 minute (Fortitude negates).
+- **5:** Softened ground: creatures falling onto it take no damage, and a creature knocked onto it bounces 10 ft. 1 action: soften the ground under a creature your stand touches: it sinks and snaps back up, taking D bludgeoning damage (basic Reflex), and falls prone on a failure. Surge: soften a creature's weapon or armor: weapon damage is halved, or AC –2 for 1 minute (Fortitude negates).
+- **9:** Your surge can soften both a creature's weapon and its armor at once.
 - **13:** Soften a 20-ft area of wall or floor: difficult terrain, and you can push through it like water. A creature that fails against your softened armor or hide is off-guard for 1 minute.
 - **17:** Soften a creature's body (Fortitude): clumsy 2 and it can squeeze, but it also can't hold anything for 1 round.
 
@@ -326,8 +326,8 @@ From Baby Face · **Price:** automatic only: the stand acts on its own program, 
 From Limp Bizkit · **Price:** you need corpses nearby, and the zombies are weak.
 
 - **1:** 2 actions: raise one invisible zombie from a corpse within 30 ft (minion, 1 action to command, lasts 1 minute).
-- **5:** Two zombies.
-- **9:** Surge: zombies deal D extra damage each (at most 2D in all per command), and a creature they critically hit is grabbed.
+- **5:** Two zombies. Surge: zombies deal D extra damage each (at most 2D in all per command), and a creature they critically hit is grabbed.
+- **9:** Three zombies.
 - **13:** Four zombies.
 - **17:** Zombies can be raised from creatures that died this fight, as creatures of their size.
 
@@ -336,8 +336,8 @@ From Limp Bizkit · **Price:** you need corpses nearby, and the zombies are weak
 From Cream Starter · **Price:** the spray can heal or harm, but it uses your own flesh (you lose HP to heal others).
 
 - **1:** 1 action: spray flesh to close an ally's wound: lose up to D HP, and the ally heals twice that much. 1 action: spray a creature's mouth or eyes shut (Reflex negates): blinded or can't speak for 1 round. 1 action: spray flesh onto a creature within 30 ft of your stand and tear it away with a strip of its own: D slashing damage (basic Fortitude).
-- **5:** A creature that critically fails against your spray stays sealed for 1 minute. You can spray two creatures' mouths or eyes shut with one action.
-- **9:** Surge, 1 action: heal an ally 2d8 + your key attribute, +1d8 per 2 levels, without losing HP.
+- **5:** A creature that critically fails against your spray stays sealed for 1 minute. You can spray two creatures' mouths or eyes shut with one action. Surge, 1 action: heal an ally 2d8 + your key attribute, +1d8 per 2 levels, without losing HP.
+- **9:** You can split your surge heal between two allies within 30 ft (roll once, divide as you like).
 - **13:** Disguise a creature's face with flesh, as Disguise. A creature that fails against your tearing spray is also blinded for 1 round.
 - **17:** Seal a creature's breathing: suffocating for 1 round (Fortitude negates).
 
@@ -407,9 +407,9 @@ From Weather Report · **Price:** it needs open sky for anything beyond fog.
 
 From Tusk, Ball Breaker · **Price:** limited ammo (your fingernails or steel balls regrow at 10 per day).
 
-- **1:** 1 action: spinning nail shot, range 30 ft: D piercing, attack with your stand's modifier. Uses one nail.
-- **5:** A hit leaves a hole: the nail shot also deals 1d6 persistent bleed (2d6 from 13th), and you can move through the hole with your stand, ignoring cover from that target.
-- **9:** Surge: golden spin shot: S piercing, ignores resistance; on a hit the target is slowed 1 for 1 round (1 minute on a critical hit), and the hole's bleed is doubled.
+- **1:** 1 action: spinning nail shot, range 30 ft: D piercing, attack with your stand's modifier. Uses one nail. Surge, free action: regrow 5 nails at once.
+- **5:** A hit leaves a hole: the nail shot also deals 1d6 persistent bleed (2d6 from 13th), and you can move through the hole with your stand, ignoring cover from that target. Surge: golden spin shot: S piercing, ignores resistance; on a hit the target is slowed 1 for 1 round (1 minute on a critical hit), and the hole's bleed is doubled.
+- **9:** A golden spin shot that hits also knocks the target prone.
 - **13:** Nail shots range 60 ft and home around one cover.
 - **17:** Surge, once per day: infinite spin: the target takes S each round for 3 rounds (no save); it keeps chasing the target.
 
@@ -490,8 +490,8 @@ From Ozon Baby · **Price:** it only works through holes or openings (a door, a 
 From Little Feet · Your stand's blows shrink whatever they hit.
 
 - **1:** When your stand hits with a Strike, the target is off-guard to your stand until the end of your next turn as it starts to shrink (no save), and it attempts Fortitude: failure, enfeebled 1 and off-guard until the end of your next turn; critical failure, enfeebled 2 and off-guard as well, and it shrinks one size for 1 minute (enfeebled 2 for that minute). Crushing blows: your stand's Strikes deal 1d6 extra damage to a creature that's enfeebled from Shrink. Shrinking pinch: 1 action: your stand pinches a creature within 30 ft down to size without a Strike; the squeeze deals D bludgeoning damage, at most 2d6 (basic Fortitude); a failure makes it enfeebled as above (not off-guard), and a critical failure has the same effects as above.
-- **5:** A failure's enfeebled 1 now lasts 1 minute, and a critical failure also makes the target clumsy 1 for 1 minute. Crushing blows deal 2d6.
-- **9:** Surge: shrink yourself and your stand to Tiny for 10 minutes (+2 Stealth, can squeeze through any gap).
+- **5:** A failure's enfeebled 1 now lasts 1 minute, and a critical failure also makes the target clumsy 1 for 1 minute. Crushing blows deal 2d6. Surge: shrink yourself and your stand to Tiny for 10 minutes (+2 Stealth, can squeeze through any gap).
+- **9:** Your surge can shrink one willing adjacent ally along with you.
 - **13:** Shrinking now lasts 1 minute and stacks once more on a later hit (up to two sizes): a failure makes the target enfeebled 2. Crushing blows deal 3d6.
 - **17:** A creature that fails while already shrunk becomes Tiny and enfeebled 3 for 1 minute (incapacitation).
 
@@ -510,8 +510,8 @@ From The Grateful Dead · **Price:** weaker against cold creatures, and it stops
 From Purple Haze · **Price:** the virus hits allies and you too.
 
 - **1:** 1 action: break a capsule in a 10-ft burst: persistent poison damage equal to D, and D poison at once as the virus bites (Fortitude negates); a failure also leaves the creature sickened 1, a critical failure sickened 2; including allies and you. Or, 1 action: your stand's fist breaks a capsule on one creature it hits or touches, so only that creature is exposed: the bite's D poison is a basic Fortitude save, and a failure brings the persistent damage and sickened as above.
-- **5:** Persistent damage equals half S. The virus's bite at once deals half S.
-- **9:** Surge: three capsules at once, each in a different burst.
+- **5:** Persistent damage equals half S. The virus's bite at once deals half S. Surge: three capsules at once, each in a different burst.
+- **9:** Capsule bursts are 15 ft.
 - **13:** 1 action: kill your virus in one burst, ending its persistent damage on everyone there (the virus also dies in direct sunlight). The virus has adapted: a failure leaves a creature sickened 2, a critical failure sickened 3.
 - **17:** A failure also makes the creature drained 1, and a critical failure drained 2.
 
@@ -520,8 +520,8 @@ From Purple Haze · **Price:** the virus hits allies and you too.
 From Metallica · **Price:** fails on creatures without blood (constructs, most undead).
 
 - **1:** 1 action: pull iron from a creature's blood within 30 ft as razors: D slashing (basic Fortitude); on a critical failure it also takes 1d6 persistent bleed.
-- **5:** On a failure, also sickened 1 from blood loss.
-- **9:** Surge: S slashing, sickened 2 on a failure.
+- **5:** On a failure, also sickened 1 from blood loss. Surge: S slashing, sickened 2 on a failure.
+- **9:** Your surge can target two creatures within 30 ft.
 - **13:** Iron camouflage: you can Hide against metal or stone walls without cover, with +2 circumstance to Stealth. A creature that fails Iron Blood's save is also clumsy 1 for 1 round.
 - **17:** Target that critically fails is also drained 2.
 
@@ -530,8 +530,8 @@ From Metallica · **Price:** fails on creatures without blood (constructs, most 
 From Green Day · **Price:** it only triggers on creatures that move downward.
 
 - **1:** 1 action: release mold in a 30-ft emanation for 1 minute. A creature that moves to a lower position (stepping down, falling, going prone) takes D persistent poison. The mold also rots the footing: an enemy that starts its turn in the mold attempts a Reflex save; on a failure it slips downward (triggering the mold), and on a critical failure it also falls prone.
-- **5:** Prone counts as moving down, so the mold triggers when creatures fall prone. An enemy that fails its Reflex save against the rotten footing falls prone.
-- **9:** Surge: the emanation is 60 ft, and persistent damage equals S/2.
+- **5:** Prone counts as moving down, so the mold triggers when creatures fall prone. An enemy that fails its Reflex save against the rotten footing falls prone. Surge: the emanation is 60 ft, and persistent damage equals S/2.
+- **9:** Enemies take a –2 circumstance penalty to Reflex saves against the rotten footing.
 - **13:** Allies are immune to your mold.
 - **17:** Creatures in the mold that are already infected are slowed 1 while they keep low.
 
@@ -570,8 +570,8 @@ From Empress · **Price:** it needs a touch to the target's blood (an open wound
 From Lovers · **Price:** damage to you is also shared with the host.
 
 - **1:** 1 action: link with a creature by touch for 1 minute: the link tears into its nerves for D mental damage (basic Will); on a failure it's linked. When you take damage, it takes half that much (no save). The host is off-guard to you and your stand while linked.
-- **5:** The host is also clumsy 1 while linked, flinching with your pain. Link two creatures.
-- **9:** Surge: you transfer one condition from you to the host (Will negates). A host takes the full damage you take.
+- **5:** The host is also clumsy 1 while linked, flinching with your pain. Link two creatures. Surge: you transfer one condition from you to the host (Will negates).
+- **9:** A host takes the full damage you take.
 - **13:** Link three creatures.
 - **17:** No change.
 
@@ -590,8 +590,8 @@ From Aqua Necklace · **Price:** the target must drink or breathe your stand's w
 From Ratt · **Price:** automatic only; the darts fire at anything moving.
 
 - **1:** 1 action: dart, range 30 ft: D acid (attack roll), and 1d6 persistent acid on a hit.
-- **5:** Darts melt a creature's flesh: on a critical hit, clumsy 1 for 1 minute.
-- **9:** The persistent acid is 2d6. Surge (1 action): three darts at different targets, each half S.
+- **5:** Darts melt a creature's flesh: on a critical hit, clumsy 1 for 1 minute. Surge (1 action): three darts at different targets, each half S.
+- **9:** The persistent acid is 2d6.
 - **13:** On any hit, the target is clumsy 1 until the end of your next turn (1 minute on a critical hit).
 - **17:** The persistent acid is 3d6, and darts ignore resistance to acid.
 
@@ -794,8 +794,8 @@ From Spiderweb Stand · **Price:** it only works through existing spiderwebs.
 From Wonder of U · **Price:** it only hits creatures that pursue you, and its power grows slowly.
 
 - **1:** A creature that moves toward you, targets you or Seeks you takes D bludgeoning from a minor accident (basic Reflex), once per round; on a failure it's also off-guard until the end of its next turn and clumsy 1 for 1 minute (clumsy 2 on a critical failure). Misfortune follows your stand too: a creature that targets your stand suffers its own minor accident the same way (once per round, apart from yours). Bad omen: 1 action: you mark a creature within 30 ft for misfortune and an accident strikes it at once: D bludgeoning (basic Reflex), with the same effects as a minor accident on a failure or critical failure.
-- **5:** A creature that critically fails also falls prone. Your bad omen can mark two creatures at once.
-- **9:** Surge, reaction: when a creature moves toward you or targets you, it takes S damage from a major accident (basic Reflex).
+- **5:** A creature that critically fails also falls prone. Your bad omen can mark two creatures at once. Surge, reaction: when a creature moves toward you or targets you, it takes S damage from a major accident (basic Reflex).
+- **9:** A creature that fails against the major accident also falls prone.
 - **13:** Allies are never targeted.
 - **17:** A critical failure also leaves the creature immobilized for 1 round.
 
