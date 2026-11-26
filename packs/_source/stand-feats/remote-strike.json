@@ -35,7 +35,7 @@
       ]
     },
     "description": {
-      "value": "<p>Your stand's Strikes have a reach of 60 feet (its tendrils lash out from its space). Beyond 60 feet, up to its range, it can still Strike, but its damage die drops to d4.</p>",
+      "value": "<p>Your stand's Strikes have a reach of 60 feet (its tendrils lash out from its space). Beyond 60 feet, up to 120 feet, it can still Strike, but its damage die drops to d4.</p>",
       "gm": ""
     },
     "publication": {

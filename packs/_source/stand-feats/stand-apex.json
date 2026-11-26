@@ -32,7 +32,7 @@
       ]
     },
     "description": {
-      "value": "<p>Your stand's best stat goes beyond A (+1 more to that stat's bonus), and once per day a surge costs no Stand Point and uses your stand DC + 2.</p>",
+      "value": "<p>Your stand's best stat goes beyond A. Choose one stat graded A; it becomes A+:</p>\n<ul><li><strong>Power</strong> The primary attack's die steps up one more size (two steps in all).</li><li><strong>Speed</strong> +3 initiative and +15 feet to your stand's Speed.</li><li><strong>Range</strong> Your tether becomes unlimited, as long as you and your stand are on the same plane.</li><li><strong>Durability</strong> The guard bonus becomes a +3 circumstance bonus to AC.</li><li><strong>Precision</strong> +2 to stand Strikes and Stand Ability DCs.</li><li><strong>Potential</strong> You gain one more bonus evolution feat.</li></ul>\n<p>Also, once per day, one surge costs no Stand Point and uses your stand DC + 2.</p>",
       "gm": ""
     },
     "publication": {

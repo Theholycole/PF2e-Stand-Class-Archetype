@@ -11,10 +11,10 @@
       "value": 4
     },
     "actionType": {
-      "value": "passive"
+      "value": "action"
     },
     "actions": {
-      "value": null
+      "value": 1
     },
     "traits": {
       "value": [
@@ -32,7 +32,7 @@
       ]
     },
     "description": {
-      "value": "<p><strong>Frequency</strong> once per day (twice per day at 12th level)</p>\n<p>Your stand does something its stats allow that none of your Stand Abilities cover: stretching, catching, inhaling, holding, copying or forcing, like Star Platinum inhaling a fog stand or plucking a tiny stand out between two fingers. The GM sets the effect with one rule: it's worth about one action of a Stand Ability of your level, such as a Strike with new reach, a skill check using the stand's stat bonus, or a basic save for @Damage[(1+floor((@actor.level - 1)/4))d6[force]] damage plus one minor condition. You can't repeat the same trick in the same encounter, and it can't copy another stand's ability.</p>",
+      "value": "<p><strong>Frequency</strong> once per day (twice per day at 12th level)</p>\n<p>Your stand uses its raw body for something its Stand Ability can't do. Choose one trick. You can't use the same trick twice in the same encounter.</p>\n<ul><li><strong>Long Reach</strong> Your stand stretches: its next Strike this turn has a reach of 15 feet.</li><li><strong>Steady Hands</strong> Your stand attempts one Acrobatics, Athletics or Thievery check, using your stand's attack modifier in place of the skill modifier.</li><li><strong>Snatch</strong> Your stand grabs an unattended object of light Bulk or less within 30 feet of it and brings it to your hand.</li><li><strong>Brute Force</strong> One creature in your stand's reach takes your Stand Ability's at-will damage (@Check[fortitude|against:stand|basic]{basic Fortitude} save against your stand DC). On a failure it's also @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{off-guard} until the end of your turn; on a critical failure it's also pushed 10 feet away from your stand.</li></ul>",
       "gm": ""
     },
     "publication": {
