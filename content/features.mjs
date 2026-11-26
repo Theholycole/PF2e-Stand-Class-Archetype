@@ -306,7 +306,7 @@ export function standFeatures() {
             { key: "ActiveEffectLike", mode: "override", path: "flags.system.eidolon.tradition", value: "occult" },
             { key: "ChoiceSet", flag: "standType", prompt: "Choose your stand type", choices: { itemType: "feat", filter: ["item:tag:stand-type"] }, adjustName: false },
             { key: "GrantItem", uuid: "{item|flags.system.rulesSelections.standType}" },
-            { key: "ChoiceSet", flag: "standAbility", prompt: "Choose your Stand Ability", choices: { itemType: "feat", filter: ["item:tag:stand-ability"] }, adjustName: false },
+            { key: "ChoiceSet", flag: "standAbility", prompt: "Choose your Stand Ability", choices: { itemType: "feat", filter: ["item:tag:stand-ability"] }, adjustName: false, allowNoSelection: true },
             { key: "GrantItem", uuid: "{item|flags.system.rulesSelections.standAbility}" },
             grantAtLevel(uuidFor(P, "manifest-stand"), 1),
             grantAtLevel(PF2E.actTogether, 1, { allowDuplicate: true }),

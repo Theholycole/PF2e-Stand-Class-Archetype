@@ -119,7 +119,8 @@
             "item:tag:stand-ability"
           ]
         },
-        "adjustName": false
+        "adjustName": false,
+        "allowNoSelection": true
       },
       {
         "key": "GrantItem",
