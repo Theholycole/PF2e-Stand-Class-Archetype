@@ -43,9 +43,32 @@ function defaults(user, stand) {
 
 const options = (list, value, label = (x) => x) => list.map((x) => `<option value="${esc(x)}"${x === value ? " selected" : ""}>${esc(label(x))}</option>`).join("");
 
+/** The Stand Ability list (grouped by theme) with a preview of what the selected one does. */
+async function abilityIndex() {
+    const pack = game.packs.get(`${MODULE_ID}.stand-abilities`);
+    const index = await pack.getIndex({ fields: ["system.description.value", "system.traits.otherTags", `flags.${MODULE_ID}.theme`] });
+    return [...index].filter((e) => e.system?.traits?.otherTags?.includes("stand-ability")).sort((a, b) => a.name.localeCompare(b.name));
+}
+
+function abilityField(chosen, index, b) {
+    if (chosen.length) {
+        const shown = index.filter((e) => chosen.includes(e.name));
+        return `<div class="sb-note">Your Stand Ability: ${esc(chosen.join(", "))}</div>${shown.map((e) => `<details><summary>What ${esc(e.name)} does</summary><div class="sb-desc" data-raw="${esc(e._id)}"></div></details>`).join("")}`;
+    }
+    const themes = {};
+    for (const e of index) (themes[e.flags?.[MODULE_ID]?.theme ?? "Other"] ??= []).push(e);
+    const groups = Object.keys(themes).sort().map((t) => `<optgroup label="${esc(t)}">${themes[t].map((e) => `<option value="${e._id}"${e._id === b.ability ? " selected" : ""}>${esc(e.name)}</option>`).join("")}</optgroup>`).join("");
+    return `<label>Choose <select name="ability"><option value="">-</option>${groups}</select></label><div class="sb-note">Read what each ability does below before you pick. It's added to your character when you create the stand.</div><div class="sb-desc sb-preview"></div>`;
+}
+
+async function enrich(html, user) {
+    const TE = foundry.applications?.ux?.TextEditor?.implementation ?? TextEditor;
+    return TE.enrichHTML(html ?? "", { rollData: user.getRollData?.() ?? {} });
+}
+
 // DialogV2 strips <style> from its content and wraps it in its own <form>, so the CSS goes in the page head once.
 const CSS = `.stand-builder fieldset{margin:0 0 6px;padding:4px 8px}.stand-builder label{display:inline-flex;gap:4px;align-items:center;margin:2px 8px 2px 0}
-.sb-grade select{width:4em}.sb-problems{color:#a00;min-height:1.2em}.sb-boost span{display:inline-block;width:9em}.sb-note{font-size:0.9em;opacity:.8}.stand-builder .sb-grades{display:grid;grid-template-columns:repeat(3,1fr)}`;
+.sb-grade select{width:4em}.sb-problems{color:#a00;min-height:1.2em}.sb-boost span{display:inline-block;width:9em}.sb-note{font-size:0.9em;opacity:.8}.stand-builder .sb-desc{max-height:220px;overflow:auto;font-size:0.9em;border-left:3px solid #8884;padding-left:6px;margin-top:4px}.stand-builder .sb-grades{display:grid;grid-template-columns:repeat(3,1fr)}`;
 function addStyle() {
     if (document.getElementById("stand-builder-css")) return;
     const el = document.createElement("style");
@@ -54,7 +77,7 @@ function addStyle() {
     document.head.append(el);
 }
 
-function formHtml(user, b) {
+function formHtml(user, b, index) {
     const { abilities } = userChoices(user);
     const lv = user.level;
     const typeOpts = Object.entries(TYPES).map(([k, t]) => `<option value="${k}"${k === b.type ? " selected" : ""}>${esc(t.label)}</option>`).join("");
@@ -76,7 +99,8 @@ function formHtml(user, b) {
 <label>Type <select name="type">${typeOpts}</select></label>
 <label>Size <select name="size">${options(sizeList, b.size, (x) => SIZES[x] ?? x)}</select></label>
 <label>Image <input type="text" name="img" value="${esc(b.img)}"></label>
-<div class="sb-note">Stand Ability: ${abilities.length ? esc(abilities.join(", ")) : "<i>not chosen yet (choose it on the Stand User feature)</i>"}</div>
+</fieldset>
+<fieldset><legend>Stand Ability</legend>${abilityField(abilities, index, b)}
 </fieldset>
 <fieldset><legend>Stat grades (one A, one B, two C, one D, one E)</legend><div class="sb-grades">${gradeRows}</div>
 <div class="sb-note sb-rule">${esc(TYPES[b.type].rule)}</div><div class="sb-problems"></div></fieldset>
@@ -115,11 +139,13 @@ function readForm(form, user) {
         boosts,
         transcend: b.transcend ?? "str",
         transcendPicked: user.level >= 17 && Boolean(b.transcend),
+        ability: b.ability || null,
     };
 }
 
-function problems(b) {
+function problems(b, user) {
     const out = gradeProblems(b.type, b.grades);
+    if (user && !userChoices(user).abilities.length && !b.ability) out.push("Choose a Stand Ability.");
     for (const [at, picks] of Object.entries(b.boosts)) if (picks.length !== 4) out.push(`Pick exactly 4 boosts at ${at}th level.`);
     return out;
 }
@@ -128,11 +154,13 @@ function problems(b) {
 export async function openBuilder(user, { stand = null, build = null, linkStand, requestBuild } = {}) {
     const DialogV2 = foundry.applications.api.DialogV2;
     addStyle();
+    const index = await abilityIndex();
+    const byId = new Map(index.map((e) => [e._id, e]));
     let b = foundry.utils.mergeObject(defaults(user, stand), build ?? {}, { inplace: false });
     const result = await DialogV2.wait({
         window: { title: `Build ${user.name}'s Stand`, resizable: true },
         position: { width: 620 },
-        content: formHtml(user, b),
+        content: formHtml(user, b, index),
         buttons: [
             { action: "build", label: stand ? "Update stand" : "Create stand", icon: "fa-solid fa-person-rays", default: true, callback: (event, button) => readForm(button.form, user) },
             { action: "cancel", label: "Cancel" },
@@ -144,7 +172,7 @@ export async function openBuilder(user, { stand = null, build = null, linkStand,
             const submit = root.querySelector('button[data-action="build"]');
             const refresh = () => {
                 const now = readForm(form, user);
-                const list = problems(now);
+                const list = problems(now, user);
                 box.querySelector(".sb-problems").textContent = list.join(" ");
                 box.querySelector(".sb-rule").textContent = TYPES[now.type]?.rule ?? "";
                 box.querySelector(".sb-maneuver").style.display = now.primary.form === "maneuver" ? "" : "none";
@@ -164,13 +192,21 @@ export async function openBuilder(user, { stand = null, build = null, linkStand,
                 refresh();
             });
             form.addEventListener("change", refresh);
+            const preview = async () => {
+                const el = box.querySelector(".sb-preview");
+                const id = form.querySelector('[name="ability"]')?.value;
+                if (el) el.innerHTML = id ? await enrich(byId.get(id)?.system?.description?.value, user) : "";
+            };
+            form.querySelector('[name="ability"]')?.addEventListener("change", preview);
+            preview();
+            for (const el of box.querySelectorAll(".sb-desc[data-raw]")) enrich(byId.get(el.dataset.raw)?.system?.description?.value, user).then((h) => (el.innerHTML = h));
             refresh();
         },
         rejectClose: false,
     });
     if (!result || result === "cancel") return null;
-    if (problems(result).length) {
-        ui.notifications.error(problems(result).join(" "));
+    if (problems(result, user).length) {
+        ui.notifications.error(problems(result, user).join(" "));
         return null;
     }
     if (!stand && !game.user.can("ACTOR_CREATE") && !game.user.isGM) return requestBuild(user, result);
@@ -243,6 +279,11 @@ export async function applyBuild(user, b, { stand = null, linkStand } = {}) {
         })),
     );
     await userEffect(user, b, stats);
+    // A Stand Ability picked in the builder (the user had none yet) goes on the user.
+    if (b.ability && !userChoices(user).abilities.length) {
+        const doc = await game.packs.get(`${MODULE_ID}.stand-abilities`)?.getDocument(b.ability);
+        if (doc) await user.createEmbeddedDocuments("Item", [doc.toObject()]);
+    }
     await user.setFlag(MODULE_ID, "build", b);
     ChatMessage.create({ speaker: ChatMessage.getSpeaker({ actor: user }), content: summary(b, stats) });
     return stand;

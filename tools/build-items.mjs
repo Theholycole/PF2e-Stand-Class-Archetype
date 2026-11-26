@@ -4,10 +4,11 @@ import { standFeatures } from "../content/features.mjs";
 import { standAbilities } from "../content/abilities.mjs";
 import { standFeats } from "../content/feats.mjs";
 import { standEffects } from "../content/effects.mjs";
+import { standUserClass } from "../content/class.mjs";
 
 const root = new URL("../packs/_source/", import.meta.url).pathname;
 const packs = {
-    "stand-features": standFeatures(),
+    "stand-features": [...standFeatures(), standUserClass()],
     "stand-abilities": standAbilities(),
     "stand-feats": standFeats(),
     "stand-effects": standEffects(),
