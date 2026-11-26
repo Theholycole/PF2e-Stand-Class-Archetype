@@ -20,7 +20,7 @@ Time stays the rarest theme. Each Time ability is limited use rather than condit
 
 From The World, Star Platinum · **Price:** limited charges; attacks you make in stopped time only land when time resumes, and you can't use two charges in the same round.
 
-- **Charges:** you have 1 Time Stop charge, 2 at 9th level and 3 at 17th. Spent charges come back after 10 minutes, and Refocus also regains 1 charge. Time Stop doesn't cost Stand Points.
+- **Charges:** you have 1 Time Stop charge, 2 at 9th level and 3 at 17th. All spent charges come back when you rest for 10 minutes (Refocusing counts). Time Stop doesn't cost Stand Points.
 - **1:** Free action (once per round), 1 charge: stop time and take 1 extra action at once while every other creature is frozen. Strikes and thrown objects made in stopped time hang in the air and hit when time resumes, and their targets are off-guard against them.
 - **5:** You can use a charge as a reaction when a creature you can see starts an action; your stopped-time actions happen before its action resolves. You also gain +1 status bonus to initiative.
 - **9:** Stopped time lasts 2 actions.
