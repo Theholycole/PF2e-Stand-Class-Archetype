@@ -30,7 +30,7 @@
       "value": []
     },
     "description": {
-      "value": "<p><em>Long-Range Stand feature, 1st level.</em></p><p>You can Seek and Point Out through the stand's senses anywhere in its range. While you do, you're @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{off-guard} in your own body until your next turn.</p>",
+      "value": "<p><em>Long-Range Stand feature, 1st level.</em></p><p>You can Seek and Point Out through the stand's senses anywhere in its range. While you do, you're @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{off-guard} in your own body until your next turn. Distant Precision: the stand's Strikes deal 1 extra damage die against creatures that aren't adjacent to you (2 extra dice from 9th level).</p>",
       "gm": ""
     },
     "publication": {

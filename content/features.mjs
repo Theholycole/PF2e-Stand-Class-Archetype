@@ -40,12 +40,12 @@ const TYPES = [
         attributes: "Con +0, Int +1, Wis +2, Cha +0",
         skills: "Stealth, Survival",
         senses: "darkvision",
-        grades: "Range takes the A (1 mile tether). Power can't be above C.",
+        grades: "Range and Precision are both A (1 mile tether; the long-range stand's spread is A, A, C, C, D, E). Power can't be above C.",
         examples: "Hierophant Green, Hermit Purple",
         gameplay:
-            "You stay back while your stand scouts and fights far away. Stand Senses (1) and Far Eyes let you see through it at any distance, and Remote Strike (8) lets it attack at full range, but its damage drops beyond 60 feet and Power is capped at C. Distant Precision (7) adds a damage die against foes that aren't next to you, rewarding you for staying back. Your Stand Ability carries more of the load, so Second Wind of Will and Ability Mastery are strong class feats, and Precise Hands lets it pick locks or treat allies from afar. The price is that while you look through the stand, your own body is helpless. **Pick this if** you want to scout, strike from safety and win with information and your Stand Ability.",
-        initial: ["Remote Eyes", "You can Seek and Point Out through the stand's senses anywhere in its range. While you do, you're off-guard in your own body until your next turn."],
-        seventh: ["Far Eyes", "Stand range doubles and you share its senses at any distance. Distant Precision: the stand's Strikes deal 1 extra damage die against creatures that aren't adjacent to you."],
+            "You stay back while your stand scouts and fights far away. Stand Senses (1) and Far Eyes let you see through it at any distance, and Remote Strike (8) lets it attack at full range, but its damage drops beyond 60 feet and Power is capped at C. Distant Precision (1) adds a damage die against foes that aren't next to you (two from 9th), rewarding you for staying back. Your Stand Ability carries more of the load, so Second Wind of Will and Ability Mastery are strong class feats, and Precise Hands lets it pick locks or treat allies from afar. The price is that while you look through the stand, your own body is helpless. **Pick this if** you want to scout, strike from safety and win with information and your Stand Ability.",
+        initial: ["Remote Eyes", "You can Seek and Point Out through the stand's senses anywhere in its range. While you do, you're off-guard in your own body until your next turn. Distant Precision: the stand's Strikes deal 1 extra damage die against creatures that aren't adjacent to you (2 extra dice from 9th level)."],
+        seventh: ["Far Eyes", "Stand range doubles and you share its senses at any distance."],
         thirteenth: ["Long Arm", "You can Manifest the stand anywhere in its range, and your Stand Ability's range doubles."],
     },
     {
@@ -61,7 +61,7 @@ const TYPES = [
             "You set the stand loose on a program and let it hunt while you do other things. It acts even on turns you don't Act Together, Mark points it at the enemy that matters, Feed the Program trades one of your actions for a second stand action, Set Program (6) sends it beyond your range without sharing damage, Relentless Program and Undying Program make it hard to stop out of your sight, and a Set Program stand turns Autonomous: nearly impossible to beat head-on, so enemies have to starve its program or come for you. Its Precision is low and it attacks allies who match the program, so choosing the program and keeping allies clear is the skill. Class feats like Stand Cry and Stand Guard keep you useful while it works. **Pick this if** you want a relentless hunter that keeps up pressure without your attention, and you're happy to manage the risk to your allies.",
         initial: [
             "Program",
-            "When you Manifest the stand, give it one program: heat, movement, the creature that last damaged you, or a marked creature. You gain the Mark and Feed the Program actions. On a turn you don't Act Together, the stand still spends 1 action at the end of your turn to Stride toward or Strike the nearest creature that matches, allies included. To call it off: if no creature matching the program is within the stand's senses, spend 1 action (concentrate) on your turn to end or swap the program. Otherwise it takes 2 actions (concentrate) to force it to stop. The stand stays manifested either way. Once the end-of-turn action starts it can't be stopped, so plan before you end your turn. The Set Program feat is stricter: that stand can't be recalled until no matching target remains, except by spending 3 actions to force it to stop. Its program actions are your shared actions, so its Strikes share your multiple attack penalty.",
+            "When you Manifest the stand, give it one program: heat, movement, the creature that last damaged you, or a marked creature. You gain the Mark and Feed the Program actions. On a turn you don't Act Together, the stand still spends 1 action at the end of your turn to Stride toward or Strike the nearest creature that matches, allies included. To call it off: if no creature matching the program is within the stand's senses, spend 1 action (concentrate) on your turn to end or swap the program. Otherwise it takes 2 actions (concentrate) to force it to stop. The stand stays manifested either way. Once the end-of-turn action starts it can't be stopped, so plan before you end your turn. The Set Program feat is stricter: that stand can't be recalled until no matching target remains, except by spending 3 actions to force it to stop. Its program actions are your shared actions, so its Strikes share your multiple attack penalty. Single-Minded: the stand's primary attack uses a d10 damage die, and its Strikes gain a +1 status bonus to attack rolls.",
         ],
         seventh: ["Relentless Program", "Out of your sight, the stand stops sharing damage with you: it has its own Hit Points equal to 5 × your level (damage to it doesn't reach you) and gains +2 to saves. **Autonomous:** while it runs a Set Program (the Set Program feat), it also gains resistance to all damage equal to twice your level (half that against force, spirit and ghost touch), immunity to mental, fear and death effects and to grabbed, restrained, paralyzed, slowed and stunned, +3 to hit, Strikes that roll damage dice equal to your level (minimum 8), and it never retreats. An Autonomous stand out of your sight tracks its own multiple attack penalty. When an Autonomous stand is destroyed, it reforms at the start of its own next turn with half its Hit Points. While you're out of its sight you can't Act Together with it, but Feed the Program still works from any distance (your action gives it a second action that turn). **Starving the program:** if no creature matching its program is within its 60-foot program sense at the start of its turn, it is dormant and does nothing that turn; after 2 dormant turns in a row it unmanifests. **The user:** if you are knocked out, killed or forced to call it off, it loses these benefits and unmanifests."],
         thirteenth: ["Undying Program", "When your stand is destroyed while out of your sight, it reforms at the start of your next turn with full Hit Points, even if you are out of its range. An Autonomous stand (Set Program) reforms at the start of its own next turn with full Hit Points, every time: only starving the program or dealing with you ends it."],
@@ -77,10 +77,11 @@ const TYPES = [
         grades: "Precision or Speed must take the A. Power can't be A.",
         examples: "Harvest, Bad Company, Sex Pistols",
         gameplay:
-            "Your stand is a swarm of tiny units that gets everywhere. It shares spaces with enemies, flanks from inside them and does two small jobs with one action. Swarm Split (2) puts it in two places, Spread Thin shrugs off single Strikes from 1st level, Overwhelm (7) hits everyone in a 15-foot area (20 feet at 13), allies included, and Endless Colony (16) brings lost units back. Area damage is its weakness. Precise Hands and Barrage Rush are good class feats for it. **Pick this if** you want to control space, set up flanks and handle many small tasks at once, and can keep the swarm out of area attacks.",
+            "Your stand is a swarm of tiny units that gets everywhere. It shares spaces with enemies, flanks from inside them and does two small jobs with one action. Swarm Split (2) puts it in two places, Spread Thin shrugs off single Strikes from 1st level, Overwhelm (5) hits everyone in a 15-foot area (20 feet at 13), allies included, and Endless Colony (16) brings lost units back. Area damage is its weakness. Precise Hands and Barrage Rush are good class feats for it. **Pick this if** you want to control space, set up flanks and handle many small tasks at once, and can keep the swarm out of area attacks.",
         initial: ["Many Hands", "The stand can share spaces with other creatures, flank from inside an enemy's space, and Interact twice with a single action as long as both are within its reach. It has weakness to area damage equal to half your level (minimum 1). Spread Thin: against single-target Strikes, the stand's ghostly resistance increases by half your level."],
         seventh: ["Overwhelm", "The stand fills a 15-foot area and its Strike hits everyone there, allies included (basic Reflex instead of an attack roll). It counts as one attack for the multiple attack penalty you and your stand share, but the penalty doesn't apply to the save."],
         thirteenth: ["Swarm Tide", "Overwhelm's area grows to 20 feet."],
+        levels: { seventh: 5 },
     },
     {
         name: "Bound Stand",
@@ -104,7 +105,7 @@ const TYPES = [
         attributes: "Con +2, Int +0, Wis +0, Cha +1",
         skills: "Acrobatics, Athletics",
         senses: "your senses",
-        grades: "Range must be E. Durability can't be E.",
+        grades: "Range must be E. Durability can't be E. Power can't be A.",
         examples: "Oasis, Catch the Rainbow",
         gameplay:
             "You wear your stand and fight as one body. While merged, your own Strikes use its numbers, you share its ghostly resistance, Second Skin adds Athletics, Stand Armor (8) turns its Durability into defense, and Full Merge lets you split Act Together's actions freely. It can't scout or flank on its own, since its Range is E. Barrage Rush, Stand Guard and Golden Spirit are good class feats for it. **Pick this if** you want to be the fighter yourself, with one sturdy body to protect instead of two.",
@@ -123,20 +124,24 @@ const TYPES = [
         grades: "any spread. Each Act can use its own spread with the same letters.",
         examples: "Echoes Acts 1 to 3, Tusk Acts 1 to 4",
         gameplay:
-            "Your stand grows into new Acts, each a different Stand Ability from the same theme, and you switch between them for 1 action. It has no type-only feats and no combat perk. Instead it gets the most Stand Abilities (three by 13th level), and it can retrain evolution feats or swap stat grades as you level. Class feats that power up Stand Abilities (Second Wind of Will, Ability Mastery, Stand Apex) give it the most value. **Pick this if** you want the biggest toolbox and like solving each problem with the right Act more than raw fighting power.",
+            "Your stand grows into new Acts, each a different Stand Ability from the same theme, and you switch between them for 1 action. It has no type-only feats and no combat perk. Instead it gets the most Stand Abilities (three by 11th level) and each Act makes the stand stronger, and it can retrain evolution feats or swap stat grades as you level. Class feats that power up Stand Abilities (Second Wind of Will, Ability Mastery, Stand Apex) give it the most value. **Pick this if** you want the biggest toolbox and like solving each problem with the right Act more than raw fighting power.",
         initial: ["Growing Spirit", "When you gain a level, you can retrain one evolution feat or swap two of your stand's stat grades."],
-        seventh: ["Act Two", "A second Stand Ability from Act One's theme, with every step up to your level. Switching Acts takes 1 action."],
-        thirteenth: ["Act Three", "A third Stand Ability from the same theme."],
+        seventh: ["Act Two", "A second Stand Ability from Act One's theme, with every step up to your level. Switching Acts takes 1 action. Each Act also strengthens the stand: Act Two raises its Power to A and its Durability one step."],
+        thirteenth: ["Act Three", "A third Stand Ability from the same theme. Act Three raises the stand's Durability one more step."],
+        levels: { seventh: 5, thirteenth: 11 },
         actions: ["switch-acts"],
     },
 ];
 
+const ordinal = (n) => (n === 1 ? "1st" : n === 2 ? "2nd" : n === 3 ? "3rd" : `${n}th`);
 function typeFeature(t, which, level) {
+    // (2026-11-27: a type can move its 7th or 13th feature — t.levels, e.g. the evolving stand's Acts at 5th and 11th.)
+    level = t.levels?.[which] ?? level;
     const [name, text] = t[which];
     const rules = [];
     let description = enrichBlockNoDice(text);
     if (t.name === "Evolving Stand" && level > 1) {
-        const flag = level === 7 ? "actTwo" : "actThree";
+        const flag = which === "seventh" ? "actTwo" : "actThree";
         rules.push(
             { key: "ChoiceSet", flag, prompt: "Choose a Stand Ability from Act One's theme", choices: { itemType: "feat", filter: ["item:tag:stand-ability"] }, adjustName: false },
             { key: "GrantItem", uuid: `{item|flags.system.rulesSelections.${flag}}` },
@@ -149,7 +154,7 @@ function typeFeature(t, which, level) {
         level,
         traits: ["summoner", "stand"],
         tags: ["stand-type-feature"],
-        description: `<p><em>${t.name} feature, ${level === 1 ? "1st" : `${level}th`} level.</em></p>${description}`,
+        description: `<p><em>${t.name} feature, ${ordinal(level)} level.</em></p>${description}`,
         rules,
     });
 }
@@ -206,8 +211,8 @@ export function standFeatures() {
             `<p><strong>Examples</strong> ${t.examples}</p>`,
             `<hr />${enrichBlockNoDice(t.gameplay)}<hr />`,
             `<p><strong>Initial (1st)—${t.initial[0]}</strong> ${enrichBlockNoDice(t.initial[1]).replace(/^<p>|<\/p>$/g, "")}</p>`,
-            `<p><strong>7th—${t.seventh[0]}</strong> ${enrichBlockNoDice(t.seventh[1]).replace(/^<p>|<\/p>$/g, "")}</p>`,
-            `<p><strong>13th—${t.thirteenth[0]}</strong> ${enrichBlockNoDice(t.thirteenth[1]).replace(/^<p>|<\/p>$/g, "")}</p>`,
+            `<p><strong>${ordinal(t.levels?.seventh ?? 7)}—${t.seventh[0]}</strong> ${enrichBlockNoDice(t.seventh[1]).replace(/^<p>|<\/p>$/g, "")}</p>`,
+            `<p><strong>${ordinal(t.levels?.thirteenth ?? 13)}—${t.thirteenth[0]}</strong> ${enrichBlockNoDice(t.thirteenth[1]).replace(/^<p>|<\/p>$/g, "")}</p>`,
             t.actions ? `<p>Actions: ${t.actions.map((a) => `@UUID[${uuidFor(P, a)}]{${ACTIONS[a].name}}`).join(", ")}</p>` : "",
         ].join("\n");
         const typeItem = feat(P, {
@@ -217,8 +222,8 @@ export function standFeatures() {
             description: desc,
             rules: [
                 grantAtLevel(uuidFor(P, initial.system.slug), 1),
-                grantAtLevel(uuidFor(P, seventh.system.slug), 7),
-                grantAtLevel(uuidFor(P, thirteenth.system.slug), 13),
+                grantAtLevel(uuidFor(P, seventh.system.slug), t.levels?.seventh ?? 7),
+                grantAtLevel(uuidFor(P, thirteenth.system.slug), t.levels?.thirteenth ?? 13),
                 ...(t.actions ?? []).map((a) => grantAtLevel(uuidFor(P, a), 1)),
                 { key: "RollOption", domain: "all", option: `stand-type:${slugify(t.name).replace(/-stand$/, "")}` },
             ],

@@ -8,7 +8,7 @@
     "slug": "act-two",
     "category": "classfeature",
     "level": {
-      "value": 7
+      "value": 5
     },
     "actionType": {
       "value": "passive"
@@ -30,7 +30,7 @@
       "value": []
     },
     "description": {
-      "value": "<p><em>Evolving Stand feature, 7th level.</em></p><p>A second Stand Ability from Act One's theme, with every step up to your level. Switching Acts takes 1 action.</p>",
+      "value": "<p><em>Evolving Stand feature, 5th level.</em></p><p>A second Stand Ability from Act One's theme, with every step up to your level. Switching Acts takes 1 action. Each Act also strengthens the stand: Act Two raises its Power to A and its Durability one step.</p>",
       "gm": ""
     },
     "publication": {

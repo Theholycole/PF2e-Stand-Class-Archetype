@@ -102,7 +102,7 @@ function formHtml(user, b, index) {
 </fieldset>
 <fieldset><legend>Stand Ability</legend>${abilityField(abilities, index, b)}
 </fieldset>
-<fieldset><legend>Stat grades (one A, one B, two C, one D, one E)</legend><div class="sb-grades">${gradeRows}</div>
+<fieldset><legend>Stat grades (one A, one B, two C, one D, one E; long-range: A, A, C, C, D, E)</legend><div class="sb-grades">${gradeRows}</div>
 <div class="sb-note sb-rule">${esc(TYPES[b.type].rule)}</div><div class="sb-problems"></div></fieldset>
 <fieldset><legend>Attributes</legend>
 <label>Key attribute <select name="key">${options(["str", "dex"], b.key, (x) => (x === "str" ? "Strength (+2 item bonus to AC, Dex cap +3)" : "Dexterity (+1 item bonus to AC, Dex cap +4)"))}</select></label>

@@ -19,8 +19,10 @@ export const TYPES = {
     "long-range-stand": {
         label: "Long-range", attrs: { con: 0, int: 1, wis: 2, cha: 0 }, skills: ["stealth", "survival"], senses: ["darkvision"],
         sizes: ["med", "sm"], attacks: [["Tendril", "bludgeoning"], ["Whip", "slashing"]],
-        rule: "Range takes the A. Power can't be above C.",
-        check: (g) => g.range === "A" && ["C", "D", "E"].includes(g.power),
+        // (2026-11-27: two As — Range and Precision, "commanded with good precision" (jojowiki Stand Types, Long-Range Stands).)
+        spread: ["A", "A", "C", "C", "D", "E"],
+        rule: "Range and Precision are both A. Power can't be above C.",
+        check: (g) => g.range === "A" && g.precision === "A" && ["C", "D", "E"].includes(g.power),
     },
     "automatic-stand": {
         label: "Automatic", attrs: { con: 3, int: -2, wis: 1, cha: 1 }, skills: ["athletics", "stealth"], senses: [],
@@ -43,8 +45,8 @@ export const TYPES = {
     "integrated-stand": {
         label: "Integrated", attrs: { con: 2, int: 0, wis: 0, cha: 1 }, skills: ["acrobatics", "athletics"], senses: [],
         sizes: ["user"], attacks: [["Fist", "bludgeoning"], ["Body Weapon", "piercing"]],
-        rule: "Range must be E. Durability can't be E.",
-        check: (g) => g.range === "E" && g.durability !== "E",
+        rule: "Range must be E. Durability can't be E. Power can't be A.",
+        check: (g) => g.range === "E" && g.durability !== "E" && g.power !== "A",
     },
     "evolving-stand": {
         label: "Evolving", attrs: { con: 1, int: 1, wis: 1, cha: 0 }, skills: ["occultism"], senses: ["low-light-vision"],
@@ -77,8 +79,9 @@ export function gradeProblems(type, grades) {
     const out = [];
     const given = STATS.map((s) => grades[s]).filter(Boolean);
     if (given.length < STATS.length) out.push("Grade all six stats.");
-    else if ([...given].sort().join("") !== [...SPREAD].sort().join("")) out.push("Use exactly one A, one B, two C, one D and one E.");
     const t = TYPES[type];
+    const spread = t?.spread ?? SPREAD;
+    if (given.length === STATS.length && [...given].sort().join("") !== [...spread].sort().join("")) out.push(t?.spread ? `Use exactly ${spread.join(", ")}.` : "Use exactly one A, one B, two C, one D and one E.");
     if (!t) out.push("Choose a stand type.");
     else if (given.length === STATS.length && !t.check(grades)) out.push(`${t.label}: ${t.rule}`);
     return out;
@@ -117,7 +120,14 @@ export const defaultBoosts = (key) => [key, key === "str" ? "dex" : "str", "con"
 /** Every number the stand actor needs. */
 export function standStats(b) {
     const lv = b.level;
-    const g = b.grades;
+    // (2026-11-27: an evolving stand's Acts raise its grades — Act Two (5th) Power A and Durability one step, Act Three (11th) Durability one
+    // more step.)
+    const g = { ...b.grades };
+    if (b.type === "evolving-stand" && lv >= 5) {
+        const up = (grade, steps) => GRADES[Math.max(0, GRADES.indexOf(grade) - steps)] ?? grade;
+        g.power = "A";
+        g.durability = up(g.durability, lv >= 11 ? 2 : 1);
+    }
     const a = attributes(b);
     const unarmed = PROF[rank(lv, [[1, 1], [5, 2], [13, 3]])];
     const defense = PROF[rank(lv, [[1, 1], [11, 2], [19, 3]])];
@@ -128,12 +138,14 @@ export function standStats(b) {
     const p = PRIMARY[b.primary.form] ?? PRIMARY.maneuver;
     const shift = g.power === "A" ? 1 : ["D", "E"].includes(g.power) ? -1 : 0;
     const dice = [4, 6, 8, 10, 12];
-    const die = dice[Math.max(0, Math.min(dice.length - 1, dice.indexOf(p.die) + shift))];
+    // (2026-11-27, Single-Minded: an automatic stand's primary attack uses a d10 die and its Strikes gain +1 status to attack rolls.)
+    const auto = b.type === "automatic-stand";
+    const die = auto ? 10 : dice[Math.max(0, Math.min(dice.length - 1, dice.indexOf(p.die) + shift))];
     const strike = (name, die, traits, damageType) => {
         const finesse = traits.includes("finesse");
         const attr = finesse ? Math.max(a.str, a.dex) : a.str;
         const bonus = a.str + spec;
-        return { name, bonus: lv + unarmed + attr + prec, damage: `1d${die}${bonus ? (bonus > 0 ? "+" : "") + bonus : ""}`, damageType, traits: ["unarmed", ...traits] };
+        return { name, bonus: lv + unarmed + attr + prec + (auto ? 1 : 0), damage: `1d${die}${bonus ? (bonus > 0 ? "+" : "") + bonus : ""}`, damageType, traits: ["unarmed", ...traits] };
     };
     const primaryTraits = [...p.traits, ...(b.primary.form === "maneuver" ? [b.primary.maneuver ?? "shove"] : [])];
     return {

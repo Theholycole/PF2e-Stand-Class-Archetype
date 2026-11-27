@@ -30,7 +30,7 @@
       "value": []
     },
     "description": {
-      "value": "<p><strong>Traits</strong> Eidolon, Stand · <strong>Size</strong> Medium or Small (each Act can change it) · <strong>Suggested Attacks</strong> fist (bludgeoning), tail (bludgeoning)</p>\n<p><strong>Stand Attributes</strong> Con +1, Int +1, Wis +1, Cha +0 · <strong>Skills</strong> Occultism, plus one skill of your choice · <strong>Senses</strong> low-light vision · <strong>Speed</strong> 25 feet</p>\n<p><strong>Grades</strong> any spread. Each Act can use its own spread with the same letters.</p>\n<p><strong>Examples</strong> Echoes Acts 1 to 3, Tusk Acts 1 to 4</p>\n<hr /><p>Your stand grows into new Acts, each a different Stand Ability from the same theme, and you switch between them for 1 action. It has no type-only feats and no combat perk. Instead it gets the most Stand Abilities (three by 13th level), and it can retrain evolution feats or swap stat grades as you level. Class feats that power up Stand Abilities (Second Wind of Will, Ability Mastery, Stand Apex) give it the most value. <strong>Pick this if</strong> you want the biggest toolbox and like solving each problem with the right Act more than raw fighting power.</p><hr />\n<p><strong>Initial (1st)—Growing Spirit</strong> When you gain a level, you can retrain one evolution feat or swap two of your stand's stat grades.</p>\n<p><strong>7th—Act Two</strong> A second Stand Ability from Act One's theme, with every step up to your level. Switching Acts takes 1 action.</p>\n<p><strong>13th—Act Three</strong> A third Stand Ability from the same theme.</p>\n<p>Actions: @UUID[Compendium.pf2e-stand-class-archetype.stand-features.Item.ANbdZAkKEpMkF9nB]{Switch Acts}</p>",
+      "value": "<p><strong>Traits</strong> Eidolon, Stand · <strong>Size</strong> Medium or Small (each Act can change it) · <strong>Suggested Attacks</strong> fist (bludgeoning), tail (bludgeoning)</p>\n<p><strong>Stand Attributes</strong> Con +1, Int +1, Wis +1, Cha +0 · <strong>Skills</strong> Occultism, plus one skill of your choice · <strong>Senses</strong> low-light vision · <strong>Speed</strong> 25 feet</p>\n<p><strong>Grades</strong> any spread. Each Act can use its own spread with the same letters.</p>\n<p><strong>Examples</strong> Echoes Acts 1 to 3, Tusk Acts 1 to 4</p>\n<hr /><p>Your stand grows into new Acts, each a different Stand Ability from the same theme, and you switch between them for 1 action. It has no type-only feats and no combat perk. Instead it gets the most Stand Abilities (three by 11th level) and each Act makes the stand stronger, and it can retrain evolution feats or swap stat grades as you level. Class feats that power up Stand Abilities (Second Wind of Will, Ability Mastery, Stand Apex) give it the most value. <strong>Pick this if</strong> you want the biggest toolbox and like solving each problem with the right Act more than raw fighting power.</p><hr />\n<p><strong>Initial (1st)—Growing Spirit</strong> When you gain a level, you can retrain one evolution feat or swap two of your stand's stat grades.</p>\n<p><strong>5th—Act Two</strong> A second Stand Ability from Act One's theme, with every step up to your level. Switching Acts takes 1 action. Each Act also strengthens the stand: Act Two raises its Power to A and its Durability one step.</p>\n<p><strong>11th—Act Three</strong> A third Stand Ability from the same theme. Act Three raises the stand's Durability one more step.</p>\n<p>Actions: @UUID[Compendium.pf2e-stand-class-archetype.stand-features.Item.ANbdZAkKEpMkF9nB]{Switch Acts}</p>",
       "gm": ""
     },
     "publication": {
@@ -56,7 +56,7 @@
           {
             "gte": [
               "self:level",
-              7
+              5
             ]
           }
         ],
@@ -69,7 +69,7 @@
           {
             "gte": [
               "self:level",
-              13
+              11
             ]
           }
         ],

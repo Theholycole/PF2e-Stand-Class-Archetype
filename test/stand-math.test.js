@@ -11,7 +11,11 @@ test("grade spread and type limits", () => {
     assert.match(gradeProblems("close-range-power-stand", { ...close, range: "A", power: "C" }).join(), /Close-range/);
     assert.match(gradeProblems("close-range-power-stand", { ...close, potential: "A" }).join(), /exactly one A/);
     assert.match(gradeProblems("long-range-stand", close).join(), /Long-range/);
-    assert.deepEqual(gradeProblems("long-range-stand", { power: "C", speed: "B", range: "A", durability: "C", precision: "D", potential: "E" }), []);
+    assert.deepEqual(gradeProblems("long-range-stand", { power: "C", speed: "C", range: "A", durability: "D", precision: "A", potential: "E" }), []);  // (two As: Range and Precision)
+    assert.match(gradeProblems("long-range-stand", { power: "C", speed: "B", range: "A", durability: "C", precision: "D", potential: "E" }).join(), /A, A, C, C, D, E/);
+    assert.match(gradeProblems("integrated-stand", { power: "A", speed: "B", range: "E", durability: "C", precision: "C", potential: "D" }).join(), /Power can't be A/);
+    assert.equal(standStats({ ...base, type: "evolving-stand", level: 11, grades: { power: "B", speed: "C", range: "D", durability: "C", precision: "A", potential: "E" } }).user.guard, 2);  // (Acts: Durability C → A)
+    assert.equal(standStats({ ...base, type: "automatic-stand", level: 1, grades: { power: "B", speed: "C", range: "C", durability: "A", precision: "D", potential: "E" } }).strikes[0].damage.startsWith("1d10"), true);
     for (const t of Object.keys(TYPES)) assert.ok(TYPES[t].check, t);
 });
 
