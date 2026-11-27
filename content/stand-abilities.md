@@ -465,9 +465,9 @@ From Stray Cat · **Price:** it needs sunlight.
 
 ### Meteor Call
 
-From Planet Waves · **Price:** outdoors only, and it takes time to arrive.
+From Planet Waves · **Price:** it takes time to arrive, and longer indoors; it can't reach underground.
 
-- **1:** 2 actions, outdoors: call a meteorite on a 5-ft square within 60 ft; it lands at the start of your next turn: D bludgeoning + D fire (basic Reflex).
+- **1:** 2 actions: call a meteorite on a 5-ft square within 60 ft; it lands at the start of your next turn: D bludgeoning + D fire (basic Reflex). Indoors, it must punch through the roof or a wall first: it lands at the start of your turn after next, and its square or area becomes difficult terrain from the rubble. It can't reach underground.
 - **5:** Surge: the meteor lands in a 10-ft burst within 60 ft that spares creatures you choose: S (half bludgeoning, half fire); prone on a critical failure.
 - **9:** The meteor can follow a creature you marked (it lands on its new space).
 - **13:** Burst 15 ft.
