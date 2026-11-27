@@ -333,7 +333,7 @@ From Limp Bizkit · **Price:** you need corpses nearby, and the zombies are weak
 
 ### Flesh Spray
 
-From Cream Starter · **Price:** the spray can heal or harm, but it uses your own flesh (you lose HP to heal others).
+From Cream Starter · **Price:** the spray can heal or harm, but your healing spray uses your own flesh (you lose HP to heal others).
 
 - **1:** 1 action: spray flesh to close an ally's wound: lose up to D HP, and the ally heals twice that much. 1 action: spray a creature's mouth or eyes shut (Reflex negates): blinded or can't speak for 1 round. 1 action: spray flesh onto a creature within 30 ft of your stand and tear it away with a strip of its own: D slashing damage (basic Fortitude).
 - **5:** A creature that critically fails against your spray stays sealed for 1 minute. You can spray two creatures' mouths or eyes shut with one action. Surge, 1 action: heal an ally 2d8 + your key attribute, +1d8 per 2 levels, without losing HP.
