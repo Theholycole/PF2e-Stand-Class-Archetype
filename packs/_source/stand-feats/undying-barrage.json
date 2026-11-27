@@ -35,7 +35,7 @@
       ]
     },
     "description": {
-      "value": "<p>Barrage Rush's third Strike uses the second Strike's multiple attack penalty, and each hit pushes the target 5 feet.</p>",
+      "value": "<p>Barrage Rush's third Strike takes the same multiple attack penalty as the second, and each hit pushes the target 5 feet.</p>",
       "gm": ""
     },
     "publication": {

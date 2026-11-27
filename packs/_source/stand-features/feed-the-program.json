@@ -22,7 +22,7 @@
       "otherTags": []
     },
     "description": {
-      "value": "<p><strong>Frequency</strong> once per turn</p>\n<p><strong>Requirements</strong> Your automatic stand (or sub-stand) is manifested.</p>\n<p>The stand's end-of-turn action becomes 2 actions this turn (for example Stride and Strike). This keeps the same 4 actions a turn a summoner gets from Act Together, just split differently.</p>"
+      "value": "<p><strong>Frequency</strong> once per turn</p>\n<p><strong>Requirements</strong> Your automatic stand (or sub-stand) is manifested.</p>\n<p>The stand's end-of-turn action becomes 2 actions this turn (for example Stride and Strike). This keeps the same 4 actions a turn a summoner gets from Act Together, just split differently. Its program actions are your shared actions, so its Strikes share your multiple attack penalty.</p>"
     },
     "publication": {
       "title": "PF2e Stand Class Archetype (homebrew)",

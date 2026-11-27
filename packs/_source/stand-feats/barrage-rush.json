@@ -32,7 +32,7 @@
       ]
     },
     "description": {
-      "value": "<p><strong>Frequency</strong> once per turn</p>\n<p><strong>Requirements</strong> Your stand is within 10 feet of you.</p>\n<p>Your stand makes 3 Strikes at one target with the normal multiple attack penalty (never better than a monk's Flurry of Blows). If two or more of them hit, combine their damage for resistances and weaknesses. The stand's range stays 10 feet until your next turn.</p>",
+      "value": "<p><strong>Frequency</strong> once per turn</p>\n<p><strong>Requirements</strong> Your stand is within 10 feet of you.</p>\n<p>Your stand makes 3 Strikes at one target with the normal multiple attack penalty, which you and your stand share (if either of you already attacked this turn, the first Strike takes that penalty) (never better than a monk's Flurry of Blows). If two or more of them hit, combine their damage for resistances and weaknesses. The stand's range stays 10 feet until your next turn.</p>",
       "gm": ""
     },
     "publication": {
