@@ -573,7 +573,7 @@ From Lovers · **Price:** you have to take damage for it to work; the host only 
 - **5:** The host is also clumsy 1 while linked, flinching with your pain. Link two creatures. Surge: you transfer one condition from you to the host (Will negates).
 - **9:** A host takes the full damage you take.
 - **13:** Link three creatures.
-- **17:** No change.
+- **17:** The first time each round a host takes damage through the link, it's also stunned 1.
 
 ### Internal Attack
 
