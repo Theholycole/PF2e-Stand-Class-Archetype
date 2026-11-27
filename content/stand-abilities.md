@@ -771,8 +771,8 @@ From Paper Moon King · **Price:** it only affects a creature that touches your 
 
 From Fun Fun Fun · **Price:** a mark must be placed on the limb first.
 
-- **1:** Once per Strike, when your stand hits a creature, it marks one of its limbs, and the jerk makes the creature off-guard until the start of your next turn. Marks last until the end of the encounter. Wrench (1 action), at a marked creature within 30 ft: 2D bludgeoning (basic Fortitude). On a failure it falls prone, and it's off-guard until the start of your next turn.
-- **5:** Surge: wrench a marked limb: S bludgeoning (basic Fortitude); on a failure the creature drops an item or falls prone, and its marked limb keeps jerking: off-guard for 1 minute.
+- **1:** Once per Strike, when your stand hits a creature, it marks one of its limbs, and the jerk makes the creature off-guard until the start of your next turn. Marks last until the end of the encounter. Wrench (1 action), at a marked creature within 30 ft: 2D bludgeoning (basic Fortitude). On a failure it falls prone, and it's off-guard until the start of your next turn; on a critical failure it's also stunned 1.
+- **5:** Surge: your stand grabs a creature within 15 ft and marks two of its limbs (no mark needed first, whatever the save), then wrenches them: S bludgeoning (basic Fortitude); on a failure the creature drops an item or falls prone, and its marked limbs keep jerking: off-guard for 1 minute.
 - **9:** Mark two limbs.
 - **13:** Surge: you choose where the creature goes on its next Stride. Surge: control one of its actions (see Defaults).
 - **17:** A creature with four limbs marked is controlled for 1 round (see Defaults; incapacitation), once per minute.
