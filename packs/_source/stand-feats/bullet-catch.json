@@ -35,7 +35,7 @@
       ]
     },
     "description": {
-      "value": "<p><strong>Trigger</strong> A ranged attack would hit you or an ally adjacent to your stand.</p>\n<p>Your stand grabs the shot. Attempt a check with the stand's attack modifier against the attacker's attack roll result; on a success, the hit becomes a miss.</p>",
+      "value": "<p><strong>Trigger</strong> A ranged attack would hit you or an ally adjacent to your stand.</p>\n<p>Your stand grabs the shot. Attempt a check with the stand's attack modifier against the attacker's attack roll result; on a success, the hit becomes a miss. This isn't an attack: it doesn't take or add to the multiple attack penalty.</p>",
       "gm": ""
     },
     "publication": {
