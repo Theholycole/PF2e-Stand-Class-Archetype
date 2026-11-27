@@ -519,7 +519,7 @@ From Purple Haze · **Price:** the virus hits allies and you too.
 
 From Metallica · **Price:** fails on creatures without blood (constructs, most undead).
 
-- **1:** 1 action: pull iron from a creature's blood within 30 ft as razors: D slashing (basic Fortitude); on a critical failure it also takes 1d6 persistent bleed.
+- **1:** 1 action: pull iron from a creature's blood within 30 ft as razors: D slashing (basic Fortitude); on a critical failure it also takes 1d6 persistent bleed. Each time a creature fails a save against Iron Blood, its iron loss increases by 1 (2 on a critical failure). Iron loss 1: sickened 1. Iron loss 2: also slowed 1, as its blood can't carry air. Iron loss 3: it's suffocating; it can't recover from sickened or slowed, and at the end of each of its turns it attempts a Fortitude save against your stand DC or falls unconscious until it regains Hit Points. Iron loss decreases by 1 at the end of each minute, and ends when the creature is healed with magic.
 - **5:** On a failure, also sickened 1 from blood loss. Surge: S slashing, sickened 2 on a failure.
 - **9:** Your surge can target two creatures within 30 ft.
 - **13:** Iron camouflage: you can Hide against metal or stone walls without cover, with +2 circumstance to Stealth. A creature that fails Iron Blood's save is also clumsy 1 for 1 round.
