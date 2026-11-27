@@ -395,11 +395,11 @@ From Red Hot Chili Pepper · **Price:** it only travels through wires, metal or 
 
 ### Weather
 
-From Weather Report · **Price:** it needs open sky for anything beyond fog.
+From Weather Report · **Price:** it needs open sky for anything beyond fog, except the oxygen overdose, which needs an enclosed space.
 
 - **1:** 2 actions: fog in a 15-ft burst (concealed) for 1 minute, or calm the wind. 1 action, outdoors: hail on a creature within 30 ft: D cold (basic Reflex); off-guard until the start of your next turn on a failure.
-- **5:** Surge, outdoors: rain or wind in a 30-ft burst for 1 minute: difficult terrain and –2 to ranged attacks, for creatures you choose. Also 1 action: pull moisture from a creature's surroundings: it's sickened 2 (sickened 3 on a critical failure; Fortitude negates), once per creature per day. Surge, outdoors: lightning strike on one creature: S electricity (basic Reflex); stunned 1 on a critical failure.
-- **9:** No change.
+- **5:** Surge, outdoors: rain or wind in a 30-ft burst for 1 minute: difficult terrain and –2 to ranged attacks, for creatures you choose. Surge, outdoors: lightning strike on one creature: S electricity (basic Reflex); stunned 1 on a critical failure.
+- **9:** 1 action: pull moisture from a creature's surroundings: it's sickened 2 (sickened 3 on a critical failure; Fortitude negates), once per creature per day. Oxygen Overdose, 2 actions, only in an enclosed space (walls and a ceiling): flood a 10-foot burst within 30 feet with oxygen; each creature in it attempts a Fortitude save. Failure: sickened 1 and slowed 1 for 1 round. Critical failure: sickened 2 and slowed 1 for 1 round.
 - **13:** The lightning strike forks to up to 3 creatures, and you can pull moisture from up to 3 creatures with one action.
 - **17:** Once per day, outdoors: heavy weather for 1 minute: every non-ally creature in 60 ft attempts Will each round or is stupefied 2 and slowed 1. The lightning strike forks to up to 5 creatures.
 
