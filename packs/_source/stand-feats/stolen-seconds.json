@@ -35,7 +35,7 @@
       ]
     },
     "description": {
-      "value": "<p><strong>Frequency</strong> once per day</p>\n<p>Take a full extra turn while time stops for everyone else.</p>",
+      "value": "<p><strong>Frequency</strong> once per day</p>\n<p>Take a full extra turn while time stops for everyone else. The extra turn is a new turn: your multiple attack penalty and your once-per-turn abilities reset.</p>",
       "gm": ""
     },
     "publication": {
