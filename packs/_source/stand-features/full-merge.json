@@ -30,7 +30,7 @@
       "value": []
     },
     "description": {
-      "value": "<p><em>Integrated Stand feature, 13th level.</em></p><p>Once per turn, the stand can take one stand action without you spending an action, on top of Act Together, but the stand can't leave your space that round.</p>",
+      "value": "<p><em>Integrated Stand feature, 13th level.</em></p><p>Once per turn, when you Act Together, you and the stand can split the actions any way you like (for example 2 and 2, or 3 and 1), but the stand can't leave your space that round.</p>",
       "gm": ""
     },
     "publication": {

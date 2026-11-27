@@ -30,7 +30,7 @@
       "value": []
     },
     "description": {
-      "value": "<p><em>Bound Stand feature, 7th level.</em></p><p>The vessel's Hardness becomes equal to your level, and you act through it anywhere in range: when you Act Together, a vessel that isn't in your hands can take the stand's action from anywhere within your stand's Range.</p>",
+      "value": "<p><em>Bound Stand feature, 7th level.</em></p><p>You act through the vessel anywhere in range: when you Act Together, a vessel that isn't in your hands can take the stand's action from anywhere within your stand's Range. (The vessel's Hardness stays half your level.)</p>",
       "gm": ""
     },
     "publication": {
