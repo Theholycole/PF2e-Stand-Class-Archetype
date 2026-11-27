@@ -631,7 +631,7 @@ From Whitesnake · Pull a disc of memory, skill or will out of a creature.
 
 From Heaven's Door · **Price:** the target must see your drawing or your stand's face.
 
-- **1:** 1 action: a creature that can see your stand (Will) turns into a book, its pages torn open: D mental (basic Will). Failure: you read one fact and can write a minor command in it for 1 round (see 5th); critical failure: three facts, the command, and it's stunned 1.
+- **1:** 1 action: a creature that can see your stand (Will) turns into a book, its pages torn open: D mental (basic Will). Failure: you read one fact and can write a minor command in it for 1 round (see 5th); critical failure: three facts, the command, and it's stunned 1. Each fact is the true answer to one question you ask about the creature: what a Recall Knowledge success would tell you (a weakness, a resistance, its best or worst save, an ability), or something it personally knows or remembers.
 - **5:** Your minor commands can be any short order ("can't Strike you", "can't speak", "drop to the ground"), still for 1 round. Surge (incapacitation): rip a page as you write, S mental (basic Will), and on a failure the command lasts 1 minute.
 - **9:** No change.
 - **13:** Tear a page: the creature forgets the last 10 minutes.
