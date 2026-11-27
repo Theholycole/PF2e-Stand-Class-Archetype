@@ -97,7 +97,7 @@ From D4C · **Price:** you must be pressed between two objects, such as a door a
 - **5:** You can bring one willing adjacent creature. Surge: pull a creature caught between two objects into a parallel world for 1 round (Will negates). It returns at the start of your next turn. Surge: bring a parallel copy of a creature into this world; when it touches its original, both take S damage (basic Fortitude).
 - **9:** A creature that critically fails its Will save against the parallel world is lost there for 1 minute.
 - **13:** Range becomes 120 ft.
-- **17:** No change.
+- **17:** Reaction, once per minute, while you're sandwiched between two objects: when a melee attack would hit you, step halfway into the other world; the attack misses.
 
 ### Phase Store
 
@@ -421,7 +421,7 @@ From C-Moon · **Price:** gravity points away from you, so it pushes allies near
 - **5:** Surge: a creature your stand hits turns inside out: S bludgeoning (basic Fortitude); sickened 1 on a failure, stunned 1 on a critical failure.
 - **9:** Push 10 ft, and a creature that critically fails the push falls prone; you can walk on walls.
 - **13:** Emanation 20 ft. A target that fails the inside-out save is stunned 1 instead of sickened 1, and stunned 2 instead of stunned 1 on a critical failure.
-- **17:** No change.
+- **17:** Surge: reverse gravity in a 30-ft emanation for 1 round. Creatures you choose there (Reflex negates) fall upward 20 ft, then fall back, taking falling damage and landing prone; on a critical failure they're also stunned 1.
 
 ### Magnetism
 
@@ -685,7 +685,7 @@ From Tenore Sax · **Price:** the illusion breaks if a creature touches the wall
 - **5:** Surge: each creature you choose in a 10-ft burst within 30 ft is lost in the maze for 1 round (Will negates): it can only Stride in a direction you choose.
 - **9:** Disbelieving takes a Recall Knowledge or Seek check vs your DC.
 - **13:** The lost surge's range is 60 ft.
-- **17:** No change.
+- **17:** 10 minutes: hold the maze as a lasting illusion over a whole building or a 60-ft area for 1 hour, with endless hallways and false rooms; touching a wall still breaks it for that creature only.
 
 ### Guilt Lock
 
@@ -785,7 +785,7 @@ From Spiderweb Stand · **Price:** it only works through existing spiderwebs.
 - **5:** Surge: webs snap shut over creatures you choose in a 15-ft burst within 30 ft: D slashing (basic Reflex); on a failure immobilized and off-guard for 1 round, on a critical failure for 1 minute.
 - **9:** Move a creature's limbs through webs: it drops an item.
 - **13:** Block speech through a web: the creature can't speak. The webs gag and wrap it: the 5th-level bind lasts 1 minute on a failure, and on a critical failure it's also restrained for 1 round.
-- **17:** No change.
+- **17:** A creature that critically fails against your web bind is also restrained for 1 round.
 
 ## Fate
 
