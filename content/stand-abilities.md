@@ -105,7 +105,7 @@ From Diver Down · **Price:** the stand has to dive into an object first, and th
 
 - **1:** 1 action: your stand dives into an object or surface and stores one Strike for up to 1 hour. The next creature that touches it takes the Strike's damage (no attack roll needed; basic Reflex for half). If the stand dives into the ground, wall or gear a creature within its range is touching, the blow lands on that creature at once.
 - **5:** The stored blow can be released from up to 10 ft through the object instead. Surge: store S damage instead of a Strike. A creature that fails its save against a stored blow is thrown off its footing: it's off-guard until the end of your next turn.
-- **9:** Your stand can dive into a willing ally to hold a stored blow there. The first time that ally takes physical damage, reduce it by your level; if the attacker is adjacent, the stored blow lands on the attacker.
+- **9:** Reaction, once per round: when an ally within your stand's reach is hit by a Strike, your stand dives into it. Reduce the damage by your level, and if the attacker is adjacent to that ally, your stored blow lands on the attacker (no attack roll; basic Reflex for half).
 - **13:** Store two blows in two objects.
 - **17:** A creature hit by a stored blow is also immobilized by the object's shape for 1 round (Fortitude negates).
 
@@ -235,7 +235,7 @@ From Gold Experience · Pour life into objects and too much life into foes.
 
 From Soft & Wet · **Price:** a slow bubble that must touch the target.
 
-- **1:** 1 action: release a bubble that floats in a straight line up to 30 ft. It pops on the first creature or object in that line and steals one property for 1 round: friction (it falls prone if it moves and is off-guard for 1 round, Reflex negates; off-guard for 1 minute on a critical failure), sound (silenced) or water (sickened 1, sickened 2 on a critical failure, Fortitude negates; the sickened lasts until it drinks or retches, as normal). Once per turn your stand can pop a bubble on the creature it hits as part of a Strike (1 action), stealing its friction.
+- **1:** 1 action: release a bubble that floats in a straight line up to 30 ft. It pops on the first creature or object in that line and steals one property for 1 round: friction (it falls prone if it moves and is off-guard for 1 round, Reflex negates; off-guard for 1 minute on a critical failure), sound (silenced) or water (sickened 1, sickened 2 on a critical failure, Fortitude negates; the sickened lasts until it drinks or retches, as normal).
 - **5:** Bubbles float 40 ft and you release two bubbles per action at different creatures. You can steal sight (dazzled for 1 round on a failure, blinded for 1 round on a critical failure, Fortitude negates). Surge: a single bubble whose stolen property lasts 1 minute; stolen water leaves it sickened 2 (sickened 3 on a critical failure).
 - **9:** A surge bubble can steal two properties at once.
 - **13:** Your bubbles pass through walls and cover up to 1 ft thick, and ignore cover.
