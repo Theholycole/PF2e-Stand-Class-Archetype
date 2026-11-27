@@ -448,7 +448,7 @@ From Horus · **Price:** it needs moisture in the air (not in deserts or dry pla
 From White Album · **Price:** integrated only; you can't swim while wearing it, and it melts in heat.
 
 - **1:** 1 action: wear ice armor: +1 circumstance bonus to AC (+2 from 5th), and creatures that hit you with a melee Strike take cold damage equal to your level. While you wear it, your Strikes deal 1d6 extra cold damage.
-- **5:** Surge: freeze the air in a 10-ft emanation: S cold (basic Fortitude); slowed 1 for 1 round on a failure. You skate: +10 ft Speed.
+- **5:** Surge: freeze the air in a 10-ft emanation: S cold (basic Fortitude); slowed 1 for 1 round on a failure. You skate: +10 ft Speed. Water you skate over freezes under you, so you can skate across rivers, canals and other water surfaces; the ice melts after 1 minute.
 - **9:** The armor also gives resistance 2 to physical damage (3 from 13th).
 - **13:** Reaction: freeze an incoming projectile so it shatters (the attack misses), once per round. A creature that critically fails against freeze the air is slowed 1 for 1 minute.
 - **17:** Absolute cold: creatures that start their turn adjacent to you are slowed 1 (Fortitude negates).
