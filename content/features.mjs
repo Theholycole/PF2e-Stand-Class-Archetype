@@ -108,9 +108,9 @@ const TYPES = [
         examples: "Oasis, Catch the Rainbow",
         gameplay:
             "You wear your stand and fight as one body. While merged, your own Strikes use its numbers, you share its ghostly resistance, Second Skin adds AC and Athletics, Stand Armor (8) turns its Durability into defense, and Full Merge saves you actions. It can't scout or flank on its own, since its Range is E. Barrage Rush, Stand Guard and Golden Spirit are good class feats for it. **Pick this if** you want to be the fighter yourself, with one sturdy body to protect instead of two.",
-        initial: ["Worn Stand", "Spend 1 action to merge the stand with you, or to separate it into an adjacent space. While merged, it shares your space, your unarmed Strikes use the stand's attack modifier and damage, and Act Together actions happen from your space. While merged, you share the stand's ghostly body: you gain its ghostly resistance (half your level, minimum 1, to all damage except force, spirit and ghost touch)."],
+        initial: ["Worn Stand", "Spend 1 action to merge the stand with you, or to separate it into an adjacent space. While merged, it shares your space, your unarmed Strikes use the stand's attack modifier and damage, and Act Together actions happen from your space. You can still Act Together while merged: the stand's action happens from your space, through your body (a Strike with its numbers, a Stand Ability, or another stand action), and if it Strides it carries you with it. You and the stand share one multiple attack penalty. While merged, you share the stand's ghostly body: you gain its ghostly resistance (half your level, minimum 1, to all damage except force, spirit and ghost touch)."],
         seventh: ["Second Skin", "While merged, you gain +1 status bonus to AC and Athletics."],
-        thirteenth: ["Full Merge", "Once per turn, a stand action costs you no action, but the stand can't leave your space that round."],
+        thirteenth: ["Full Merge", "Once per turn, the stand can take one stand action without you spending an action, on top of Act Together, but the stand can't leave your space that round."],
         actions: ["worn-stand"],
     },
     {
@@ -178,7 +178,7 @@ const ACTIONS = {
         traits: ["concentrate", "stand"],
         selfEffect: { uuid: uuidFor(E, "effect-worn-stand"), name: "Effect: Worn Stand" },
         description: enrichBlockNoDice(
-            "**Requirements** You have an integrated stand.\n\nMerge the stand with you, or separate it into an adjacent space. While merged, it shares your space, your unarmed Strikes use the stand's attack modifier and damage, and Act Together actions happen from your space. While merged, you gain the stand's ghostly resistance.",
+            "**Requirements** You have an integrated stand.\n\nMerge the stand with you, or separate it into an adjacent space. While merged, it shares your space, your unarmed Strikes use the stand's attack modifier and damage, and Act Together actions happen from your space. You can still Act Together while merged: the stand's action happens from your space, through your body (a Strike with its numbers, a Stand Ability, or another stand action), and if it Strides it carries you with it. You and the stand share one multiple attack penalty. While merged, you gain the stand's ghostly resistance.",
         ),
     }),
     "switch-acts": action(P, {

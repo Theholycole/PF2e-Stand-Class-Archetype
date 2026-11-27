@@ -17,7 +17,7 @@ const DEFS = [
     {
         name: "Effect: Worn Stand",
         from: "Integrated stand (Worn Stand, Second Skin)",
-        text: "Your stand is merged with you. Your unarmed Strikes use the stand's attack modifier and damage, and Act Together actions happen from your space. From 7th level (Second Skin) you gain +1 status bonus to AC and Athletics.",
+        text: "Your stand is merged with you. Your unarmed Strikes use the stand's attack modifier and damage, and Act Together actions happen from your space. You can still Act Together while merged: the stand's action happens from your space, through your body (a Strike with its numbers, a Stand Ability, or another stand action), and if it Strides it carries you with it. You and the stand share one multiple attack penalty. From 7th level (Second Skin) you gain +1 status bonus to AC and Athletics.",
         duration: UNLIMITED,
         rules: [
             { key: "FlatModifier", selector: "ac", type: "status", value: 1, predicate: [{ gte: ["self:level", 7] }], label: "Second Skin" },

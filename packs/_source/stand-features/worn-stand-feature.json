@@ -30,7 +30,7 @@
       "value": []
     },
     "description": {
-      "value": "<p><em>Integrated Stand feature, 1st level.</em></p><p>Spend 1 action to merge the stand with you, or to separate it into an adjacent space. While merged, it shares your space, your unarmed Strikes use the stand's attack modifier and damage, and Act Together actions happen from your space. While merged, you share the stand's ghostly body: you gain its ghostly resistance (half your level, minimum 1, to all damage except force, spirit and ghost touch).</p>",
+      "value": "<p><em>Integrated Stand feature, 1st level.</em></p><p>Spend 1 action to merge the stand with you, or to separate it into an adjacent space. While merged, it shares your space, your unarmed Strikes use the stand's attack modifier and damage, and Act Together actions happen from your space. You can still Act Together while merged: the stand's action happens from your space, through your body (a Strike with its numbers, a Stand Ability, or another stand action), and if it Strides it carries you with it. You and the stand share one multiple attack penalty. While merged, you share the stand's ghostly body: you gain its ghostly resistance (half your level, minimum 1, to all damage except force, spirit and ghost touch).</p>",
       "gm": ""
     },
     "publication": {
