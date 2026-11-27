@@ -29,7 +29,7 @@ const TYPES = [
         examples: "Star Platinum, Crazy Diamond, The World",
         gameplay:
             "You fight side by side with your stand and hit hardest within 10 feet (Point-Blank Power, Point-Blank Fury). The type feats make you a reactive brawler: Bullet Catch (4) stops shots, Retaliation Rush (6) punishes crits, Undying Barrage (12) improves rushes and pushes foes back, and Stolen Seconds (14) gives a once-a-day extra turn. Of the class feats, Barrage Rush, Stand Guard and Golden Spirit fit best. The price is that you and your stand stay close together, right where area attacks and flanking hurt. **Pick this if** you want to punch hard up close and live in the thick of the fight.",
-        initial: ["Point-Blank Power", "While your stand is within 10 feet of you, its primary attack gains the forceful trait (or +1 status bonus to damage if it already has forceful). Beyond 10 feet it uses its Power grade as one step lower."],
+        initial: ["Point-Blank Power", "While your stand is within 10 feet of you, its primary attack gains the forceful trait (or +1 status bonus to damage if it already has forceful). Beyond 10 feet it uses its Power grade as one step lower. Forceful counts the attacks you and your stand make this turn together, like the multiple attack penalty."],
         seventh: ["Point-Blank Fury", "Stand Strikes deal 1 extra damage die against creatures adjacent to you."],
         thirteenth: ["Blinding Speed", "Once per round, the stand can use a reaction to Strike a creature that enters its reach, while the stand is within 10 feet of you."],
     },
