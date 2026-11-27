@@ -420,7 +420,7 @@ From C-Moon · **Price:** gravity points away from you, so it pushes allies near
 - **1:** 1 action: creatures and loose objects within 10 ft are pushed 5 ft away from you, allies included (Fortitude negates). Or 1 action: flip one creature's gravity within 30 ft so it falls up and back down: D bludgeoning (basic Reflex); it falls prone on a critical failure.
 - **5:** Surge: a creature your stand hits turns inside out: S bludgeoning (basic Fortitude); sickened 1 on a failure, stunned 1 on a critical failure.
 - **9:** Push 10 ft, and a creature that critically fails the push falls prone; you can walk on walls.
-- **13:** Emanation 20 ft. A target that fails the inside-out save is stunned 1 instead of sickened 1.
+- **13:** Emanation 20 ft. A target that fails the inside-out save is stunned 1 instead of sickened 1, and stunned 2 instead of stunned 1 on a critical failure.
 - **17:** No change.
 
 ### Magnetism
