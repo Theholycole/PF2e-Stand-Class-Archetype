@@ -75,10 +75,7 @@ const DAMAGE_TYPE = { Flame: "fire", Ice: "cold", "Air Shots": "bludgeoning", "M
 
 /** Abilities only one stand type can take (Cole's pick). */
 const LOCKED = {
-    Disassemble: "automatic",
-    "Melting Dart": "automatic",
-    "Ice Armor": "integrated",
-    "Devouring Flesh": "integrated",
+    // (2026-11-27: the four type-locked abilities opened to every stand type; each says how an automatic or integrated stand plays it.)
 };
 
 function parse() {

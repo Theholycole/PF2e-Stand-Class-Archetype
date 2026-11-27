@@ -105,7 +105,7 @@ From Diver Down · **Price:** the stand has to dive into an object first, and th
 
 - **1:** 1 action: your stand dives into an object or surface and stores one Strike for up to 1 hour. The next creature that touches it takes the Strike's damage (no attack roll needed; basic Reflex for half). If the stand dives into the ground, wall or gear a creature within its range is touching, the blow lands on that creature at once.
 - **5:** The stored blow can be released from up to 10 ft through the object instead. Surge: store S damage instead of a Strike. A creature that fails its save against a stored blow is thrown off its footing: it's off-guard until the end of your next turn.
-- **9:** No change.
+- **9:** Your stand can dive into a willing ally to hold a stored blow there. The first time that ally takes physical damage, reduce it by your level; if the attacker is adjacent, the stored blow lands on the attacker.
 - **13:** Store two blows in two objects.
 - **17:** A creature hit by a stored blow is also immobilized by the object's shape for 1 round (Fortitude negates).
 
@@ -155,7 +155,7 @@ From Burning Down the House · **Price:** only objects that were destroyed or lo
 
 - **1:** 1 action: summon the ghost of a destroyed or lost object for 1 minute. It must be an object you know specifically: you saw it, or you have a reliable description of that exact object. The ghost has only the object's mundane form (no magic, runes or activations), and its item level can't be higher than your level. Only you, your stand and creatures you touch can use or interact with it. Surge: ghost walls close around a creature (Reflex negates): it's restrained for 1 round.
 - **5:** Ghost objects can be up to Large (a cart, a door, a bridge). The ghost walls hold a creature that critically fails its Reflex save for 1 minute (it can Escape against your stand DC).
-- **9:** No change.
+- **9:** 1 minute: open the ghost of a destroyed or lost room you know behind a crack in a wall. Only stand users can see the entrance. Up to 4 creatures can rest inside; it lasts until you leave or 8 hours pass.
 - **13:** A ghost weapon uses the lost weapon's base stats and has the ghost touch property. Your stand can wield one: its first Strike with it each turn deals one extra weapon damage die. The ghost walls can close around up to two creatures at once.
 - **17:** Ghost objects last 10 minutes.
 
@@ -175,7 +175,7 @@ From Chocolate Disco · **Price:** only inside a grid you drew beforehand.
 
 - **1:** 1 minute: draw a grid, a 30-foot square of 5-foot squares (6 by 6). In combat, you can instead draw a 15-foot square grid (3 by 3) centered on your stand with 1 action; it lasts 1 minute. 1 action: teleport an unattended object in the grid to another square in it. If you teleport a loose object (a stone, a dropped weapon) into the air above a creature in the grid, it falls on it: D bludgeoning damage (basic Reflex).
 - **5:** You can teleport an attended object (Reflex negates). Surge: teleport a falling or thrown object onto a creature's square: S bludgeoning (basic Reflex).
-- **9:** No change.
+- **9:** Reaction, once per round: when a ranged weapon attack targets a creature in your grid, teleport the projectile. The attack misses, and the attacker, if it's in your grid, takes D bludgeoning (basic Reflex).
 - **13:** Teleport yourself within the grid. A creature that fails its save against a falling object is knocked prone.
 - **17:** Teleport a creature within the grid (Will negates).
 
@@ -238,7 +238,7 @@ From Soft & Wet · **Price:** a slow bubble that must touch the target.
 - **1:** 1 action: release a bubble that floats in a straight line up to 30 ft. It pops on the first creature or object in that line and steals one property for 1 round: friction (it falls prone if it moves and is off-guard for 1 round, Reflex negates; off-guard for 1 minute on a critical failure), sound (silenced) or water (sickened 1, sickened 2 on a critical failure, Fortitude negates; the sickened lasts until it drinks or retches, as normal). Once per turn your stand can pop a bubble on the creature it hits as part of a Strike (1 action), stealing its friction.
 - **5:** Bubbles float 40 ft and you release two bubbles per action at different creatures. You can steal sight (dazzled for 1 round on a failure, blinded for 1 round on a critical failure, Fortitude negates). Surge: a single bubble whose stolen property lasts 1 minute; stolen water leaves it sickened 2 (sickened 3 on a critical failure).
 - **9:** A surge bubble can steal two properties at once.
-- **13:** No change.
+- **13:** Your bubbles pass through walls and cover up to 1 ft thick, and ignore cover.
 - **17:** Steal the air: the creature is suffocating for 1 round (Fortitude negates).
 
 ### Duplicate
@@ -313,9 +313,9 @@ From Spice Girl · **Price:** touch only; softened things become rubber, and tha
 
 ### Disassemble
 
-From Baby Face · **Price:** automatic only: the stand acts on its own program, and it needs a target to have touched you or the stand.
+From Baby Face · **Price:** it needs a target to have touched you or your stand.
 
-- **1:** Your stand's Strike breaks an object into blocks it can rebuild as a 5-ft barrier or ladder. Once per turn your stand's Strike can chip a creature it hits into loose blocks (1 action): 1d6 extra damage of the Strike's type, and it's clumsy 1 for 1 round.
+- **1:** Your stand's Strike breaks an object into blocks it can rebuild as a 5-ft barrier or ladder. Once per turn your stand's Strike can chip a creature it hits into loose blocks (1 action): 1d6 extra damage of the Strike's type, and it's clumsy 1 for 1 round. An automatic stand runs Disassemble on its own program, as it does everything else.
 - **5:** Surge (2 actions): a hit breaks a creature into blocks (Fortitude, incapacitation): slowed 1 for 1 round on a failure, stunned 2 on a critical failure.
 - **9:** Surge (2 actions): rebuild blocks into a cage around a creature (Reflex negates, restrained for 1 round).
 - **13:** Blocks repair an ally: heal D.
@@ -347,7 +347,7 @@ From Smooth Operators · **Price:** only markings and shallow wounds, moved by t
 
 - **1:** 1 action: slide a marking, label or sign from one surface to another within reach. Or slide a shallow wound from you or an ally who is missing Hit Points onto a creature your stand touches: it takes D damage (basic Will save), and the wound's source regains Hit Points equal to the damage taken (up to the Hit Points it's missing). The wound's pain leaves the target sickened 1 on a failure (sickened 2 on a critical failure). Once per turn your stand can slide the wound as part of a Strike (1 action) against the creature it hits: the wound opens in the cut for 1d6 extra force damage (2d6 at 13th) before the save, and the source regains Hit Points equal to that extra damage. On a critical failure the slid wound also bleeds: 1d6 persistent bleed damage.
 - **5:** Slide a shallow wound: move persistent bleed damage from an ally to an object. Your stand can slide the wound across two creatures it touches with one action (each saves). Surge, 1 action: slide an ally's condition (frightened, sickened or clumsy, value 1) onto an adjacent enemy (Will negates); on a critical failure the slid condition's value is 1 higher.
-- **9:** No change.
+- **9:** Temporary suture, 1 action: an ally your stand touches regains D HP. It doesn't stop persistent bleed. Once per ally per 10 minutes.
 - **13:** Slide conditions of value 2, and the surge can split the slid condition between two adjacent enemies (each attempts its own Will save). A slid wound's bleed is 2d6.
 - **17:** Slide a creature's features off: it's stupefied 2 and can't be recognized for 1 minute (Will negates).
 
@@ -379,7 +379,7 @@ From Magician's Red · **Price:** Full power needs the target in your stand's li
 
 - **1:** 1 action: your stand throws a fire ankh at a creature within 30 ft: D fire (basic Reflex); on a failure it takes 1d6 persistent fire.
 - **5:** Surge, 2 actions: a 30-ft cone of S fire (basic Reflex) from your stand's space, or a 15-ft burst of S fire within 30 ft (Cross Fire Hurricane); either spares creatures you choose; a creature that fails takes the ankh's persistent fire. Twin ankhs: each ankh action fires an ankh at up to 2 creatures within 30 ft (each D fire, basic Reflex). Burning binding: a creature that fails against an ankh or the surge is also grabbed by flame ropes for 1 round.
-- **9:** No change.
+- **9:** Imprecise heat sense 50 ft (senses breathing, warm creatures and stands, even invisible ones).
 - **13:** Surge, 1 action: ankhs at up to 6 creatures, each S/2 fire (basic Reflex).
 - **17:** Persistent fire from your Flame rises to 2d6, the ankh action fires at up to 3 creatures, and the cone or burst surge deals S plus half S fire.
 
@@ -429,7 +429,7 @@ From Bastet · **Price:** the target must touch your trap first.
 
 - **1:** 10 minutes: plant a magnet trap, or 1 action: magnetize a creature your stand hits; metal objects nearby slam into it: D bludgeoning (basic Fortitude). A magnetized creature (on a failure) has metal objects stick to it for 1 minute: clumsy 1 if it wears metal or carries metal weapons, clumsy 2 on a critical failure.
 - **5:** Magnetism grows: a magnetized creature's clumsy rises to 2 after 3 rounds. Surge: pull every unattended metal object within 30 ft onto a creature: S bludgeoning (basic Reflex); it's magnetized on a failure.
-- **9:** No change.
+- **9:** Two magnetized creatures within 30 ft of each other are pulled together. At the start of each of their turns, each attempts Reflex or is pulled 10 ft toward the other; both take D bludgeoning if they collide.
 - **13:** Magnetize up to 3 creatures your stand hits with one action.
 - **17:** A magnetized creature is immobilized against metal surfaces.
 
@@ -445,9 +445,9 @@ From Horus · **Price:** it needs moisture in the air (not in deserts or dry pla
 
 ### Ice Armor
 
-From White Album · **Price:** integrated only; you can't swim while wearing it, and it melts in heat.
+From White Album · **Price:** the wearer can't swim while wearing it, and it melts in heat.
 
-- **1:** 1 action: wear ice armor: +1 circumstance bonus to AC (+2 from 5th), and creatures that hit you with a melee Strike take cold damage equal to your level. While you wear it, your Strikes deal 1d6 extra cold damage.
+- **1:** 1 action: wear ice armor: +1 circumstance bonus to AC (+2 from 5th), and creatures that hit you with a melee Strike take cold damage equal to your level. While you wear it, your Strikes deal 1d6 extra cold damage. An integrated stand armors you; any other stand wears the ice itself (the AC, cold Strikes, aura and skating apply to the stand).
 - **5:** Surge: freeze the air in a 10-ft emanation: S cold (basic Fortitude); slowed 1 for 1 round on a failure. You skate: +10 ft Speed. Water you skate over freezes under you, so you can skate across rivers, canals and other water surfaces; the ice melts after 1 minute.
 - **9:** The armor also gives resistance 2 to physical damage (3 from 13th).
 - **13:** Reaction: freeze an incoming projectile so it shatters (the attack misses), once per round. A creature that critically fails against freeze the air is slowed 1 for 1 minute.
@@ -481,7 +481,7 @@ From Ozon Baby · **Price:** it only works through openings or wounds. An openin
 - **5:** Surge: pressure blast through an opening: S bludgeoning (basic Fortitude) to creatures you choose in a 10-ft area; sickened 1 on a failure (2 on a critical failure).
 - **9:** Pressure can seal a door for 1 minute (Athletics against your stand DC to open).
 - **13:** Through a wound: slowed 1 for 1 minute. Your pressure areas grow to 20 ft.
-- **17:** No change.
+- **17:** A creature that leaves an area you pressurized this round gets decompression sickness: D persistent bleed (basic Fortitude) and sickened 1 on a failure.
 
 ## Affliction
 
@@ -547,11 +547,11 @@ From Survivor · **Price:** it can make allies fight each other too.
 
 ### Devouring Flesh
 
-From Yellow Temperance · **Price:** integrated only; the slime eats anything that touches it, so allies avoid you.
+From Yellow Temperance · **Price:** the slime eats anything that touches it, so allies keep their distance.
 
-- **1:** Slime armor, always on while you're conscious (no action): resistance to physical damage equal to your level; creatures that hit you in melee take acid damage equal to your level. Also, 1 action: the slime lashes a creature within 20 ft: D acid (basic Fortitude); on a failure it also takes 1d6 persistent acid and is sickened 1. Slime heals you for half the acid damage you deal with the lash and the engulf.
+- **1:** Slime armor, always on while you're conscious (no action): resistance to physical damage equal to your level; creatures that hit you in melee take acid damage equal to your level. Also, 1 action: the slime lashes a creature within 20 ft: D acid (basic Fortitude); on a failure it also takes 1d6 persistent acid and is sickened 1. Slime heals you for half the acid damage you deal with the lash and the engulf. An integrated stand coats you; any other stand is coated instead (the resistance, retaliation and lash are the stand's).
 - **5:** Slime can take a disguise shape. Surge: slime engulfs a creature you grab: S acid (basic Fortitude). The slime lash's persistent acid is 2d6.
-- **9:** No change.
+- **9:** The lash's persistent acid can't end with a flat check. A creature must spend 2 actions scraping it off (taking the persistent damage once more) or be healed with magic.
 - **13:** The slime lash splits: it can target up to two creatures within 20 ft, and its persistent acid is 3d6.
 - **17:** The resistance applies to all damage.
 
@@ -561,9 +561,9 @@ From Empress · **Price:** it needs a touch to the target's blood (an open wound
 
 - **1:** 1 action: plant a parasite in a wounded creature: it bites as it burrows in for D piercing damage (basic Fortitude), and on a failure it takes hold. It's sickened 1 (sickened 2 on a critical failure) for 1 minute and can't reduce it below 1 while the parasite lives, and the parasite feeds: D persistent bleed damage; a Medicine check against your stand DC (2 actions) cuts it out.
 - **5:** The parasite grows into a talking face: the target takes –2 to Deception and Stealth and is enfeebled 1 while it lives. The parasite's feeding bleed equals half S. Surge: the parasite attacks: S piercing (basic Fortitude), and the target can't Recover from sickened.
-- **9:** No change.
+- **9:** Cutting it out takes –2 to the Medicine check, and the host takes D piercing when it's cut out.
 - **13:** Two parasites at once. The parasites have grown: a failure makes the target sickened 2 (sickened 3 on a critical failure), it can't reduce it below 2 while the parasite lives, and the parasite also makes it enfeebled 2.
-- **17:** No change.
+- **17:** Surge: the parasite controls one of the host's actions (see Defaults).
 
 ### Pain Link
 
@@ -587,9 +587,9 @@ From Aqua Necklace · **Price:** the target must drink or breathe your stand's w
 
 ### Melting Dart
 
-From Ratt · **Price:** automatic only; the darts fire at anything moving.
+From Ratt · **Price:** your stand must stay still to fire (it can't move in a turn it fires a dart).
 
-- **1:** 1 action: dart, range 30 ft: D acid (attack roll), and 1d6 persistent acid on a hit.
+- **1:** 1 action: dart, range 30 ft: D acid (attack roll), and 1d6 persistent acid on a hit. An automatic stand instead fires at anything moving, and doesn't need to stay still.
 - **5:** Darts melt a creature's flesh: on a critical hit, clumsy 1 for 1 minute. Surge (1 action): three darts at different targets, each half S.
 - **9:** The persistent acid is 2d6.
 - **13:** On any hit, the target is clumsy 1 until the end of your next turn (1 minute on a critical hit).
@@ -633,7 +633,7 @@ From Heaven's Door · **Price:** the target must see your drawing or your stand'
 
 - **1:** 1 action: a creature that can see your stand (Will) turns into a book, its pages torn open: D mental (basic Will). Failure: you read one fact and can write a minor command in it for 1 round (see 5th); critical failure: three facts, the command, and it's stunned 1. Each fact is the true answer to one question you ask about the creature: what a Recall Knowledge success would tell you (a weakness, a resistance, its best or worst save, an ability), or something it personally knows or remembers.
 - **5:** Your minor commands can be any short order ("can't Strike you", "can't speak", "drop to the ground"), still for 1 round. Surge (incapacitation): rip a page as you write, S mental (basic Will), and on a failure the command lasts 1 minute.
-- **9:** No change.
+- **9:** 1 action: write one short order on yourself or a willing ally your stand touches, lasting 1 minute (e.g. "can't be frightened", "acts quickly" for +2 initiative, "speaks this language").
 - **13:** Tear a page: the creature forgets the last 10 minutes.
 - **17:** Your commands can be anything the command spell can do (outside a fight, lasting 1 hour; incapacitation).
 
@@ -704,7 +704,7 @@ From Surface · **Price:** the target mirrors the puppet's moves only while it c
 - **1:** 10 minutes: carve a puppet copy of a creature you've touched; a puppet carved before a fight lasts through it. 1 action: your puppet strikes itself and falls; its creature, within 30 ft and able to see it, copies the move: D bludgeoning (basic Will), and it falls prone on a failure.
 - **5:** Surge: the puppet slams itself, then takes 1 action (Stride, Strike, drop an item or drop prone); the target takes S bludgeoning (basic Will, incapacitation), and on a failure must copy the action on its next action; on a critical failure it copies every action the puppet takes on its next turn.
 - **9:** The puppet can Impersonate the target, and a target that fails against the surge is off-guard to the puppet until the start of your next turn.
-- **13:** No change.
+- **13:** Your puppet knows what its creature knows. Once per 10 minutes, ask it one question it answers truthfully.
 - **17:** The target mirrors two actions.
 
 ### Paper Seal
@@ -725,7 +725,7 @@ From Cheap Trick · **Price:** your stand must touch the target's back.
 - **5:** Surge: the stand screams into its ear (Will): S mental (basic Will), and frightened 1 on a success, frightened 2 on a failure, frightened 3 on a critical failure.
 - **9:** It can't see your stand at all. 1 action: the stand makes it drop prone (Fortitude negates).
 - **13:** While the stand rides, the creature can't reduce its frightened value below 1.
-- **17:** No change.
+- **17:** Attacks against your stand while it rides a creature also hit that creature: it takes the same damage.
 
 ### Lie Curse
 
@@ -744,7 +744,7 @@ From Bohemian Rhapsody · **Price:** the target must know the story.
 - **1:** 1 action: pull a story character out of a book as a Small minion (1 action to command, lasts 1 minute).
 - **5:** Surge: a creature that knows the story becomes its character (Will negates): it's fascinated by its role for 1 round, and you choose one action it uses as that character (control, see Defaults). Your characters fight with your stand's Strike.
 - **9:** Two characters.
-- **13:** No change.
+- **13:** Your characters gain resistance to physical damage equal to half your level.
 - **17:** Lasts 1 minute.
 
 ### Scent Tracking
@@ -771,11 +771,11 @@ From Paper Moon King · **Price:** it only affects a creature that touches your 
 
 From Fun Fun Fun · **Price:** a mark must be placed on the limb first.
 
-- **1:** 1 action: mark a limb your stand touches, and wrench it at once: D bludgeoning (basic Fortitude), and it falls prone on a failure.
+- **1:** Once per Strike, when your stand hits a creature, it marks one of its limbs, and the jerk makes the creature off-guard until the start of your next turn. Marks last until the end of the encounter. Wrench (1 action), at a marked creature within 30 ft: 2D bludgeoning (basic Fortitude). On a failure it falls prone, and it's off-guard until the start of your next turn.
 - **5:** Surge: wrench a marked limb: S bludgeoning (basic Fortitude); on a failure the creature drops an item or falls prone, and its marked limb keeps jerking: off-guard for 1 minute.
 - **9:** Mark two limbs.
 - **13:** Surge: you choose where the creature goes on its next Stride. Surge: control one of its actions (see Defaults).
-- **17:** No change.
+- **17:** A creature with four limbs marked is controlled for 1 round (see Defaults; incapacitation), once per minute.
 
 ### Web Control
 
@@ -865,8 +865,8 @@ From Dragon's Dream · **Price:** it tells luck for both sides, so enemies can b
 
 - **1:** 1 action: learn your lucky direction: you, your stand and allies within 30 ft gain +1 status bonus to attack rolls and saves until the start of your next turn.
 - **5:** Surge: you know which squares within 30 ft are unlucky for enemies (–2 status to their attacks from them). Lucky and unlucky areas last 1 minute.
-- **9:** No change.
-- **13:** No change.
+- **9:** Once per round, while you stand in a lucky square, a critical hit against you becomes a normal hit.
+- **13:** Your and your stand's Strikes against a creature in an unlucky square deal one extra weapon damage die.
 - **17:** +2 status for luck.
 
 ### Lucky Break
@@ -875,7 +875,7 @@ From Ticket to Ride · **Price:** a Saint's Corpse part or blessed item must be 
 
 - **1:** Reaction: once per round, a critical hit against you or your stand becomes a normal hit. Also, 1 action: jinx a creature within 30 ft, turning your luck against it (misfortune, Will save): on a success it takes a –1 status penalty to attack rolls, AC and saving throws until the end of its next turn; on a failure or critical failure for 1 minute.
 - **5:** Reaction, surge (once per round): your failed check becomes a success.
-- **9:** No change.
+- **9:** A creature that critically fails against your jinx falls prone or is dazzled for 1 round (your choice).
 - **13:** An ally within 30 ft.
 - **17:** Turn a critical failure into a critical success once per day. Strange luck grows: +2 status bonus.
 

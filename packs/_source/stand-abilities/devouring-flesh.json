@@ -23,19 +23,14 @@
       "rarity": "uncommon",
       "otherTags": [
         "stand-ability",
-        "stand-theme-affliction",
-        "stand-only-integrated"
+        "stand-theme-affliction"
       ]
     },
     "prerequisites": {
-      "value": [
-        {
-          "value": "integrated stand"
-        }
-      ]
+      "value": []
     },
     "description": {
-      "value": "<p><em>From Yellow Temperance · <strong>Price:</strong> integrated only; the slime eats anything that touches it, so allies avoid you.</em></p>\n<p><strong>Theme</strong> Affliction · <strong>Stand type</strong> integrated only</p><hr />\n<ul><li><strong>1:</strong> Slime armor, always on while you're conscious (no action): resistance to physical damage equal to your level; creatures that hit you in melee take acid damage equal to your level. Also, 1 action: the slime lashes a creature within 20 ft: @Damage[(1+floor((@actor.level - 1)/4))d6[acid]] (@Check[fortitude|against:stand|basic]{basic Fortitude}); on a failure it also takes 1d6 persistent acid and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{sickened 1}. Slime heals you for half the acid damage you deal with the lash and the engulf.</li><li><strong>5:</strong> Slime can take a disguise shape. Surge: slime engulfs a creature you grab: @Damage[(2*ceil(@actor.level/2))d6[acid]] (@Check[fortitude|against:stand|basic]{basic Fortitude}). The slime lash's persistent acid is 2d6.</li><li><strong>9:</strong> No change.</li><li><strong>13:</strong> The slime lash splits: it can target up to two creatures within 20 ft, and its persistent acid is 3d6.</li><li><strong>17:</strong> The resistance applies to all damage.</li></ul>\n<hr /><p><strong>Effects</strong> @UUID[Compendium.pf2e-stand-class-archetype.stand-effects.Item.xp7q3A9lYiYbDwuU]{Effect: Slime Armor}</p>\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC. A minion an ability makes, unless it says otherwise, is a creature of your level – 2 built with GM Core's Low numbers (Building Creatures), with the minion trait.</em></p>",
+      "value": "<p><em>From Yellow Temperance · <strong>Price:</strong> the slime eats anything that touches it, so allies keep their distance.</em></p>\n<p><strong>Theme</strong> Affliction</p><hr />\n<ul><li><strong>1:</strong> Slime armor, always on while you're conscious (no action): resistance to physical damage equal to your level; creatures that hit you in melee take acid damage equal to your level. Also, 1 action: the slime lashes a creature within 20 ft: @Damage[(1+floor((@actor.level - 1)/4))d6[acid]] (@Check[fortitude|against:stand|basic]{basic Fortitude}); on a failure it also takes 1d6 persistent acid and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{sickened 1}. Slime heals you for half the acid damage you deal with the lash and the engulf. An integrated stand coats you; any other stand is coated instead (the resistance, retaliation and lash are the stand's).</li><li><strong>5:</strong> Slime can take a disguise shape. Surge: slime engulfs a creature you grab: @Damage[(2*ceil(@actor.level/2))d6[acid]] (@Check[fortitude|against:stand|basic]{basic Fortitude}). The slime lash's persistent acid is 2d6.</li><li><strong>9:</strong> The lash's persistent acid can't end with a flat check. A creature must spend 2 actions scraping it off (taking the persistent damage once more) or be healed with magic.</li><li><strong>13:</strong> The slime lash splits: it can target up to two creatures within 20 ft, and its persistent acid is 3d6.</li><li><strong>17:</strong> The resistance applies to all damage.</li></ul>\n<hr /><p><strong>Effects</strong> @UUID[Compendium.pf2e-stand-class-archetype.stand-effects.Item.xp7q3A9lYiYbDwuU]{Effect: Slime Armor}</p>\n<p><em>Defaults: Stand, Occult and Concentrate traits; a surge costs 1 Stand Point and 2 actions unless listed; ranges are measured from your stand; untyped damage is force; saves use your stand DC. A minion an ability makes, unless it says otherwise, is a creature of your level – 2 built with GM Core's Low numbers (Building Creatures), with the minion trait.</em></p>",
       "gm": ""
     },
     "publication": {
