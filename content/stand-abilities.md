@@ -709,12 +709,12 @@ From Surface · **Price:** the target mirrors the puppet's moves only while it c
 
 ### Paper Seal
 
-From Enigma · **Price:** only on frightened targets.
+From Enigma · **Price:** you can seal a creature only while it's frightened 2 or more (frightened 1 or more from 9th).
 
-- **1:** 1 action: fold a paper and seal an object inside it. 1 action: unfold a paper you sealed earlier at a creature within 30 ft, releasing what it held (a fire, boiling water, a falling stone): D damage of that kind (basic Reflex; fire if unsure), and on a failure 1d6 persistent damage of that kind and frightened 1 by what burst out at it (frightened 2 on a critical failure).
-- **5:** Unfolded papers burst over creatures you choose in a 10-ft burst within 30 ft. Surge: seal up to two frightened creatures into paper (Will, incapacitation): stunned 1 on a failure; sealed for 1 round on a critical failure.
-- **9:** Frightened 1 is enough. Unfolded papers deal 2d6 persistent damage on a failure.
-- **13:** Seal three creatures.
+- **1:** Seal (1 action): fold a paper around an unattended object or a hazard within your stand's reach (a fire, boiling water, a falling stone); it stays sealed until you unfold it. Unfold (1 action): open a sealed paper at a creature within 30 ft, and what it held bursts out: D damage of that kind (basic Reflex; fire if unsure); on a failure, also 1d6 persistent damage of that kind and frightened 1 (frightened 2 on a critical failure).
+- **5:** Unfold hits creatures you choose in a 10-ft burst within 30 ft. Surge: fold up to two frightened creatures within 30 ft into paper (Will, incapacitation). Failure: stunned 1 as the paper half-closes on it. Critical failure: sealed for 1 round. A sealed creature is folded into the paper: it can't act, perceive, or be targeted or harmed, and when the sealing ends it reappears where the paper is.
+- **9:** Frightened 1 is enough to seal. Unfold's persistent damage is 2d6.
+- **13:** Seal up to three creatures.
 - **17:** Sealing lasts 1 minute.
 
 ### Back Rider
