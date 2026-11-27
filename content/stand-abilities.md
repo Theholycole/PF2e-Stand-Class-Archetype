@@ -759,13 +759,13 @@ From King Nothing · **Price:** you need an item the target touched.
 
 ### Face Blindness
 
-From Paper Moon King · **Price:** the target must touch your paper.
+From Paper Moon King · **Price:** it only affects a creature that touches your paper.
 
-- **1:** 1 action: fold paper into a gift. Or your stand slaps a paper onto a creature it hit this turn (it counts as touching your paper): the faces around it swim, D mental (basic Will), and on a failure it can't tell which face struck it and is off-guard until the start of your next turn.
-- **5:** Surge: a creature that touches your paper sees every face melt into a stranger's: S mental (basic Will); on a failure it can't recognize faces for 1 minute, is off-guard while this lasts, and is frightened 1.
-- **9:** It can't tell allies from enemies: it can't Aid, and it can't benefit from its allies' auras or flanking.
-- **13:** Area 20 ft.
-- **17:** Lasts 1 hour.
+- **1:** Gift (1 action): fold a paper into a small gift and hand, leave or toss it to a creature within 30 ft; taking or picking it up touches your paper. Slap (once per turn): your stand slaps a paper onto a creature it hit with a Strike this turn, which counts as touching your paper. A creature that touches your paper takes D mental damage (basic Will) as the faces around it swim; on a failure it can't tell who struck it and is off-guard until the start of your next turn.
+- **5:** Surge: a creature that touched your paper this round sees every face melt into a stranger's: S mental (basic Will); on a failure it can't recognize faces for 1 minute, and while this lasts it's off-guard and frightened 1.
+- **9:** While a creature can't recognize faces, it can't tell allies from enemies: it can't Aid and doesn't benefit from its allies' auras or flanking.
+- **13:** The surge affects every creature in a 20-ft burst that touched your paper.
+- **17:** Not recognizing faces lasts 1 hour.
 
 ### Puppet Marks
 
