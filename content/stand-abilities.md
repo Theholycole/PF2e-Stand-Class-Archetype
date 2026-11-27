@@ -497,11 +497,11 @@ From Little Feet · Your stand's blows shrink whatever they hit.
 
 ### Aging
 
-From The Grateful Dead · **Price:** weaker against cold creatures, and it stops on anyone who chills themselves (ice, cold water).
+From The Grateful Dead · **Price:** weaker against cold creatures, and it stops on anyone who chills themselves. A cold creature (one with the cold trait, immunity to cold, or a body that isn't warm: cold-blooded animals, most undead, constructs) gets a +2 circumstance bonus to saves against Aging and takes half its damage. A creature chills itself by being in ice, snow or cold water, by taking cold damage, or by spending 1 action (Interact) to cool itself with ice or cold water it holds; while chilled (until the start of its next turn, or as long as it stays in the cold source), Aging has no effect on it. Severe cold or worse (GM Core pg. 95, 12°F or colder) chills every creature in it.
 
-- **1:** 1 action: aura of gas, 20-ft emanation, for 1 minute (concentrate): non-allies that start their turn in it are fatigued and enfeebled 1 until the end of their turn (Fortitude negates); allies are affected on a critical failure. Or, 1 action: your stand grips a creature within reach and withers it: D damage (basic Fortitude); enfeebled 1 until the end of your next turn on a failure, enfeebled 2 for 1 minute on a critical failure.
+- **1:** 1 action: aura of gas, 20-ft emanation, for 1 minute (concentrate): non-allies that start their turn in it attempt a Fortitude save. On a failure, a creature is fatigued and enfeebled 1 until the end of its turn, and its drained value increases by 1 (maximum drained 3); on a critical failure, drained increases by 2 instead. Allies are affected only on a critical failure. Or, 1 action: your stand grips a creature within reach and withers it: D damage (basic Fortitude); enfeebled 1 until the end of your next turn on a failure, enfeebled 2 for 1 minute on a critical failure.
 - **5:** Surge: your stand's touch ages a creature rapidly: S damage rolled with d4s instead of d6s (basic Fortitude); on a failure it's also drained 1 and slowed 1 for 1 round; on a critical failure it's drained 1 and slowed 1 for 1 minute.
-- **9:** Aura 30 ft.
+- **9:** Aura 30 ft, and the aura's maximum drained is 4.
 - **13:** The touch deals drained 2.
 - **17:** Creatures that critically fail the aura save are also slowed 1.
 
