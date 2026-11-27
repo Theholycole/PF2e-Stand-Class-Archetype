@@ -235,7 +235,7 @@ From Gold Experience · Pour life into objects and too much life into foes.
 
 From Soft & Wet · **Price:** a slow bubble that must touch the target.
 
-- **1:** 1 action: release a bubble that floats 30 ft. It pops on the first creature or object in its path and steals one property for 1 round: friction (it falls prone if it moves and is off-guard for 1 round, Reflex negates; off-guard for 1 minute on a critical failure), sound (silenced) or water (sickened 1, sickened 2 on a critical failure, Fortitude negates; the sickened lasts until it drinks or retches, as normal). Once per turn your stand can pop a bubble on the creature it hits as part of a Strike (1 action), stealing its friction.
+- **1:** 1 action: release a bubble that floats in a straight line up to 30 ft. It pops on the first creature or object in that line and steals one property for 1 round: friction (it falls prone if it moves and is off-guard for 1 round, Reflex negates; off-guard for 1 minute on a critical failure), sound (silenced) or water (sickened 1, sickened 2 on a critical failure, Fortitude negates; the sickened lasts until it drinks or retches, as normal). Once per turn your stand can pop a bubble on the creature it hits as part of a Strike (1 action), stealing its friction.
 - **5:** Bubbles float 40 ft and you release two bubbles per action at different creatures. You can steal sight (dazzled for 1 round on a failure, blinded for 1 round on a critical failure, Fortitude negates). Surge: a single bubble whose stolen property lasts 1 minute; stolen water leaves it sickened 2 (sickened 3 on a critical failure).
 - **9:** A surge bubble can steal two properties at once.
 - **13:** No change.
