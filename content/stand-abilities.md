@@ -475,7 +475,7 @@ From Planet Waves · **Price:** it takes time to arrive, and longer indoors; it 
 
 ### Pressure
 
-From Ozon Baby · **Price:** it only works through holes or openings (a door, a vent, a wound).
+From Ozon Baby · **Price:** it only works through openings or wounds. An opening is a gap in a barrier (a door, window, vent, grate, chimney, or crack in a wall, floor or ceiling), and the area must be on the far side of it; a creature's mouth or nose doesn't count. A wound is a creature your stand damaged this round.
 
 - **1:** 1 action: change air pressure through an opening within 30 ft; creatures you choose in a 10-ft area behind it are sickened 1 (sickened 2 on a critical failure; Fortitude negates). Through a wound: a creature your stand damaged this round attempts Fortitude or is slowed 1 for 1 round.
 - **5:** Surge: pressure blast through an opening: S bludgeoning (basic Fortitude) to creatures you choose in a 10-ft area; sickened 1 on a failure (2 on a critical failure).
