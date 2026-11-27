@@ -1,0 +1,52 @@
+{
+  "_id": "MAzaiX8k4s1NebyC",
+  "_key": "!items!MAzaiX8k4s1NebyC",
+  "name": "Leap In",
+  "type": "action",
+  "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
+  "system": {
+    "slug": "leap-in",
+    "category": "defensive",
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "stand"
+      ],
+      "rarity": "common",
+      "otherTags": [
+        "stand-ability-action"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per 10 minutes</p><p><strong>Trigger</strong> An ally adjacent to one of your Life-Giving animals is hit by a Strike.</p><hr /><p><strong>Requirements</strong> You're 9th level or higher.</p><p><strong>Effect</strong> The animal leaps in the way. It and the ally each take half the damage. (The animal's half isn't reflected.)</p>"
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "_migration": {
+      "version": 0.961,
+      "previous": null
+    },
+    "rules": [],
+    "frequency": {
+      "max": 1,
+      "per": "PT10M"
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "grantedBy": "Life-Giving"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

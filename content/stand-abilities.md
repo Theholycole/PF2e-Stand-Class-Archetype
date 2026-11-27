@@ -227,7 +227,7 @@ From Gold Experience · Pour life into objects and too much life into foes.
 
 - **1:** 2 actions: stand turns an unattended object into a Tiny animal minion (1 action to command, lasts 1 minute, one at a time). When your stand critically hits, the target is stupefied 1 until the end of its next turn.
 - **5:** Surge, 2 actions: grow a living patch onto a wound, healing 2d8 + your key attribute, +1d8 per 2 levels (can target you).
-- **9:** Keep two animals; a creature that damages one of your animals takes half that damage back.
+- **9:** Keep two animals; a creature that damages one of your animals takes half that damage back. **Leap In** (reaction, once per 10 minutes): when an ally adjacent to one of your animals is hit by a Strike, the animal leaps in the way: it and the ally each take half the damage (the animal's half isn't reflected).
 - **13:** Your animal minions can be Small or Medium and gain your stand's Strike.
 - **17:** Surge: your stand's next hit overloads the target's senses (Will): slowed 1 and stupefied 2 for 1 round, slowed 2 on a critical failure (incapacitation).
 

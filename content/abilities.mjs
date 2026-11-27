@@ -48,6 +48,16 @@ const RULES = {
 
 /** Reactions an ability grants as their own action items (2026-11-27: Invisible Dead's Rise). */
 const REACTIONS = {
+    "Life-Giving": [
+        {
+            name: "Leap In",
+            traits: ["stand"],
+            category: "defensive",
+            frequency: { max: 1, per: "PT10M" },
+            description:
+                "<p><strong>Frequency</strong> once per 10 minutes</p><p><strong>Trigger</strong> An ally adjacent to one of your Life-Giving animals is hit by a Strike.</p><hr /><p><strong>Requirements</strong> You're 9th level or higher.</p><p><strong>Effect</strong> The animal leaps in the way. It and the ally each take half the damage. (The animal's half isn't reflected.)</p>",
+        },
+    ],
     "Invisible Dead": [
         {
             name: "Rise",
