@@ -30,7 +30,7 @@
       "value": []
     },
     "description": {
-      "value": "<p><em>Integrated Stand feature, 7th level.</em></p><p>While merged, you gain +1 status bonus to AC and Athletics.</p><p>@UUID[Compendium.pf2e-stand-class-archetype.stand-effects.Item.UjnqU1DsMfqyPxNH]{Effect: Worn Stand} includes this bonus once you're 7th level.</p>",
+      "value": "<p><em>Integrated Stand feature, 7th level.</em></p><p>While merged, you gain +1 status bonus to Athletics.</p><p>@UUID[Compendium.pf2e-stand-class-archetype.stand-effects.Item.UjnqU1DsMfqyPxNH]{Effect: Worn Stand} includes this bonus once you're 7th level.</p>",
       "gm": ""
     },
     "publication": {
