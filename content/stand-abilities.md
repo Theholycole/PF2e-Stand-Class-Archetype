@@ -248,7 +248,7 @@ From Kiss · **Price:** a sticker your stand must place by touch; the damage onl
 - **1:** 1 action: stick on an object to split it into two; removing the sticker slams them back together. Once per turn, when your stand Strikes a creature, it can place a sticker as part of that Strike, with no extra action: on a hit, the split body snaps back when the sticker comes off at the start of your next turn, dealing D damage, no save. A creature with one of your stickers is clumsy 1 until it comes off.
 - **5:** Surge, 1 action: your stand Strikes, and as part of that Strike sticks on the creature it hits a sticker that splits off a duplicate body; removing it (1 action, or at your next turn) deals S damage instead of D, no save.
 - **9:** Two stickers.
-- **13:** Split a creature's weapon: a creature your surge sticker hits is also enfeebled 1 until the start of your next turn.
+- **13:** Your surge sticker also splits the creature's weapon or limb: it's enfeebled 1 until the start of your next turn.
 - **17:** Duplicate yourself: a copy gives you one extra Stride per round.
 
 ### Unravel
