@@ -567,7 +567,7 @@ From Empress · **Price:** it needs a touch to the target's blood (an open wound
 
 ### Pain Link
 
-From Lovers · **Price:** damage to you is also shared with the host.
+From Lovers · **Price:** you have to take damage for it to work; the host only hurts when you do, and you still take all of it.
 
 - **1:** 1 action: link with a creature by touch for 1 minute: the link tears into its nerves for D mental damage (basic Will); on a failure it's linked. When you take damage, it takes half that much (no save). The host is off-guard to you and your stand while linked.
 - **5:** The host is also clumsy 1 while linked, flinching with your pain. Link two creatures. Surge: you transfer one condition from you to the host (Will negates).
