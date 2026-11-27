@@ -1,7 +1,7 @@
 // Stand Abilities: one class feature per ability, parsed from content/stand-abilities.md. Inline rolls come from
 // tools/lib/enrich.mjs; extra rule elements and effect links for some abilities are listed here.
 import fs from "node:fs";
-import { feat, slugify, uuidFor } from "../tools/lib/items.mjs";
+import { action, feat, slugify, uuidFor } from "../tools/lib/items.mjs";
 import { enrichBlock, enrichLine } from "../tools/lib/enrich.mjs";
 
 const P = "stand-abilities";
@@ -46,6 +46,20 @@ const RULES = {
     "Scent Tracking": [{ key: "FlatModifier", selector: "survival", type: "circumstance", value: 2, predicate: ["action:track"], label: "Scent Tracking" }],
 };
 
+/** Reactions an ability grants as their own action items (2026-11-27: Invisible Dead's Rise). */
+const REACTIONS = {
+    "Invisible Dead": [
+        {
+            name: "Rise",
+            traits: ["concentrate", "occult", "stand"],
+            category: "offensive",
+            frequency: { max: 1, per: "round" },
+            description:
+                "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> A creature dies within 30 feet of your stand.</p><hr /><p><strong>Requirements</strong> You have fewer zombies from Invisible Dead than your limit.</p><p><strong>Effect</strong> You raise the creature as an invisible zombie from Invisible Dead (minion, 1 action to command, lasts 1 minute).</p>",
+        },
+    ],
+};
+
 /** Damage type for D and S when the step doesn't name one. */
 const DAMAGE_TYPE = { Flame: "fire", Ice: "cold", "Air Shots": "bludgeoning", "Melting Dart": "acid", Spin: "piercing", Lightning: "electricity", "Iron Blood": "slashing", Virus: "poison", "Dream Realm": "mental" };
 
@@ -77,7 +91,8 @@ function parse() {
 }
 
 export function standAbilities() {
-    return parse().map((a) => {
+    const granted = [];
+    const items = parse().map((a) => {
         const lock = LOCKED[a.name];
         const themeSlug = slugify(a.theme);
         const effects = EFFECTS[a.name] ?? [];
@@ -95,10 +110,14 @@ export function standAbilities() {
             prerequisites: lock ? [`${lock} stand`] : [],
             img: "icons/magic/symbols/runes-star-pentagon-blue.webp",
             description,
-            rules: RULES[a.name] ?? [],
+            rules: [...(RULES[a.name] ?? []), ...(REACTIONS[a.name] ?? []).map((r) => ({ key: "GrantItem", uuid: uuidFor(P, slugify(r.name)) }))],
             flags: { theme: a.theme },
         });
     });
+    for (const [owner, list] of Object.entries(REACTIONS))
+        for (const r of list)
+            granted.push(action(P, { ...r, actionType: "reaction", actions: null, img: "icons/magic/death/hand-undead-skeleton-fire-green.webp", tags: ["stand-ability-action"], flags: { grantedBy: owner } }));
+    return [...items, ...granted];
 }
 
 export { P as ABILITIES_PACK };

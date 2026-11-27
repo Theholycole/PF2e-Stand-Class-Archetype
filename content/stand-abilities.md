@@ -143,7 +143,7 @@ From Achtung Baby · **Price:** only you and what you touch; you can't attack an
 
 From Mr. President · **Price:** you need a small object to hold the room, and it can be stolen; binding a room takes 10 minutes, so in combat you can only use a room bound beforehand.
 
-- **1:** 10 minutes: bind an extradimensional room (10 ft cube) to a small object. Creatures and items can enter by touching it. Surge, 1 action: your stand presses the object to a Medium or smaller creature and shoves it into the room (Reflex negates). It's shut inside until the start of your next turn, or for 1 minute on a critical failure, and can't affect anything outside; on a success it's still half-drawn in and is off-guard until the end of your next turn. Once per turn, when your stand hits a creature with a Strike, it can press the object to it and half-draw it into the room: the creature is off-guard until the start of your next turn.
+- **1:** 10 minutes: bind an extradimensional room (10 ft cube) to a small object. Creatures and items can enter by touching it. Surge, 1 action: your stand presses the object to a Medium or smaller creature and shoves it into the room (Reflex negates). It's shut inside until the start of your next turn, or for 1 minute on a critical failure, and can't affect anything outside; on a success it stays outside, but part of its body is pulled toward the object: it's off-guard until the end of your next turn. Once per turn, when your stand hits a creature with a Strike, it can press the object to it and pull part of its body toward the room: the creature stays outside but is off-guard until the start of your next turn.
 - **5:** The room is 20 ft and has light and air. Your stand can shove up to two creatures within its reach into the room with one use.
 - **9:** Resting in it counts as safe, and it holds up to eight creatures.
 - **13:** You can bind it to a second object and travel between the two.
@@ -153,27 +153,27 @@ From Mr. President · **Price:** you need a small object to hold the room, and i
 
 From Burning Down the House · **Price:** only objects that were destroyed or lost.
 
-- **1:** 1 action: summon the ghost of a destroyed object for 1 minute. Only you, your stand and creatures you touch can use or interact with it. Surge: ghost walls close around a creature (Reflex negates): it's restrained for 1 round.
+- **1:** 1 action: summon the ghost of a destroyed or lost object for 1 minute. It must be an object you know specifically: you saw it, or you have a reliable description of that exact object. The ghost has only the object's mundane form (no magic, runes or activations), and its item level can't be higher than your level. Only you, your stand and creatures you touch can use or interact with it. Surge: ghost walls close around a creature (Reflex negates): it's restrained for 1 round.
 - **5:** Ghost objects can be up to Large (a cart, a door, a bridge). The ghost walls hold a creature that critically fails its Reflex save for 1 minute (it can Escape against your stand DC).
 - **9:** No change.
-- **13:** A ghost weapon uses the lost weapon's stats and has the ghost touch property. Your stand can wield one: its first Strike with it each turn deals one extra weapon damage die. The ghost walls can close around up to two creatures at once.
+- **13:** A ghost weapon uses the lost weapon's base stats and has the ghost touch property. Your stand can wield one: its first Strike with it each turn deals one extra weapon damage die. The ghost walls can close around up to two creatures at once.
 - **17:** Ghost objects last 10 minutes.
 
 ### Folded Distance
 
 From Green, Green Grass of Home · **Price:** only inside a zone you marked beforehand.
 
-- **1:** 1 minute: mark a 20-ft zone. Inside it, you and your stand move double your Speed. In combat, you can instead mark a 10-ft zone around your stand with 1 action; it lasts 1 minute. Once per turn, 1 action: your stand folds the distance to a creature in a zone, Striding up to its Speed and making a Strike; the creature is off-guard against that Strike.
+- **1:** 1 minute: mark a 20-foot burst as your zone. Inside it, you and your stand move double your Speed. In combat, you can instead make your zone a 10-foot emanation around your stand with 1 action; it lasts 1 minute. Once per turn, 1 action: your stand folds the distance to a creature in a zone, Striding up to its Speed and making a Strike; the creature is off-guard against that Strike.
 - **5:** Enemies inside the zone treat it as difficult terrain. Surge: fold the zone shut on a creature in it: S bludgeoning damage (basic Fortitude).
 - **9:** Surge: shrink a creature's distance to you: a creature inside the zone is pulled adjacent to your stand (Fortitude negates).
-- **13:** Zone becomes 40 ft.
+- **13:** Your marked zone is a 40-foot burst.
 - **17:** Enemies inside the zone treat it as greater difficult terrain.
 
 ### Grid Teleport
 
 From Chocolate Disco · **Price:** only inside a grid you drew beforehand.
 
-- **1:** 1 minute: draw a 30-ft grid. In combat, you can instead draw a 15-ft grid around your stand with 1 action; it lasts 1 minute. 1 action: teleport an unattended object in the grid to another square in it. If you teleport a loose object (a stone, a dropped weapon) into the air above a creature in the grid, it falls on it: D bludgeoning damage (basic Reflex).
+- **1:** 1 minute: draw a grid, a 30-foot square of 5-foot squares (6 by 6). In combat, you can instead draw a 15-foot square grid (3 by 3) centered on your stand with 1 action; it lasts 1 minute. 1 action: teleport an unattended object in the grid to another square in it. If you teleport a loose object (a stone, a dropped weapon) into the air above a creature in the grid, it falls on it: D bludgeoning damage (basic Reflex).
 - **5:** You can teleport an attended object (Reflex negates). Surge: teleport a falling or thrown object onto a creature's square: S bludgeoning (basic Reflex).
 - **9:** No change.
 - **13:** Teleport yourself within the grid. A creature that fails its save against a falling object is knocked prone.
@@ -325,11 +325,11 @@ From Baby Face · **Price:** automatic only: the stand acts on its own program, 
 
 From Limp Bizkit · **Price:** you need corpses nearby, and the zombies are weak.
 
-- **1:** 2 actions: raise one invisible zombie from a corpse within 30 ft (minion, 1 action to command, lasts 1 minute).
+- **1:** 2 actions: raise one invisible zombie from a corpse within 30 ft (minion, 1 action to command, lasts 1 minute). **Rise** (reaction, once per round): when a creature dies within 30 ft of your stand, raise it as a zombie, if you have fewer zombies than your limit.
 - **5:** Two zombies. Surge: zombies deal D extra damage each (at most 2D in all per command), and a creature they critically hit is grabbed.
 - **9:** Three zombies.
 - **13:** Four zombies.
-- **17:** Zombies can be raised from creatures that died this fight, as creatures of their size.
+- **17:** A zombie raised from a creature that died this fight takes that creature's size, Speeds and Strikes (with their reach and traits), using the zombie's attack bonus and damage. It gains none of the creature's spells or other abilities.
 
 ### Flesh Spray
 

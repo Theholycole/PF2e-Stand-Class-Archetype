@@ -1,0 +1,54 @@
+{
+  "_id": "abWKe6Y4JvMMQrMU",
+  "_key": "!items!abWKe6Y4JvMMQrMU",
+  "name": "Rise",
+  "type": "action",
+  "img": "icons/magic/death/hand-undead-skeleton-fire-green.webp",
+  "system": {
+    "slug": "rise",
+    "category": "offensive",
+    "actionType": {
+      "value": "reaction"
+    },
+    "actions": {
+      "value": null
+    },
+    "traits": {
+      "value": [
+        "concentrate",
+        "occult",
+        "stand"
+      ],
+      "rarity": "common",
+      "otherTags": [
+        "stand-ability-action"
+      ]
+    },
+    "description": {
+      "value": "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> A creature dies within 30 feet of your stand.</p><hr /><p><strong>Requirements</strong> You have fewer zombies from Invisible Dead than your limit.</p><p><strong>Effect</strong> You raise the creature as an invisible zombie from Invisible Dead (minion, 1 action to command, lasts 1 minute).</p>"
+    },
+    "publication": {
+      "title": "PF2e Stand Class Archetype (homebrew)",
+      "authors": "TheHolyCole",
+      "license": "ORC",
+      "remaster": true
+    },
+    "_migration": {
+      "version": 0.961,
+      "previous": null
+    },
+    "rules": [],
+    "frequency": {
+      "max": 1,
+      "per": "round"
+    }
+  },
+  "flags": {
+    "pf2e-stand-class-archetype": {
+      "grantedBy": "Invisible Dead"
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}
