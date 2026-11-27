@@ -30,7 +30,7 @@
       "value": []
     },
     "description": {
-      "value": "<p><em>Colony Stand feature, 7th level.</em></p><p>The stand fills a 15-foot area and its Strike hits everyone there, allies included (@Check[reflex|against:stand|basic]{basic Reflex} instead of an attack roll).</p>",
+      "value": "<p><em>Colony Stand feature, 7th level.</em></p><p>The stand fills a 15-foot area and its Strike hits everyone there, allies included (@Check[reflex|against:stand|basic]{basic Reflex} instead of an attack roll). It counts as one attack for the multiple attack penalty you and your stand share, but the penalty doesn't apply to the save.</p>",
       "gm": ""
     },
     "publication": {

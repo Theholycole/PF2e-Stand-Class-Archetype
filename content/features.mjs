@@ -79,7 +79,7 @@ const TYPES = [
         gameplay:
             "Your stand is a swarm of tiny units that gets everywhere. It shares spaces with enemies, flanks from inside them and does two small jobs with one action. Swarm Split (2) puts it in two places, Spread Thin shrugs off single Strikes from 1st level, Overwhelm (7) hits everyone in a 15-foot area (20 feet at 13), allies included, and Endless Colony (16) brings lost units back. Area damage is its weakness. Precise Hands and Barrage Rush are good class feats for it. **Pick this if** you want to control space, set up flanks and handle many small tasks at once, and can keep the swarm out of area attacks.",
         initial: ["Many Hands", "The stand can share spaces with other creatures, flank from inside an enemy's space, and Interact twice with a single action as long as both are within its reach. It has weakness to area damage equal to half your level (minimum 1). Spread Thin: against single-target Strikes, the stand's ghostly resistance increases by half your level."],
-        seventh: ["Overwhelm", "The stand fills a 15-foot area and its Strike hits everyone there, allies included (basic Reflex instead of an attack roll)."],
+        seventh: ["Overwhelm", "The stand fills a 15-foot area and its Strike hits everyone there, allies included (basic Reflex instead of an attack roll). It counts as one attack for the multiple attack penalty you and your stand share, but the penalty doesn't apply to the save."],
         thirteenth: ["Swarm Tide", "Overwhelm's area grows to 20 feet."],
     },
     {
