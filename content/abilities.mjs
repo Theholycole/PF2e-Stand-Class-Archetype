@@ -65,7 +65,7 @@ const REACTIONS = {
             category: "offensive",
             frequency: { max: 1, per: "round" },
             description:
-                "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> A creature dies within 30 feet of your stand.</p><hr /><p><strong>Requirements</strong> You have fewer zombies from Invisible Dead than your limit.</p><p><strong>Effect</strong> You raise the creature as an invisible zombie from Invisible Dead (minion, 1 action to command, lasts 1 minute).</p>",
+                "<p><strong>Frequency</strong> once per round</p><p><strong>Trigger</strong> A creature dies within 30 feet of your stand.</p><hr /><p><strong>Requirements</strong> You have fewer zombies from Invisible Dead than your limit.</p><p><strong>Effect</strong> You raise the creature as an invisible zombie from Invisible Dead (minion, 1 action to command, lasts 1 minute), and it makes a Strike as it rises.</p>",
         },
     ],
 };
