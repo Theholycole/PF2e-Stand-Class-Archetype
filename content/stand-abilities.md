@@ -113,8 +113,8 @@ From Diver Down · **Price:** the stand has to dive into an object first, and th
 
 From Hanged Man · **Price:** you need a reflective surface, such as a mirror, water or polished metal.
 
-- **1:** Your stand can move from one reflection to another within its range as if it were a single space, and it can be in a reflection to attack the creature reflected there. A Strike from a reflection makes the target off-guard against it.
-- **5:** Strikes from a reflection gain a +1 circumstance bonus to damage per weapon damage die. Surge, 1 action: your stand strikes from the reflection in a creature's own eyes: a Strike that deals S slashing damage instead of its normal damage, the target off-guard against it.
+- **1:** Your stand can move from one reflection to another within its range as if it were a single space, and it can be in a reflection to attack the creature reflected there. A Strike from a reflection makes the target off-guard against it, deals one extra weapon damage die and a +1 circumstance bonus to damage per weapon damage die (+2 from 13th), and a hit leaves the target frightened 1, struck from where nothing should be. While in a reflection, your stand is concealed from creatures that aren't looking at that reflection.
+- **5:** Surge, 1 action: your stand strikes from the reflection in a creature's own eyes: a Strike that deals S slashing damage instead of its normal damage, the target off-guard against it.
 - **9:** You can see through any reflection within 60 ft.
 - **13:** Surge: your stand jumps between up to three reflections, making a Strike from each against different creatures.
 - **17:** While in a reflection, your stand can only be targeted by creatures that can see that reflection.
@@ -407,8 +407,8 @@ From Weather Report · **Price:** it needs open sky for anything beyond fog, exc
 
 From Tusk, Ball Breaker · **Price:** limited ammo (your fingernails or steel balls regrow at 10 per day).
 
-- **1:** 1 action: spinning nail shot, range 30 ft: D piercing, attack with your stand's modifier. Uses one nail. Surge, free action: regrow 5 nails at once.
-- **5:** A hit leaves a hole: the nail shot also deals 1d6 persistent bleed (2d6 from 13th), and you can move through the hole with your stand, ignoring cover from that target. Surge: golden spin shot: S piercing, ignores resistance; on a hit the target is slowed 1 for 1 round (1 minute on a critical hit), and the hole's bleed is doubled.
+- **1:** 1 action: spinning nail shot, range 30 ft: half S piercing, attack with your stand's modifier. Uses one nail. A hit leaves a hole: 1d6 persistent bleed (2d6 from 13th), and the target is off-guard until the start of your next turn; you can move through the hole with your stand, ignoring cover from that target. Surge, free action: regrow 5 nails at once.
+- **5:** Surge: golden spin shot: S piercing, ignores resistance; on a hit the target is slowed 1 for 1 round (1 minute on a critical hit), and the hole's bleed is doubled.
 - **9:** A golden spin shot that hits also knocks the target prone.
 - **13:** Nail shots range 60 ft and home around one cover.
 - **17:** Surge, once per day: infinite spin: the target takes S each round for 3 rounds (no save); it keeps chasing the target.
@@ -457,7 +457,7 @@ From White Album · **Price:** the wearer can't swim while wearing it, and it me
 
 From Stray Cat · **Price:** it needs sunlight.
 
-- **1:** 1 action in sunlight: invisible air bubble, range 30 ft: D bludgeoning (attack roll); the target doesn't see where it came from and is off-guard until the start of your next turn.
+- **1:** 1 action in sunlight: invisible air bubble, range 30 ft: half S bludgeoning (attack roll); the target doesn't see where it came from: it's off-guard until the start of your next turn and frightened 1. Stray Cat can also fire a bubble itself as its Strike (1 action, the stand's attack modifier): half S bludgeoning, and on a hit the target is off-guard and frightened 1.
 - **5:** Bubbles can wait in place as traps for 1 minute. Surge: 3 bubbles at different targets, each S/2.
 - **9:** Surge: an air bubble wall, a 30-ft line within 30 ft, for 1 minute: creatures on your side of it get standard cover (+2 circumstance to AC and to Reflex saves) against ranged attacks and areas from the other side.
 - **13:** The surge fires 5 bubbles.
@@ -589,10 +589,10 @@ From Aqua Necklace · **Price:** the target must drink or breathe your stand's w
 
 From Ratt · **Price:** your stand must stay still to fire (it can't move in a turn it fires a dart).
 
-- **1:** 1 action: dart, range 30 ft: D acid (attack roll), and 1d6 persistent acid on a hit. An automatic stand instead fires at anything moving, and doesn't need to stay still.
-- **5:** Darts melt a creature's flesh: on a critical hit, clumsy 1 for 1 minute. Surge (1 action): three darts at different targets, each half S.
+- **1:** 1 action: dart, range 30 ft: half S acid (attack roll), and 1d6 persistent acid on a hit. Darts melt a creature's flesh: on any hit it's clumsy 1 and enfeebled 1 until the end of your next turn (1 minute on a critical hit), and the melting acid doesn't end with a flat check: the creature must spend 2 actions scraping it off (taking the persistent damage once more) or be healed with magic. An automatic stand instead fires at anything moving, and doesn't need to stay still.
+- **5:** Surge (1 action): three darts at different targets, each half S.
 - **9:** The persistent acid is 2d6.
-- **13:** On any hit, the target is clumsy 1 until the end of your next turn (1 minute on a critical hit).
+- **13:** (Clumsy on any hit now comes at 1st.)
 - **17:** The persistent acid is 3d6, and darts ignore resistance to acid.
 
 ### Dinosaurify
