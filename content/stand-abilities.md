@@ -73,7 +73,7 @@ From Sticky Fingers · Put a zipper on anything and open it.
 
 From The Hand · **Price:** the right hand only, by swipe range.
 
-- **1:** 1 action: your stand swipes a line of space within its reach. Choose one: pull a creature within 20 ft 20 ft toward it (Fortitude negates; a creature pulled through erased space is off-guard until the start of your next turn), or pull yourself 20 ft toward the stand. Once per turn, your stand's Strike can be an erasing swipe: it ignores the target's item bonus to AC.
+- **1:** 1 action: your stand swipes a line of space within its reach. Choose one: pull a creature within 20 ft up to 20 ft toward it (Fortitude negates; a creature pulled through erased space is off-guard until the start of your next turn), or pull yourself 20 ft toward the stand. Once per turn, your stand's Strike can be an erasing swipe: it ignores the target's item bonus to AC.
 - **5:** Surge: a swipe Strike deals S force damage instead of normal damage and ignores the target's item bonus to AC; a hit erases a chunk of the target: drained 1. On a miss you lose the Stand Point anyway.
 - **9:** (20-ft pulls now come at 1st.)
 - **13:** The swipe can erase a non-magical object up to 5 ft across, or a projectile aimed at an ally within reach (reaction).
@@ -692,7 +692,7 @@ From Tenore Sax · **Price:** the illusion breaks if a creature touches the wall
 From The Lock · **Price:** the target must have harmed you or an ally.
 
 - **1:** 1 action: a creature that damaged you or an ally this fight feels guilt (Will negates): frightened 1 on a failure, frightened 2 on a critical failure.
-- **5:** Surge: the lock grows: S mental damage (basic Will) instead of D, and enfeebled 1 for 1 round on a failure, enfeebled 2 on a critical failure.
+- **5:** Surge: the lock grows: S mental damage (basic Will), and enfeebled 1 for 1 round on a failure, enfeebled 2 on a critical failure.
 - **9:** The surge also leaves a creature that critically fails slowed 1 for 1 round.
 - **13:** It can't take reactions for 1 round while locked.
 - **17:** At the end of each of its turns while locked, the creature attempts a new Will save; on a failure its enfeebled value rises by 1 (maximum 4). Helping the creature it hurt ends the lock.
