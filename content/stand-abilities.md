@@ -94,7 +94,7 @@ From Cream · **Price:** you can't see or hear while inside the void, and you ca
 From D4C · **Price:** you must be pressed between two objects, such as a door and its frame, or under a flag.
 
 - **1:** 1 action while sandwiched: step into a parallel world and reappear next to a different pair of objects within 30 ft. Once per turn, your stand can also step through the other world: it Strides up to its Speed to a creature beside a pair of objects and Strikes it; the creature is off-guard against that Strike.
-- **5:** You can bring one willing adjacent creature. Surge: pull a creature caught between two objects into a parallel world for 1 round (Will negates). It returns at the start of your next turn. Surge: bring a parallel copy of a creature into this world; when it touches its original, both take S damage (basic Fortitude).
+- **5:** You can bring one willing adjacent creature. Surge: pull a creature caught between two objects into a parallel world for 1 round (Will negates). It returns at the start of your next turn. Surge: bring a parallel copy of a creature into this world; when it touches its original, both take half S damage (S from 13th; basic Fortitude).
 - **9:** A creature that critically fails its Will save against the parallel world is lost there for 1 minute.
 - **13:** Range becomes 120 ft.
 - **17:** Reaction, once per minute, while you're sandwiched between two objects: when a melee attack would hit you, step halfway into the other world; the attack misses.
@@ -215,8 +215,8 @@ From West End Girl · **Price:** your stand can only attack from a gap between t
 
 From Crazy Diamond · Fix what is broken, but never yourself.
 
-- **1:** 1 action: stand repairs an object it touches (as a success on Repair, no tools), or mends a creature's wound it touches, healing D. Surge, 2 actions: heal a creature 2d8 + your key attribute, +1d8 per 2 levels. Can't target you or your stand. Reassemble: when your stand restores a broken object (1 action), it can fuse a creature it touches into it (Reflex): immobilized on a failure, restrained on a critical failure, for 1 round. Once per turn your stand can Reassemble the creature it hits as part of a Strike (1 action), breaking and fixing it in one blow.
-- **5:** Reassemble also leaves a creature that fails off-guard for 1 minute (its joints fused wrong).
+- **1:** 1 action: stand repairs an object it touches (as a success on Repair, no tools), or mends a creature's wound it touches, healing D. Surge, 2 actions: heal a creature 2d8 + your key attribute, +1d8 per 2 levels. Can't target you or your stand. Reassemble: when your stand restores a broken object (1 action), it can fuse a creature it touches into it (Reflex): immobilized on a failure, restrained on a critical failure, for 1 round, and either way off-guard for 1 minute (its joints fused wrong). Once per turn your stand can Reassemble the creature it hits as part of a Strike (1 action), breaking and fixing it in one blow; that Strike deals one extra weapon damage die.
+- **5:** (Reassemble's off-guard for 1 minute now comes at 1st.)
 - **9:** Healing also ends one of persistent damage, enfeebled, clumsy or drained 1. Your surge heal takes 1 action.
 - **13:** Surge heals two creatures. Mending a wound heals 2D.
 - **17:** Once per day, restore a creature that died since your last turn to 1 HP, if its body is intact and your stand can touch it.
@@ -367,7 +367,7 @@ From 200 Balloons · **Price:** touch only, and balloons are fragile.
 
 From Killer Queen · Turn what your stand touches into a bomb.
 
-- **1:** Your stand arms an unattended object it touches as part of a Stride or Strike (one bomb at a time). 1 action: detonate it for 2d6 force in a 5-ft burst, basic Reflex; the blast spares creatures you choose. +1d6 per 2 levels.
+- **1:** Your stand arms an unattended object it touches as part of a Stride or Strike (one bomb at a time). 1 action: detonate it for 2d6 force in a 5-ft burst, basic Reflex; the blast spares creatures you choose. +1d6 per 2 levels. Killer Queen's touch: 2 actions, your stand Strikes a creature; on a hit it detonates the creature it touched for your bomb's damage (no save).
 - **5:** Surge: arm a creature your stand hits (Fortitude negates). Detonating it deals the damage to that creature with no save, double damage if it critically failed. Your bursts are now 10 ft.
 - **9:** Keep two bombs armed.
 - **13:** Your bursts are now 15 ft, and a creature that succeeds at its Fortitude save against the creature bomb is still armed with a weaker charge: half the damage when it detonates. Surge: release a seeking bomb (a minion with 20 ft Speed) that moves to the hottest creature within 60 ft and explodes.
@@ -642,7 +642,7 @@ From Heaven's Door · **Price:** the target must see your drawing or your stand'
 From Moody Blues · **Price:** it only replays the past, and while it does your stand can't fight.
 
 - **1:** 10 minutes: replay what happened in a 30-ft area during the last day. You learn everything that was seen there. Or, in a fight, 1 action: replay a creature's last few seconds; for 1 minute you and allies within 30 ft gain a +1 status bonus to AC and saves against that creature and to attack rolls against it.
-- **5:** Your stand can take the form of a creature it replayed (+4 to Impersonate). Surge, 1 action: replay a creature's last action: you learn what it did and to whom, and for 1 minute you and allies within 30 ft gain +2 status bonus to AC and saves against that creature and +1 status bonus to attack rolls against it.
+- **5:** Your stand can take the form of a creature it replayed (+4 to Impersonate). Surge, 1 action: replay a creature's last action: you learn what it did and to whom, and for 1 minute you and allies within 30 ft gain +2 status bonus to AC and saves against that creature.
 - **9:** The replayed action shows its next one too: the 5th-level surge's bonus applies against every creature that acted alongside it.
 - **13:** Replay a week.
 - **17:** Replay a creature's fight: you know its strongest ability before it uses it.
@@ -771,7 +771,7 @@ From Paper Moon King · **Price:** it only affects a creature that touches your 
 
 From Fun Fun Fun · **Price:** a mark must be placed on the limb first.
 
-- **1:** Once per Strike, when your stand hits a creature, it marks one of its limbs, and the jerk makes the creature off-guard until the start of your next turn. Marks last until the end of the encounter. Wrench (1 action), at a marked creature within 30 ft: 2D bludgeoning (basic Fortitude). On a failure it falls prone, and it's off-guard until the start of your next turn; on a critical failure it's also stunned 1.
+- **1:** Once per turn, when your stand hits a creature with a Strike, it marks one of its limbs. Marks last until the end of the encounter. Wrench (1 action), at a marked creature within 30 ft: 2D bludgeoning (basic Fortitude). On a failure it falls prone, and it's off-guard until the start of your next turn; on a critical failure it's also stunned 1.
 - **5:** Surge: your stand grabs a creature within 15 ft and marks two of its limbs (no mark needed first, whatever the save), then wrenches them: S bludgeoning (basic Fortitude); on a failure the creature drops an item or falls prone, and its marked limbs keep jerking: off-guard for 1 minute.
 - **9:** Mark two limbs.
 - **13:** Surge: you choose where the creature goes on its next Stride. Surge: control one of its actions (see Defaults).
